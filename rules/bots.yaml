@@ -1,0 +1,1654 @@
+# Bot detection rules for uax.
+# Processed by cmd/uagen to produce rules_gen_bot.go.
+# Order matters: first match wins. Put specific rules before generic ones.
+
+rules:
+  # Search
+  - token: "Googlebot"
+    name: "Googlebot"
+    class: search
+    vendor: "Google"
+    verified: true
+    match: exact
+  - token: "Googlebot-Image"
+    name: "Googlebot-Image"
+    class: search
+    vendor: "Google"
+    verified: true
+    match: exact
+  - token: "Googlebot-Video"
+    name: "Googlebot-Video"
+    class: search
+    vendor: "Google"
+    verified: true
+    match: exact
+  - token: "Googlebot-News"
+    name: "Googlebot-News"
+    class: search
+    vendor: "Google"
+    verified: true
+    match: exact
+  - token: "Storebot-Google"
+    name: "Storebot-Google"
+    class: search
+    vendor: "Google"
+    verified: true
+    match: exact
+  - token: "Google-InspectionTool"
+    name: "Google-InspectionTool"
+    class: search
+    vendor: "Google"
+    verified: true
+    match: exact
+  - token: "bingbot"
+    name: "bingbot"
+    class: search
+    vendor: "Microsoft"
+    verified: true
+    match: exact
+  - token: "Bingbot"
+    name: "Bingbot"
+    class: search
+    vendor: "Microsoft"
+    verified: true
+    match: exact
+  - token: "YandexBot"
+    name: "YandexBot"
+    class: search
+    vendor: "Yandex"
+    verified: true
+    match: exact
+  - token: "Baiduspider"
+    name: "Baiduspider"
+    class: search
+    vendor: "Baidu"
+    verified: true
+    match: exact
+  - token: "DuckDuckBot"
+    name: "DuckDuckBot"
+    class: search
+    vendor: "DuckDuckGo"
+    verified: true
+    match: exact
+  - token: "Applebot"
+    name: "Applebot"
+    class: search
+    vendor: "Apple"
+    verified: true
+    match: exact
+  # Social
+  - token: "Twitterbot"
+    name: "Twitterbot"
+    class: social
+    vendor: "Twitter"
+    match: exact
+  - token: "facebookexternalhit"
+    name: "facebookexternalhit"
+    class: social
+    vendor: "Meta"
+    match: exact
+  - token: "LinkedInBot"
+    name: "LinkedInBot"
+    class: social
+    vendor: "LinkedIn"
+    match: exact
+  - token: "Slackbot-LinkExpanding"
+    name: "Slackbot-LinkExpanding"
+    class: social
+    vendor: "Slack"
+    match: exact
+  - token: "Slackbot"
+    name: "Slackbot"
+    class: social
+    vendor: "Slack"
+    match: exact
+  - token: "TelegramBot"
+    name: "TelegramBot"
+    class: social
+    vendor: "Telegram"
+    match: exact
+  - token: "Discordbot"
+    name: "Discordbot"
+    class: social
+    vendor: "Discord"
+    match: exact
+  - token: "WhatsApp"
+    name: "WhatsApp"
+    class: social
+    vendor: "Meta"
+    match: exact
+  # AI
+  - token: "GPTBot"
+    name: "GPTBot"
+    class: ai
+    vendor: "OpenAI"
+    match: exact
+  - token: "ChatGPT-User"
+    name: "ChatGPT-User"
+    class: ai
+    vendor: "OpenAI"
+    match: exact
+  - token: "OAI-SearchBot"
+    name: "OAI-SearchBot"
+    class: ai
+    vendor: "OpenAI"
+    match: exact
+  - token: "PerplexityBot"
+    name: "PerplexityBot"
+    class: ai
+    vendor: "Perplexity"
+    match: exact
+  - token: "ClaudeBot"
+    name: "ClaudeBot"
+    class: ai
+    vendor: "Anthropic"
+    match: exact
+  - token: "Claude-Web"
+    name: "Claude-Web"
+    class: ai
+    vendor: "Anthropic"
+    match: exact
+  - token: "anthropic-ai"
+    name: "anthropic-ai"
+    class: ai
+    vendor: "Anthropic"
+    match: exact
+  - token: "CCBot"
+    name: "CCBot"
+    class: ai
+    vendor: "Common Crawl"
+    match: exact
+  - token: "cohere-ai"
+    name: "cohere-ai"
+    class: ai
+    vendor: "Cohere"
+    match: exact
+  - token: "Bytespider"
+    name: "Bytespider"
+    class: ai
+    vendor: "ByteDance"
+    match: exact
+  - token: "meta-externalagent"
+    name: "meta-externalagent"
+    class: ai
+    vendor: "Meta"
+    match: exact
+  # SEO
+  - token: "AhrefsBot"
+    name: "AhrefsBot"
+    class: seo-tool
+    vendor: "Ahrefs"
+    match: exact
+  - token: "SemrushBot"
+    name: "SemrushBot"
+    class: seo-tool
+    vendor: "Semrush"
+    match: exact
+  - token: "MJ12bot"
+    name: "MajesticBot"
+    class: seo-tool
+    vendor: "Majestic"
+    match: exact
+  - token: "DotBot"
+    name: "DotBot"
+    class: seo-tool
+    vendor: "Moz"
+    match: exact
+  - token: "rogerbot"
+    name: "rogerbot"
+    class: seo-tool
+    vendor: "Moz"
+    match: exact
+  # Monitor
+  - token: "UptimeRobot"
+    name: "UptimeRobot"
+    class: monitor
+    vendor: "UptimeRobot"
+    match: exact
+  - token: "Pingdom"
+    name: "Pingdom"
+    class: monitor
+    vendor: "Pingdom"
+    match: contains
+  - token: "StatusCake"
+    name: "StatusCake"
+    class: monitor
+    vendor: "StatusCake"
+    match: contains
+  - token: "NewRelicPinger"
+    name: "NewRelicPinger"
+    class: monitor
+    vendor: "New Relic"
+    match: exact
+  - token: "Datadog"
+    name: "Datadog"
+    class: monitor
+    vendor: "Datadog"
+    match: contains
+
+  # More AI
+  - token: "Google-Extended"
+    name: "Google-Extended"
+    class: ai
+    vendor: "Google"
+    verified: true
+    match: exact
+  - token: "Amazonbot"
+    name: "Amazonbot"
+    class: ai
+    vendor: "Amazon"
+    match: exact
+  - token: "YouBot"
+    name: "YouBot"
+    class: ai
+    vendor: "You.com"
+    match: exact
+  - token: "Diffbot"
+    name: "Diffbot"
+    class: ai
+    vendor: "Diffbot"
+    match: exact
+  - token: "Applebot-Extended"
+    name: "Applebot-Extended"
+    class: ai
+    vendor: "Apple"
+    match: exact
+  - token: "PetalBot"
+    name: "PetalBot"
+    class: search
+    vendor: "Huawei"
+    match: exact
+  - token: "Timpibot"
+    name: "Timpibot"
+    class: ai
+    vendor: "Timpi"
+    match: exact
+  - token: "Webzio-Extended"
+    name: "Webzio-Extended"
+    class: ai
+    vendor: "Webz.io"
+    match: exact
+  - token: "omgili"
+    name: "Omgili"
+    class: ai
+    vendor: "Webz.io"
+    match: exact
+  - token: "Fyrenii"
+    name: "Fyrenii"
+    class: ai
+    vendor: "Fyrenii"
+    match: exact
+
+  # More social
+  - token: "redditbot"
+    name: "redditbot"
+    class: social
+    vendor: "Reddit"
+    match: exact
+  - token: "PinterestBot"
+    name: "PinterestBot"
+    class: social
+    vendor: "Pinterest"
+    match: exact
+  - token: "SkypeUriPreview"
+    name: "SkypeUriPreview"
+    class: social
+    vendor: "Microsoft"
+    match: exact
+  - token: "vkShare"
+    name: "vkShare"
+    class: social
+    vendor: "VK"
+    match: exact
+  - token: "Embedly"
+    name: "Embedly"
+    class: social
+    vendor: "Embedly"
+    match: exact
+
+  # More SEO
+  - token: "BLEXBot"
+    name: "BLEXBot"
+    class: seo-tool
+    vendor: "WebMeUp"
+    match: exact
+  - token: "Serpstat"
+    name: "SerpstatBot"
+    class: seo-tool
+    vendor: "Serpstat"
+    match: exact
+  - token: "SEOkicks"
+    name: "SEOkicks"
+    class: seo-tool
+    vendor: "SEOkicks"
+    match: exact
+  - token: "Xenu"
+    name: "Xenu"
+    class: seo-tool
+    vendor: "Xenu"
+    match: exact
+  - token: "seoscanners"
+    name: "SEO Scanners"
+    class: seo-tool
+    vendor: "SEO Scanners"
+    match: exact
+
+  # More monitoring
+  - token: "Site24x7"
+    name: "Site24x7"
+    class: monitor
+    vendor: "Zoho"
+    match: contains
+  - token: "Zabbix"
+    name: "Zabbix"
+    class: monitor
+    vendor: "Zabbix"
+    match: contains
+  - token: "Monitis"
+    name: "Monitis"
+    class: monitor
+    vendor: "Monitis"
+    match: contains
+  - token: "NodeUptime"
+    name: "NodeUptime"
+    class: monitor
+    vendor: "NodeUptime"
+    match: exact
+  - token: "statuscake"
+    name: "StatusCake"
+    class: monitor
+    vendor: "StatusCake"
+    match: contains
+
+  # Feed readers
+  - token: "Feedly"
+    name: "Feedly"
+    class: scraper
+    vendor: "Feedly"
+    match: contains
+  - token: "Feedbin"
+    name: "Feedbin"
+    class: scraper
+    vendor: "Feedbin"
+    match: contains
+  - token: "NewsBlur"
+    name: "NewsBlur"
+    class: scraper
+    vendor: "NewsBlur"
+    match: contains
+  - token: "Inoreader"
+    name: "Inoreader"
+    class: scraper
+    vendor: "Inoreader"
+    match: contains
+  - token: "Tiny"
+    name: "Tiny Tiny RSS"
+    class: scraper
+    vendor: "Tiny Tiny RSS"
+    match: prefix
+
+  # Security scanners
+  - token: "Nessus"
+    name: "Nessus"
+    class: scraper
+    vendor: "Tenable"
+    match: contains
+  - token: "Qualys"
+    name: "Qualys"
+    class: scraper
+    vendor: "Qualys"
+    match: contains
+  - token: "ZAP"
+    name: "OWASP ZAP"
+    class: scraper
+    vendor: "OWASP"
+    match: exact
+
+  # Generic tools
+  - token: "PhantomJS"
+    name: "PhantomJS"
+    class: scraper
+    vendor: "PhantomJS"
+    match: exact
+  - token: "HeadlessChrome"
+    name: "Headless Chrome"
+    class: scraper
+    vendor: "Google"
+    match: exact
+  - token: "Playwright"
+    name: "Playwright"
+    class: scraper
+    vendor: "Microsoft"
+    match: exact
+  - token: "Puppeteer"
+    name: "Puppeteer"
+    class: scraper
+    vendor: "Google"
+    match: exact
+
+  # More search engines
+  - token: "Sogou"
+    name: "Sogou Spider"
+    class: search
+    vendor: "Sogou"
+    match: contains
+  - token: "Yeti"
+    name: "Naver Yeti"
+    class: search
+    vendor: "Naver"
+    match: exact
+  - token: "Daumoa"
+    name: "Daumoa"
+    class: search
+    vendor: "Daum"
+    match: exact
+  - token: "Qwantify"
+    name: "Qwantify"
+    class: search
+    vendor: "Qwant"
+    match: exact
+  - token: "MojeekBot"
+    name: "MojeekBot"
+    class: search
+    vendor: "Mojeek"
+    match: exact
+  - token: "Exabot"
+    name: "Exabot"
+    class: search
+    vendor: "Exalead"
+    match: exact
+  - token: "SeznamBot"
+    name: "SeznamBot"
+    class: search
+    vendor: "Seznam"
+    match: exact
+  - token: "Mail.RU_Bot"
+    name: "Mail.ru Bot"
+    class: search
+    vendor: "Mail.ru"
+    match: exact
+  - token: "coccocbot"
+    name: "Coc Coc Bot"
+    class: search
+    vendor: "Coc Coc"
+    match: exact
+  - token: "Seekport"
+    name: "Seekport Crawler"
+    class: search
+    vendor: "Seekport"
+    match: exact
+  - token: "Gigabot"
+    name: "Gigabot"
+    class: search
+    vendor: "Gigablast"
+    match: exact
+  - token: "ia_archiver"
+    name: "Alexa Crawler"
+    class: search
+    vendor: "Amazon"
+    match: exact
+  - token: "archive.org_bot"
+    name: "Internet Archive Bot"
+    class: search
+    vendor: "Internet Archive"
+    match: exact
+
+  # More AI/LLM bots
+  - token: "TurnitinBot"
+    name: "TurnitinBot"
+    class: ai
+    vendor: "Turnitin"
+    match: exact
+  - token: "iaskspider"
+    name: "iAsk Spider"
+    class: ai
+    vendor: "iAsk"
+    match: exact
+  - token: "WriterBot"
+    name: "WriterBot"
+    class: ai
+    vendor: "Writer"
+    match: exact
+  - token: "AI2Bot"
+    name: "AI2Bot"
+    class: ai
+    vendor: "Allen AI"
+    match: exact
+  - token: "NeevaBot"
+    name: "NeevaBot"
+    class: ai
+    vendor: "Neeva"
+    match: exact
+  - token: "VelenPublicWebCrawler"
+    name: "Velen Crawler"
+    class: ai
+    vendor: "Velen"
+    match: exact
+  - token: "KangarooBot"
+    name: "KangarooBot"
+    class: ai
+    vendor: "Kangaroo"
+    match: exact
+  - token: "ISSCyberRiskCrawler"
+    name: "ISSCyberRisk Crawler"
+    class: ai
+    vendor: "ISSCyberRisk"
+    match: exact
+  - token: "SidetradeBot"
+    name: "SidetradeBot"
+    class: ai
+    vendor: "Sidetrade"
+    match: exact
+  - token: "Scrapy"
+    name: "Scrapy"
+    class: scraper
+    vendor: "Scrapy"
+    match: exact
+  - token: "ImagesiftBot"
+    name: "ImagesiftBot"
+    class: ai
+    vendor: "Imagesift"
+    match: exact
+  - token: "Kangaroo"
+    name: "Kangaroo"
+    class: ai
+    vendor: "Kangaroo"
+    match: exact
+  - token: "img2dataset"
+    name: "img2dataset"
+    class: ai
+    vendor: "LAION"
+    match: exact
+  - token: "Ai2Bot-Dolma"
+    name: "Ai2Bot-Dolma"
+    class: ai
+    vendor: "Allen AI"
+    match: exact
+
+  # More social preview bots
+  - token: "Iframely"
+    name: "Iframely"
+    class: social
+    vendor: "Iframely"
+    match: exact
+  - token: "PocketParser"
+    name: "Pocket"
+    class: social
+    vendor: "Mozilla"
+    match: exact
+  - token: "FlipboardProxy"
+    name: "Flipboard"
+    class: social
+    vendor: "Flipboard"
+    match: exact
+  - token: "Tumblr"
+    name: "Tumblr"
+    class: social
+    vendor: "Automattic"
+    match: exact
+  - token: "QuoraBot"
+    name: "QuoraBot"
+    class: social
+    vendor: "Quora"
+    match: exact
+  - token: "Mediumbot"
+    name: "Mediumbot"
+    class: social
+    vendor: "Medium"
+    match: exact
+  - token: "Mastodon"
+    name: "Mastodon"
+    class: social
+    vendor: "Mastodon"
+    match: contains
+  - token: "SnapchatBot"
+    name: "SnapchatBot"
+    class: social
+    vendor: "Snap"
+    match: exact
+  - token: "YandexImages"
+    name: "YandexImages"
+    class: search
+    vendor: "Yandex"
+    match: exact
+  - token: "Line"
+    name: "LINE Bot"
+    class: social
+    vendor: "LINE"
+    match: exact
+
+  # More SEO/marketing bots
+  - token: "SpyFu"
+    name: "SpyFu"
+    class: seo-tool
+    vendor: "SpyFu"
+    match: exact
+  - token: "ContentKing"
+    name: "ContentKing"
+    class: seo-tool
+    vendor: "ContentKing"
+    match: exact
+  - token: "OnPageBot"
+    name: "OnPageBot"
+    class: seo-tool
+    vendor: "OnPage"
+    match: exact
+  - token: "SEOstar"
+    name: "SEOstar"
+    class: seo-tool
+    vendor: "SEOstar"
+    match: exact
+  - token: "Netcraft"
+    name: "Netcraft"
+    class: seo-tool
+    vendor: "Netcraft"
+    match: exact
+  - token: "BuiltWith"
+    name: "BuiltWith"
+    class: seo-tool
+    vendor: "BuiltWith"
+    match: exact
+  - token: "Screaming Frog"
+    name: "Screaming Frog"
+    class: seo-tool
+    vendor: "Screaming Frog"
+    match: contains
+  - token: "Siteimprove"
+    name: "Siteimprove"
+    class: seo-tool
+    vendor: "Siteimprove"
+    match: exact
+  - token: "DeepCrawl"
+    name: "DeepCrawl"
+    class: seo-tool
+    vendor: "Lumar"
+    match: exact
+  - token: "sistrix"
+    name: "SISTRIX"
+    class: seo-tool
+    vendor: "SISTRIX"
+    match: contains
+  - token: "LinkpadBot"
+    name: "LinkpadBot"
+    class: seo-tool
+    vendor: "Linkpad"
+    match: exact
+  - token: "BacklinkCrawler"
+    name: "BacklinkCrawler"
+    class: seo-tool
+    vendor: "BacklinkCrawler"
+    match: exact
+
+  # More monitoring/uptime
+  - token: "GTmetrix"
+    name: "GTmetrix"
+    class: monitor
+    vendor: "GTmetrix"
+    match: exact
+  - token: "WebPageTest"
+    name: "WebPageTest"
+    class: monitor
+    vendor: "WebPageTest"
+    match: exact
+  - token: "Catchpoint"
+    name: "Catchpoint"
+    class: monitor
+    vendor: "Catchpoint"
+    match: exact
+  - token: "ThousandEyes"
+    name: "ThousandEyes"
+    class: monitor
+    vendor: "Cisco"
+    match: exact
+  - token: "Montastic"
+    name: "Montastic"
+    class: monitor
+    vendor: "Montastic"
+    match: exact
+  - token: "AlertBot"
+    name: "AlertBot"
+    class: monitor
+    vendor: "AlertBot"
+    match: exact
+  - token: "Host-Tracker"
+    name: "Host-Tracker"
+    class: monitor
+    vendor: "Host-Tracker"
+    match: exact
+  - token: "AppDynamics"
+    name: "AppDynamics"
+    class: monitor
+    vendor: "Cisco"
+    match: contains
+  - token: "Dynatrace"
+    name: "Dynatrace"
+    class: monitor
+    vendor: "Dynatrace"
+    match: contains
+  - token: "Checkly"
+    name: "Checkly"
+    class: monitor
+    vendor: "Checkly"
+    match: exact
+  - token: "Better Uptime"
+    name: "Better Uptime"
+    class: monitor
+    vendor: "Better Stack"
+    match: contains
+  - token: "Updown"
+    name: "Updown"
+    class: monitor
+    vendor: "Updown"
+    match: exact
+  - token: "Freshping"
+    name: "Freshping"
+    class: monitor
+    vendor: "Freshworks"
+    match: exact
+
+  # More feed readers/aggregators
+  - token: "Netvibes"
+    name: "Netvibes"
+    class: scraper
+    vendor: "Netvibes"
+    match: contains
+  - token: "CommaFeed"
+    name: "CommaFeed"
+    class: scraper
+    vendor: "CommaFeed"
+    match: contains
+  - token: "FreshRSS"
+    name: "FreshRSS"
+    class: scraper
+    vendor: "FreshRSS"
+    match: contains
+  - token: "Miniflux"
+    name: "Miniflux"
+    class: scraper
+    vendor: "Miniflux"
+    match: contains
+  - token: "TheOldReader"
+    name: "TheOldReader"
+    class: scraper
+    vendor: "TheOldReader"
+    match: contains
+  - token: "DiggBot"
+    name: "DiggBot"
+    class: scraper
+    vendor: "Digg"
+    match: exact
+  - token: "Feedspot"
+    name: "Feedspot"
+    class: scraper
+    vendor: "Feedspot"
+    match: contains
+  - token: "SimplePie"
+    name: "SimplePie"
+    class: scraper
+    vendor: "SimplePie"
+    match: exact
+  - token: "Bloglovin"
+    name: "Bloglovin"
+    class: scraper
+    vendor: "Bloglovin"
+    match: contains
+  - token: "RSSOwl"
+    name: "RSSOwl"
+    class: scraper
+    vendor: "RSSOwl"
+    match: exact
+
+  # More scrapers/tools
+  - token: "Apache-HttpClient"
+    name: "Apache HttpClient"
+    class: scraper
+    vendor: "Apache"
+    match: exact
+  - token: "jsoup"
+    name: "Jsoup"
+    class: scraper
+    vendor: "Jsoup"
+    match: exact
+  - token: "HTTrack"
+    name: "HTTrack"
+    class: scraper
+    vendor: "HTTrack"
+    match: exact
+  - token: "Wget"
+    name: "Wget"
+    class: scraper
+    vendor: "GNU"
+    match: exact
+  - token: "Nutch"
+    name: "Nutch"
+    class: scraper
+    vendor: "Apache"
+    match: exact
+  - token: "ColdFusion"
+    name: "ColdFusion"
+    class: scraper
+    vendor: "Adobe"
+    match: exact
+  - token: "ClickAgy"
+    name: "ClickAgy"
+    class: scraper
+    vendor: "ClickAgy"
+    match: exact
+  - token: "curl"
+    name: "curl"
+    class: scraper
+    vendor: "curl"
+    match: exact
+  - token: "Mechanize"
+    name: "Mechanize"
+    class: scraper
+    vendor: "Mechanize"
+    match: exact
+  - token: "Watir"
+    name: "Watir"
+    class: scraper
+    vendor: "Watir"
+    match: exact
+  - token: "Selenium"
+    name: "Selenium"
+    class: scraper
+    vendor: "Selenium"
+    match: contains
+  - token: "Cypress"
+    name: "Cypress"
+    class: scraper
+    vendor: "Cypress"
+    match: exact
+  - token: "Crawlera"
+    name: "Crawlera"
+    class: scraper
+    vendor: "Zyte"
+    match: exact
+
+  # Library user agents
+  - token: "Go-http-client"
+    name: "Go HTTP Client"
+    class: scraper
+    vendor: "Go"
+    match: exact
+  - token: "Python-urllib"
+    name: "Python urllib"
+    class: scraper
+    vendor: "Python"
+    match: exact
+  - token: "libwww-perl"
+    name: "libwww-perl"
+    class: scraper
+    vendor: "Perl"
+    match: exact
+  - token: "okhttp"
+    name: "OkHttp"
+    class: scraper
+    vendor: "Square"
+    match: exact
+  - token: "axios"
+    name: "Axios"
+    class: scraper
+    vendor: "Axios"
+    match: exact
+  - token: "node-fetch"
+    name: "node-fetch"
+    class: scraper
+    vendor: "Node.js"
+    match: exact
+  - token: "got"
+    name: "Got"
+    class: scraper
+    vendor: "Sindre Sorhus"
+    match: exact
+  - token: "python-requests"
+    name: "Python Requests"
+    class: scraper
+    vendor: "Python"
+    match: exact
+  - token: "aiohttp"
+    name: "aiohttp"
+    class: scraper
+    vendor: "Python"
+    match: exact
+  - token: "http.rb"
+    name: "http.rb"
+    class: scraper
+    vendor: "Ruby"
+    match: exact
+  - token: "Java/"
+    name: "Java HTTP Client"
+    class: scraper
+    vendor: "Oracle"
+    match: prefix
+  - token: "Ruby"
+    name: "Ruby HTTP"
+    class: scraper
+    vendor: "Ruby"
+    match: prefix
+  - token: "Dart/"
+    name: "Dart HTTP Client"
+    class: scraper
+    vendor: "Google"
+    match: prefix
+  - token: "Faraday"
+    name: "Faraday"
+    class: scraper
+    vendor: "Ruby"
+    match: exact
+  - token: "ReactorNetty"
+    name: "Reactor Netty"
+    class: scraper
+    vendor: "Spring"
+    match: exact
+  - token: "Twisted"
+    name: "Twisted"
+    class: scraper
+    vendor: "Python"
+    match: exact
+  - token: "httpx"
+    name: "HTTPX"
+    class: scraper
+    vendor: "Python"
+    match: exact
+  - token: "Guzzle"
+    name: "Guzzle"
+    class: scraper
+    vendor: "PHP"
+    match: exact
+  - token: "GuzzleHttp"
+    name: "GuzzleHttp"
+    class: scraper
+    vendor: "PHP"
+    match: exact
+  - token: "undici"
+    name: "Undici"
+    class: scraper
+    vendor: "Node.js"
+    match: exact
+
+  # More security scanners
+  - token: "Nikto"
+    name: "Nikto"
+    class: scraper
+    vendor: "CIRT"
+    match: exact
+  - token: "sqlmap"
+    name: "sqlmap"
+    class: scraper
+    vendor: "sqlmap"
+    match: exact
+  - token: "Nmap"
+    name: "Nmap"
+    class: scraper
+    vendor: "Nmap"
+    match: exact
+  - token: "Acunetix"
+    name: "Acunetix"
+    class: scraper
+    vendor: "Acunetix"
+    match: contains
+  - token: "Burp"
+    name: "Burp Suite"
+    class: scraper
+    vendor: "PortSwigger"
+    match: contains
+
+  # Academic/research
+  - token: "Citeseerxbot"
+    name: "CiteSeerX Bot"
+    class: search
+    vendor: "Penn State"
+    match: exact
+  - token: "ScienceBot"
+    name: "ScienceBot"
+    class: search
+    vendor: "ScienceBot"
+    match: exact
+
+  # Misc bots
+  - token: "BingPreview"
+    name: "BingPreview"
+    class: search
+    vendor: "Microsoft"
+    match: exact
+  - token: "adidxbot"
+    name: "Bing Ads Bot"
+    class: search
+    vendor: "Microsoft"
+    match: exact
+  - token: "YandexMobileBot"
+    name: "YandexMobileBot"
+    class: search
+    vendor: "Yandex"
+    match: exact
+  - token: "YandexAccessibilityBot"
+    name: "YandexAccessibilityBot"
+    class: search
+    vendor: "Yandex"
+    match: exact
+  - token: "Sogou web spider"
+    name: "Sogou Web Spider"
+    class: search
+    vendor: "Sogou"
+    match: contains
+  - token: "GrapeshotCrawler"
+    name: "Grapeshot Crawler"
+    class: scraper
+    vendor: "Oracle"
+    match: exact
+  - token: "Wotbox"
+    name: "Wotbox"
+    class: scraper
+    vendor: "Wotbox"
+    match: exact
+  - token: "ICC-Crawler"
+    name: "ICC-Crawler"
+    class: scraper
+    vendor: "NICT"
+    match: exact
+  - token: "Yak"
+    name: "Yak"
+    class: scraper
+    vendor: "Yak"
+    match: exact
+  - token: "Cliqzbot"
+    name: "Cliqzbot"
+    class: search
+    vendor: "Cliqz"
+    match: exact
+  - token: "MegaIndex"
+    name: "MegaIndex"
+    class: seo-tool
+    vendor: "MegaIndex"
+    match: exact
+  - token: "ltx71"
+    name: "ltx71"
+    class: scraper
+    vendor: "ltx71"
+    match: exact
+  - token: "ZoominfoBot"
+    name: "ZoomInfo Bot"
+    class: scraper
+    vendor: "ZoomInfo"
+    match: exact
+  - token: "Pandalytics"
+    name: "Pandalytics"
+    class: scraper
+    vendor: "Pandalytics"
+    match: exact
+
+  # E-commerce / price bots
+  - token: "PriceSpider"
+    name: "PriceSpider"
+    class: scraper
+    vendor: "PriceSpider"
+    match: exact
+  - token: "ShopWiki"
+    name: "ShopWiki"
+    class: scraper
+    vendor: "ShopWiki"
+    match: exact
+  - token: "PriceSpy"
+    name: "PriceSpy"
+    class: scraper
+    vendor: "PriceSpy"
+    match: exact
+  - token: "Shopify"
+    name: "Shopify Bot"
+    class: scraper
+    vendor: "Shopify"
+    match: exact
+
+  # Ad verification
+  - token: "Integral Ad Science"
+    name: "IAS Crawler"
+    class: scraper
+    vendor: "Integral Ad Science"
+    match: contains
+  - token: "DoubleVerify"
+    name: "DoubleVerify"
+    class: scraper
+    vendor: "DoubleVerify"
+    match: contains
+  - token: "Moat"
+    name: "Moat"
+    class: scraper
+    vendor: "Oracle"
+    match: exact
+  - token: "AdsTxtCrawler"
+    name: "Ads.txt Crawler"
+    class: scraper
+    vendor: "IAB"
+    match: exact
+
+  # CDN/infrastructure
+  - token: "Cloudflare"
+    name: "Cloudflare Bot"
+    class: monitor
+    vendor: "Cloudflare"
+    match: contains
+  - token: "Fastly"
+    name: "Fastly Bot"
+    class: monitor
+    vendor: "Fastly"
+    match: exact
+  - token: "Akamai"
+    name: "Akamai Bot"
+    class: monitor
+    vendor: "Akamai"
+    match: contains
+
+  # Archive/research
+  - token: "Heritrix"
+    name: "Heritrix"
+    class: scraper
+    vendor: "Internet Archive"
+    match: exact
+  - token: "Wayback"
+    name: "Wayback Machine"
+    class: scraper
+    vendor: "Internet Archive"
+    match: contains
+  - token: "WebDataStats"
+    name: "WebDataStats"
+    class: scraper
+    vendor: "WebDataStats"
+    match: exact
+
+  # CMS/platform
+  - token: "WordPress"
+    name: "WordPress"
+    class: scraper
+    vendor: "Automattic"
+    match: contains
+  - token: "Drupal"
+    name: "Drupal"
+    class: scraper
+    vendor: "Drupal"
+    match: exact
+  - token: "Wix"
+    name: "Wix"
+    class: scraper
+    vendor: "Wix"
+    match: exact
+
+  # Validation
+  - token: "W3C_Validator"
+    name: "W3C Validator"
+    class: scraper
+    vendor: "W3C"
+    match: exact
+  - token: "W3C-checklink"
+    name: "W3C Link Checker"
+    class: scraper
+    vendor: "W3C"
+    match: exact
+  - token: "Validator.nu"
+    name: "Validator.nu"
+    class: scraper
+    vendor: "Validator.nu"
+    match: exact
+  - token: "FeedValidator"
+    name: "Feed Validator"
+    class: scraper
+    vendor: "W3C"
+    match: exact
+  - token: "CSP-Validator"
+    name: "CSP Validator"
+    class: scraper
+    vendor: "CSP"
+    match: exact
+  - token: "Lighthouse"
+    name: "Lighthouse"
+    class: monitor
+    vendor: "Google"
+    match: exact
+  - token: "PageSpeed"
+    name: "PageSpeed Insights"
+    class: monitor
+    vendor: "Google"
+    match: exact
+
+  # AI/LLM Crawlers (expanded)
+  - token: "DeepSeekBot"
+    name: "DeepSeekBot"
+    class: ai
+    vendor: "DeepSeek"
+    match: exact
+  - token: "xAI-Bot"
+    name: "xAI Bot"
+    class: ai
+    vendor: "xAI"
+    match: exact
+  - token: "CloudVertexBot"
+    name: "CloudVertexBot"
+    class: ai
+    vendor: "Google"
+    match: exact
+  - token: "HuggingFaceBot"
+    name: "HuggingFaceBot"
+    class: ai
+    vendor: "Hugging Face"
+    match: exact
+  - token: "Firecrawl"
+    name: "Firecrawl"
+    class: ai
+    vendor: "Firecrawl"
+    match: exact
+  - token: "ReplicateBot"
+    name: "ReplicateBot"
+    class: ai
+    vendor: "Replicate"
+    match: exact
+  - token: "RunPodBot"
+    name: "RunPodBot"
+    class: ai
+    vendor: "RunPod"
+    match: exact
+  - token: "SBIntuitionsBot"
+    name: "SBIntuitionsBot"
+    class: ai
+    vendor: "SB Intuitions"
+    match: exact
+  - token: "TogetherBot"
+    name: "TogetherBot"
+    class: ai
+    vendor: "Together AI"
+    match: exact
+  - token: "ZhipuAI"
+    name: "ZhipuAI ChatGLM Spider"
+    class: ai
+    vendor: "Zhipu AI"
+    match: exact
+  - token: "Coveobot"
+    name: "Coveobot"
+    class: ai
+    vendor: "Coveo"
+    match: exact
+  - token: "DataForSeoBot"
+    name: "DataForSeoBot"
+    class: seo-tool
+    vendor: "DataForSeo"
+    match: exact
+  - token: "PanguBot"
+    name: "PanguBot"
+    class: ai
+    vendor: "Huawei"
+    match: exact
+  - token: "FacebookBot"
+    name: "FacebookBot"
+    class: social
+    vendor: "Meta"
+    match: exact
+  - token: "Meta-WebIndexer"
+    name: "Meta-WebIndexer"
+    class: ai
+    vendor: "Meta"
+    match: exact
+  - token: "v0bot"
+    name: "v0bot"
+    class: ai
+    vendor: "Vercel"
+    match: exact
+  - token: "Bard-AI"
+    name: "Bard-AI"
+    class: ai
+    vendor: "Google"
+    match: exact
+  - token: "GoogleAgent"
+    name: "GoogleAgent"
+    class: ai
+    vendor: "Google"
+    match: prefix
+  - token: "Google-NotebookLM"
+    name: "Google-NotebookLM"
+    class: ai
+    vendor: "Google"
+    match: exact
+  - token: "Claude-SearchBot"
+    name: "Claude-SearchBot"
+    class: ai
+    vendor: "Anthropic"
+    match: exact
+  - token: "Spawning-AI"
+    name: "Spawning-AI"
+    class: ai
+    vendor: "Spawning"
+    match: exact
+  - token: "sovereign.ai"
+    name: "Sovereign AI"
+    class: ai
+    vendor: "Sovereign"
+    match: contains
+  - token: "Bravebot"
+    name: "Bravebot"
+    class: search
+    vendor: "Brave"
+    match: exact
+  - token: "Kagibot"
+    name: "Kagibot"
+    class: search
+    vendor: "Kagi"
+    match: exact
+  - token: "iAskBot"
+    name: "iAskBot"
+    class: ai
+    vendor: "iAsk"
+    match: exact
+
+  # Search Engines (expanded)
+  - token: "360Spider"
+    name: "360Spider"
+    class: search
+    vendor: "Qihoo 360"
+    match: exact
+  - token: "Yahoo! Slurp"
+    name: "Yahoo Slurp"
+    class: search
+    vendor: "Yahoo"
+    match: contains
+  - token: "SeekportBot"
+    name: "SeekportBot"
+    class: search
+    vendor: "Seekport"
+    match: exact
+  - token: "Qwantbot"
+    name: "Qwantbot"
+    class: search
+    vendor: "Qwant"
+    match: exact
+  - token: "Marginalia"
+    name: "Marginalia"
+    class: search
+    vendor: "Marginalia"
+    match: exact
+
+  # SEO/Marketing (expanded)
+  - token: "SurdotlyBot"
+    name: "SurdotlyBot"
+    class: seo-tool
+    vendor: "Surdotly"
+    match: exact
+  - token: "Swiftbot"
+    name: "Swiftbot"
+    class: seo-tool
+    vendor: "Swiftype"
+    match: exact
+  - token: "YepBot"
+    name: "YepBot"
+    class: seo-tool
+    vendor: "Yep"
+    match: exact
+  - token: "AspiegelBot"
+    name: "AspiegelBot"
+    class: seo-tool
+    vendor: "Aspiegel"
+    match: exact
+  - token: "Botify"
+    name: "Botify"
+    class: seo-tool
+    vendor: "Botify"
+    match: exact
+  - token: "MeltwaterNews"
+    name: "Meltwater"
+    class: seo-tool
+    vendor: "Meltwater"
+    match: exact
+  - token: "ContentKingApp"
+    name: "ContentKing"
+    class: seo-tool
+    vendor: "ContentKing"
+    match: exact
+  - token: "RankSonicSiteAuditor"
+    name: "RankSonic"
+    class: seo-tool
+    vendor: "RankSonic"
+    match: exact
+  - token: "Seobility"
+    name: "Seobility"
+    class: seo-tool
+    vendor: "Seobility"
+    match: contains
+
+  # Monitoring/Uptime (expanded)
+  - token: "PRTG"
+    name: "PRTG"
+    class: monitor
+    vendor: "Paessler"
+    match: contains
+  - token: "Nagios"
+    name: "Nagios"
+    class: monitor
+    vendor: "Nagios"
+    match: contains
+  - token: "DynatraceSynthetic"
+    name: "Dynatrace"
+    class: monitor
+    vendor: "Dynatrace"
+    match: exact
+  - token: "RuxitSynthetic"
+    name: "Ruxit"
+    class: monitor
+    vendor: "Dynatrace"
+    match: exact
+  - token: "YottaaMonitor"
+    name: "Yottaa"
+    class: monitor
+    vendor: "Yottaa"
+    match: exact
+  - token: "Uptime-Kuma"
+    name: "Uptime Kuma"
+    class: monitor
+    vendor: "Uptime Kuma"
+    match: exact
+  - token: "OnlineOrNot"
+    name: "OnlineOrNot"
+    class: monitor
+    vendor: "OnlineOrNot"
+    match: exact
+  - token: "pulsetic"
+    name: "Pulsetic"
+    class: monitor
+    vendor: "Pulsetic"
+    match: contains
+
+  # Social/Preview Bots (expanded)
+  - token: "Bluesky"
+    name: "Bluesky"
+    class: social
+    vendor: "Bluesky"
+    match: contains
+  - token: "Snap URL Preview"
+    name: "Snapchat Preview"
+    class: social
+    vendor: "Snap"
+    match: contains
+  - token: "Keybase"
+    name: "Keybase"
+    class: social
+    vendor: "Keybase"
+    match: exact
+  - token: "Buffer"
+    name: "Buffer"
+    class: social
+    vendor: "Buffer"
+    match: exact
+  - token: "Hootsuite"
+    name: "Hootsuite"
+    class: social
+    vendor: "Hootsuite"
+    match: exact
+
+  # HTTP Libraries / Scraping Tools (expanded)
+  - token: "superagent"
+    name: "SuperAgent"
+    class: scraper
+    vendor: "SuperAgent"
+    match: exact
+  - token: "hackney"
+    name: "Hackney"
+    class: scraper
+    vendor: "Hackney"
+    match: exact
+  - token: "rest-client"
+    name: "RestClient"
+    class: scraper
+    vendor: "RestClient"
+    match: exact
+  - token: "RestSharp"
+    name: "RestSharp"
+    class: scraper
+    vendor: "RestSharp"
+    match: exact
+  - token: "Typhoeus"
+    name: "Typhoeus"
+    class: scraper
+    vendor: "Typhoeus"
+    match: exact
+  - token: "Deno/"
+    name: "Deno"
+    class: scraper
+    vendor: "Deno"
+    match: prefix
+  - token: "Bun/"
+    name: "Bun"
+    class: scraper
+    vendor: "Oven"
+    match: prefix
+  - token: "PostmanRuntime"
+    name: "Postman"
+    class: scraper
+    vendor: "Postman"
+    match: exact
+  - token: "Insomnia"
+    name: "Insomnia"
+    class: scraper
+    vendor: "Kong"
+    match: exact
+  - token: "httpie"
+    name: "HTTPie"
+    class: scraper
+    vendor: "HTTPie"
+    match: contains
+  - token: "reqwest"
+    name: "reqwest"
+    class: scraper
+    vendor: "reqwest"
+    match: exact
+  - token: "ureq"
+    name: "ureq"
+    class: scraper
+    vendor: "ureq"
+    match: exact
+  - token: "colly"
+    name: "Colly"
+    class: scraper
+    vendor: "Colly"
+    match: exact
+  - token: "phpcrawl"
+    name: "PHPCrawl"
+    class: scraper
+    vendor: "PHPCrawl"
+    match: exact
+  - token: "Zombie.js"
+    name: "Zombie.js"
+    class: scraper
+    vendor: "Zombie.js"
+    match: exact
+  - token: "wkhtmlto"
+    name: "wkhtmltopdf"
+    class: scraper
+    vendor: "wkhtmltopdf"
+    match: prefix
+
+  # Security Scanners (expanded)
+  - token: "Dirbuster"
+    name: "DirBuster"
+    class: scraper
+    vendor: "OWASP"
+    match: exact
+  - token: "Wfuzz"
+    name: "Wfuzz"
+    class: scraper
+    vendor: "Wfuzz"
+    match: exact
+  - token: "Gobuster"
+    name: "Gobuster"
+    class: scraper
+    vendor: "Gobuster"
+    match: exact
+  - token: "masscan"
+    name: "Masscan"
+    class: scraper
+    vendor: "Masscan"
+    match: exact
+  - token: "zgrab"
+    name: "zgrab"
+    class: scraper
+    vendor: "Zmap"
+    match: exact
+  - token: "CensysInspect"
+    name: "Censys"
+    class: scraper
+    vendor: "Censys"
+    match: exact
+  - token: "Shodan"
+    name: "Shodan"
+    class: scraper
+    vendor: "Shodan"
+    match: contains
+  - token: "LeakIX"
+    name: "LeakIX"
+    class: scraper
+    vendor: "LeakIX"
+    match: exact
+
+  # Archive/Research (expanded)
+  - token: "InternetArchive"
+    name: "Internet Archive"
+    class: scraper
+    vendor: "Internet Archive"
+    match: contains
+  - token: "BUbiNG"
+    name: "BUbiNG"
+    class: scraper
+    vendor: "BUbiNG"
+    match: exact
+
+  # Feed Readers (expanded)
+  - token: "QuiteRSS"
+    name: "QuiteRSS"
+    class: scraper
+    vendor: "QuiteRSS"
+    match: exact
+  - token: "UniversalFeedParser"
+    name: "UniversalFeedParser"
+    class: scraper
+    vendor: "UniversalFeedParser"
+    match: exact
+  - token: "NetNewsWire"
+    name: "NetNewsWire"
+    class: scraper
+    vendor: "NetNewsWire"
+    match: exact
+  - token: "Gregarius"
+    name: "Gregarius"
+    class: scraper
+    vendor: "Gregarius"
+    match: exact
+  - token: "Liferea"
+    name: "Liferea"
+    class: scraper
+    vendor: "Liferea"
+    match: exact
+  - token: "PodcastAddict"
+    name: "Podcast Addict"
+    class: scraper
+    vendor: "Podcast Addict"
+    match: exact
+  - token: "Overcast"
+    name: "Overcast"
+    class: scraper
+    vendor: "Overcast"
+    match: exact

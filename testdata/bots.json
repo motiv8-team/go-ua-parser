@@ -1,0 +1,51 @@
+[
+  {
+    "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "isBot": true,
+    "botName": "Googlebot",
+    "botClass": "search",
+    "botVendor": "Google"
+  },
+  {
+    "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)",
+    "isBot": true,
+    "botName": "GPTBot",
+    "botClass": "ai",
+    "botVendor": "OpenAI"
+  },
+  {
+    "ua": "Twitterbot/1.0",
+    "isBot": true,
+    "botName": "Twitterbot",
+    "botClass": "social",
+    "botVendor": "Twitter"
+  },
+  {
+    "ua": "curl/8.4.0",
+    "isBot": true,
+    "botName": "curl",
+    "botClass": "scraper",
+    "botVendor": "curl"
+  },
+  {
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/123.0 Safari/537.36",
+    "isBot": false,
+    "botName": "",
+    "botClass": "",
+    "botVendor": ""
+  },
+  {
+    "ua": "AhrefsBot/7.0",
+    "isBot": true,
+    "botName": "AhrefsBot",
+    "botClass": "seo-tool",
+    "botVendor": "Ahrefs"
+  },
+  {
+    "ua": "Mozilla/5.0 (compatible; ClaudeBot/1.0; +https://www.anthropic.com)",
+    "isBot": true,
+    "botName": "ClaudeBot",
+    "botClass": "ai",
+    "botVendor": "Anthropic"
+  }
+]

@@ -1,0 +1,651 @@
+# Browser detection rules for uax.
+# Processed by cmd/uagen to produce rules_gen_browser.go.
+# Order matters: first match wins. Put specific rules before generic ones.
+
+rules:
+  - token: "EdgA"
+    browser: "Edge"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "Edg"
+    browser: "Edge"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "Edge"
+    browser: "Edge"
+    family: "EdgeHTML"
+    engine: "EdgeHTML"
+    match: exact
+
+  - token: "OPR"
+    browser: "Opera"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "Opera"
+    browser: "Opera"
+    family: "Presto"
+    engine: "Presto"
+    match: exact
+
+  - token: "Vivaldi"
+    browser: "Vivaldi"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "Brave"
+    browser: "Brave"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "YaBrowser"
+    browser: "Yandex Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "SamsungBrowser"
+    browser: "Samsung Internet"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "UCBrowser"
+    browser: "UC Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "CriOS"
+    browser: "Chrome"
+    family: "Chromium"
+    engine: "WebKit"
+    match: exact
+
+  - token: "FxiOS"
+    browser: "Firefox"
+    family: "Firefox"
+    engine: "WebKit"
+    match: exact
+
+  - token: "Arc"
+    browser: "Arc"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Whale"
+    browser: "Whale"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Silk"
+    browser: "Amazon Silk"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Puffin"
+    browser: "Puffin"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "DuckDuckGo"
+    browser: "DuckDuckGo Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Kiwi"
+    browser: "Kiwi Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Bromite"
+    browser: "Bromite"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Maxthon"
+    browser: "Maxthon"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "QQBrowser"
+    browser: "QQ Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "MiuiBrowser"
+    browser: "MIUI Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "HuaweiBrowser"
+    browser: "Huawei Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Focus"
+    browser: "Firefox Focus"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Waterfox"
+    browser: "Waterfox"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "PaleMoon"
+    browser: "Pale Moon"
+    family: "Firefox"
+    engine: "Goanna"
+    match: exact
+  - token: "SeaMonkey"
+    browser: "SeaMonkey"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Epiphany"
+    browser: "GNOME Web"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Falkon"
+    browser: "Falkon"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Midori"
+    browser: "Midori"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Sleipnir"
+    browser: "Sleipnir"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Lynx"
+    browser: "Lynx"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "Coc"
+    browser: "Coc Coc"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Sogou"
+    browser: "Sogou Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  # More Chromium variants
+  - token: "Avast"
+    browser: "Avast Secure Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "AVG"
+    browser: "AVG Secure Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Dragon"
+    browser: "Comodo Dragon"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Torch"
+    browser: "Torch"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Epic"
+    browser: "Epic Privacy Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Colibri"
+    browser: "Colibri"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Iron"
+    browser: "Iron"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "CentBrowser"
+    browser: "Cent Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "360SE"
+    browser: "360 Secure Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "360EE"
+    browser: "360 Speed Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "LBBROWSER"
+    browser: "Liebao"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Iridium"
+    browser: "Iridium"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "BeakerBrowser"
+    browser: "Beaker"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Dissenter"
+    browser: "Dissenter"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Polypane"
+    browser: "Polypane"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Lunascape"
+    browser: "Lunascape"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "SlimBrowser"
+    browser: "SlimBrowser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "SalamWeb"
+    browser: "SalamWeb"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Avant"
+    browser: "Avant"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Ghostery"
+    browser: "Ghostery"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Min"
+    browser: "Min"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "wv"
+    browser: "Android WebView"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Sputnik"
+    browser: "Sputnik"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Kinza"
+    browser: "Kinza"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Chedot"
+    browser: "Chedot"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Superbird"
+    browser: "Superbird"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Comodo_Dragon"
+    browser: "Comodo IceDragon"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Citrio"
+    browser: "Citrio"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Amigo"
+    browser: "Amigo"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Orbitum"
+    browser: "Orbitum"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Atom"
+    browser: "Atom Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Elements"
+    browser: "Elements Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Naver"
+    browser: "Naver Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Ecosia"
+    browser: "Ecosia"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Aloha"
+    browser: "Aloha Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Yowser"
+    browser: "Yowser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Viasat"
+    browser: "Viasat Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Wavebox"
+    browser: "Wavebox"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Sidekick"
+    browser: "Sidekick"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "SRWare"
+    browser: "SRWare Iron"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Rambler"
+    browser: "Rambler Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  # Firefox-based browsers
+  - token: "Basilisk"
+    browser: "Basilisk"
+    family: "Firefox"
+    engine: "Goanna"
+    match: exact
+  - token: "TenFourFox"
+    browser: "TenFourFox"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "K-Meleon"
+    browser: "K-Meleon"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "IceDragon"
+    browser: "IceDragon"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Fennec"
+    browser: "Fennec"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Iceweasel"
+    browser: "Iceweasel"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "IceCat"
+    browser: "GNU IceCat"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Conkeror"
+    browser: "Conkeror"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Cyberfox"
+    browser: "Cyberfox"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Iceape"
+    browser: "Iceape"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Kazehakase"
+    browser: "Kazehakase"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Camino"
+    browser: "Camino"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Flock"
+    browser: "Flock"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Galeon"
+    browser: "Galeon"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Firebird"
+    browser: "Firebird"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Thunderbird"
+    browser: "Thunderbird"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "LibreWolf"
+    browser: "LibreWolf"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Mullvad"
+    browser: "Mullvad Browser"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Tor"
+    browser: "Tor Browser"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+  - token: "Floorp"
+    browser: "Floorp"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+
+  # WebKit-based browsers
+  - token: "OtterBrowser"
+    browser: "Otter"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "QupZilla"
+    browser: "QupZilla"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "surf"
+    browser: "surf"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Konqueror"
+    browser: "Konqueror"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Arora"
+    browser: "Arora"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Rekonq"
+    browser: "Rekonq"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+
+  # Other/minimal browsers
+  - token: "NetFront"
+    browser: "NetFront"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "Dillo"
+    browser: "Dillo"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "w3m"
+    browser: "w3m"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "Links"
+    browser: "Links"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "ELinks"
+    browser: "ELinks"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "NetSurf"
+    browser: "NetSurf"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "Dooble"
+    browser: "Dooble"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Otter"
+    browser: "Otter Browser"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Pale"
+    browser: "Pale Browser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Roccat"
+    browser: "Roccat"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Uzbl"
+    browser: "Uzbl"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Luakit"
+    browser: "Luakit"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Palemoon"
+    browser: "PaleMoon"
+    family: "Firefox"
+    engine: "Goanna"
+    match: exact
+  - token: "Qutebrowser"
+    browser: "qutebrowser"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+  - token: "Nyxt"
+    browser: "Nyxt"
+    family: "WebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Ladybird"
+    browser: "Ladybird"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "Flow"
+    browser: "Flow Browser"
+    family: "Other"
+    engine: ""
+    match: exact
+  - token: "Servo"
+    browser: "Servo"
+    family: "Other"
+    engine: ""
+    match: exact
+
+  - token: "Firefox"
+    browser: "Firefox"
+    family: "Firefox"
+    engine: "Gecko"
+    match: exact
+
+  - token: "Chrome"
+    browser: "Chrome"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  - token: "Chromium"
+    browser: "Chromium"
+    family: "Chromium"
+    engine: "Blink"
+    match: exact
+
+  # Safari handled specially in matchBrowser fallback
+  - token: "MSIE"
+    browser: "Internet Explorer"
+    family: "IE"
+    engine: "Trident"
+    match: exact
+
+  - token: "Trident"
+    browser: "Internet Explorer"
+    family: "IE"
+    engine: "Trident"
+    match: exact

@@ -1,0 +1,5 @@
+[
+  {"ua": "Amazonbot/0.1 (+https://developer.amazon.com/support/amazonbot)", "isBot": true, "botName": "Amazonbot", "botClass": "ai"},
+  {"ua": "Mozilla/5.0 (compatible; PetalBot; +https://webmaster.petalsearch.com/)", "isBot": true, "botName": "PetalBot", "botClass": "search"},
+  {"ua": "redditbot/1.0", "isBot": true, "botName": "redditbot", "botClass": "social"}
+]

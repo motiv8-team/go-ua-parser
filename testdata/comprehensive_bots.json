@@ -1,0 +1,22 @@
+[
+  {"ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)", "isBot": true, "botName": "Googlebot", "botClass": "search"},
+  {"ua": "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)", "isBot": true, "botName": "bingbot", "botClass": "search"},
+  {"ua": "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)", "isBot": true, "botName": "YandexBot", "botClass": "search"},
+  {"ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.2; +https://openai.com/gptbot)", "isBot": true, "botName": "GPTBot", "botClass": "ai"},
+  {"ua": "Mozilla/5.0 (compatible; ClaudeBot/1.0; +https://www.anthropic.com)", "isBot": true, "botName": "ClaudeBot", "botClass": "ai"},
+  {"ua": "CCBot/2.0 (https://commoncrawl.org/faq/)", "isBot": true, "botName": "CCBot", "botClass": "ai"},
+  {"ua": "Twitterbot/1.0", "isBot": true, "botName": "Twitterbot", "botClass": "social"},
+  {"ua": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)", "isBot": true, "botName": "facebookexternalhit", "botClass": "social"},
+  {"ua": "LinkedInBot/1.0 (compatible; Mozilla/5.0; Apache-HttpClient +http://www.linkedin.com)", "isBot": true, "botName": "LinkedInBot", "botClass": "social"},
+  {"ua": "Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)", "isBot": true, "botName": "Slackbot-LinkExpanding", "botClass": "social"},
+  {"ua": "AhrefsBot/7.0; +http://ahrefs.com/robot/", "isBot": true, "botName": "AhrefsBot", "botClass": "seo-tool"},
+  {"ua": "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)", "isBot": true, "botName": "SemrushBot", "botClass": "seo-tool"},
+  {"ua": "UptimeRobot/2.0", "isBot": true, "botName": "UptimeRobot", "botClass": "monitor"},
+  {"ua": "curl/8.4.0", "isBot": true, "botName": "curl", "botClass": "scraper"},
+  {"ua": "python-requests/2.31.0", "isBot": true, "botName": "Python Requests", "botClass": "scraper"},
+  {"ua": "Amazonbot/0.1 (+https://developer.amazon.com/support/amazonbot)", "isBot": true, "botName": "Amazonbot", "botClass": "ai"},
+  {"ua": "PerplexityBot/1.0", "isBot": true, "botName": "PerplexityBot", "botClass": "ai"},
+  {"ua": "Bytespider/1.0", "isBot": true, "botName": "Bytespider", "botClass": "ai"},
+  {"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/123.0 Safari/537.36", "isBot": false, "botName": "", "botClass": ""},
+  {"ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 Safari/604.1", "isBot": false, "botName": "", "botClass": ""}
+]

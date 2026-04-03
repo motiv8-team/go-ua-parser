@@ -1,0 +1,7 @@
+[
+  {"ua": "Mozilla/5.0 (PlayStation; PlayStation 5/2.26) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15", "deviceType": "console", "deviceVendor": "Sony"},
+  {"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox One) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.17763", "deviceType": "console", "deviceVendor": "Microsoft"},
+  {"ua": "Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/606.4 (KHTML, like Gecko) NF/6.0.1.15.4 NintendoBrowser/5.1.0.20393", "deviceType": "", "deviceVendor": ""},
+  {"ua": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 7.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.0 Chrome/85.0 TV Safari/537.36", "deviceType": "smarttv"},
+  {"ua": "Mozilla/5.0 (Linux; Android 12; BRAVIA 4K UR2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0 Safari/537.36", "deviceType": "smarttv", "deviceVendor": "Sony"}
+]

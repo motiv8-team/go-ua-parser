@@ -1,0 +1,7 @@
+docs/
+
+# Compiled example binaries
+examples/gin/gin
+examples/echo/echo
+examples/chi/chi
+examples/fiber/fiber

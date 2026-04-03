@@ -1,0 +1,40 @@
+rules:
+  - token: "AppleWebKit"
+    engine: "WebKit"
+    match: exact
+  - token: "Gecko"
+    engine: "Gecko"
+    match: exact
+  - token: "Trident"
+    engine: "Trident"
+    match: exact
+  - token: "Presto"
+    engine: "Presto"
+    match: exact
+  - token: "EdgeHTML"
+    engine: "EdgeHTML"
+    match: exact
+  - token: "Blink"
+    engine: "Blink"
+    match: exact
+  - token: "Goanna"
+    engine: "Goanna"
+    match: exact
+  - token: "KHTML"
+    engine: "KHTML"
+    match: exact
+  - token: "NetFront"
+    engine: "NetFront"
+    match: exact
+  - token: "NetSurf"
+    engine: "NetSurf"
+    match: exact
+  - token: "Servo"
+    engine: "Servo"
+    match: exact
+  - token: "Flow"
+    engine: "Flow"
+    match: exact
+  - token: "LibWeb"
+    engine: "LibWeb"
+    match: exact

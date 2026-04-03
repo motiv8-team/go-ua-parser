@@ -1,0 +1,5 @@
+[
+  {"ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Arc/1.24.0", "browser": "Arc", "engine": "Blink", "os": "macOS", "device": "desktop"},
+  {"ua": "Mozilla/5.0 (Linux; Android 14; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 Whale/3.0.0", "browser": "Whale", "engine": "Blink", "os": "Android", "device": "mobile"},
+  {"ua": "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Waterfox/124.0", "browser": "Waterfox", "engine": "Gecko", "os": "Linux", "device": "desktop"}
+]

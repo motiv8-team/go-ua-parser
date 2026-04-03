@@ -1,0 +1,341 @@
+rules:
+  # Specific consoles (before generic ones)
+  - token: "PlayStation 5"
+    type: "console"
+    vendor: "Sony"
+    model: "PlayStation 5"
+    match: contains
+  - token: "PlayStation 4"
+    type: "console"
+    vendor: "Sony"
+    model: "PlayStation 4"
+    match: contains
+  - token: "Xbox Series"
+    type: "console"
+    vendor: "Microsoft"
+    model: "Xbox Series X|S"
+    match: contains
+  - token: "Xbox One"
+    type: "console"
+    vendor: "Microsoft"
+    model: "Xbox One"
+    match: contains
+  - token: "Switch"
+    type: "console"
+    vendor: "Nintendo"
+    model: "Switch"
+    match: exact
+  - token: "Steam Deck"
+    type: "console"
+    vendor: "Valve"
+    model: "Steam Deck"
+    match: contains
+  - token: "PlayStation"
+    type: "console"
+    vendor: "Sony"
+    match: exact
+  - token: "Xbox"
+    type: "console"
+    vendor: "Microsoft"
+    match: exact
+  - token: "Nintendo"
+    type: "console"
+    vendor: "Nintendo"
+    match: exact
+  - token: "Roku"
+    type: "smarttv"
+    vendor: "Roku"
+    match: exact
+  - token: "AppleTV"
+    type: "smarttv"
+    vendor: "Apple"
+    match: exact
+  - token: "SmartTV"
+    type: "smarttv"
+    match: contains
+  - token: "SMART-TV"
+    type: "smarttv"
+    match: contains
+
+  # Smart TVs
+  - token: "Tizen"
+    type: "smarttv"
+    vendor: "Samsung"
+    match: contains
+  - token: "webOS"
+    type: "smarttv"
+    vendor: "LG"
+    match: contains
+  - token: "BRAVIA"
+    type: "smarttv"
+    vendor: "Sony"
+    match: contains
+  - token: "VIZIO"
+    type: "smarttv"
+    vendor: "Vizio"
+    match: contains
+  - token: "FireTV"
+    type: "smarttv"
+    vendor: "Amazon"
+    model: "Fire TV"
+    match: exact
+  - token: "AFTM"
+    type: "smarttv"
+    vendor: "Amazon"
+    model: "Fire TV Stick"
+    match: prefix
+  - token: "Chromecast"
+    type: "smarttv"
+    vendor: "Google"
+    model: "Chromecast"
+    match: exact
+  - token: "Android TV"
+    type: "smarttv"
+    match: contains
+
+  # Tablets / E-readers
+  - token: "Kindle"
+    type: "tablet"
+    vendor: "Amazon"
+    model: "Kindle"
+    match: exact
+  - token: "KFTT"
+    type: "tablet"
+    vendor: "Amazon"
+    model: "Kindle Fire"
+    match: prefix
+  - token: "KFOT"
+    type: "tablet"
+    vendor: "Amazon"
+    model: "Kindle Fire"
+    match: prefix
+
+  # Specific phone models
+  - token: "iPhone"
+    type: "mobile"
+    vendor: "Apple"
+    model: "iPhone"
+    match: contains
+  - token: "iPad"
+    type: "tablet"
+    vendor: "Apple"
+    model: "iPad"
+    match: contains
+  - token: "iPod"
+    type: "mobile"
+    vendor: "Apple"
+    model: "iPod"
+    match: contains
+  - token: "Pixel"
+    type: "mobile"
+    vendor: "Google"
+    match: contains
+  - token: "SM-S"
+    type: "mobile"
+    vendor: "Samsung"
+    match: contains
+  - token: "SM-A"
+    type: "mobile"
+    vendor: "Samsung"
+    match: contains
+  - token: "SM-N"
+    type: "mobile"
+    vendor: "Samsung"
+    match: contains
+  - token: "SM-G"
+    type: "mobile"
+    vendor: "Samsung"
+    match: contains
+  - token: "SM-T"
+    type: "tablet"
+    vendor: "Samsung"
+    match: contains
+  - token: "SM-X"
+    type: "tablet"
+    vendor: "Samsung"
+    match: contains
+  - token: "Redmi"
+    type: "mobile"
+    vendor: "Xiaomi"
+    match: contains
+  - token: "POCO"
+    type: "mobile"
+    vendor: "Xiaomi"
+    match: contains
+  - token: "Mi "
+    type: "mobile"
+    vendor: "Xiaomi"
+    match: contains
+  - token: "OnePlus"
+    type: "mobile"
+    vendor: "OnePlus"
+    match: contains
+  - token: "HUAWEI"
+    type: "mobile"
+    vendor: "Huawei"
+    match: contains
+  - token: "VOG-"
+    type: "mobile"
+    vendor: "Huawei"
+    model: "P30 Pro"
+    match: contains
+  - token: "OPPO"
+    type: "mobile"
+    vendor: "OPPO"
+    match: contains
+  - token: "vivo"
+    type: "mobile"
+    vendor: "Vivo"
+    match: contains
+  - token: "Lenovo"
+    type: "mobile"
+    vendor: "Lenovo"
+    match: contains
+  - token: "Motorola"
+    type: "mobile"
+    vendor: "Motorola"
+    match: contains
+  - token: "moto"
+    type: "mobile"
+    vendor: "Motorola"
+    match: contains
+  - token: "Nokia"
+    type: "mobile"
+    vendor: "Nokia"
+    match: contains
+  - token: "Surface"
+    type: "tablet"
+    vendor: "Microsoft"
+    model: "Surface"
+    match: contains
+  - token: "Realme"
+    type: "mobile"
+    vendor: "Realme"
+    match: contains
+  - token: "ZTE"
+    type: "mobile"
+    vendor: "ZTE"
+    match: contains
+  - token: "Meizu"
+    type: "mobile"
+    vendor: "Meizu"
+    match: contains
+  - token: "Asus"
+    type: "mobile"
+    vendor: "Asus"
+    match: contains
+  - token: "HTC"
+    type: "mobile"
+    vendor: "HTC"
+    match: contains
+  - token: "Sony"
+    type: "mobile"
+    vendor: "Sony"
+    match: contains
+  - token: "LG-"
+    type: "mobile"
+    vendor: "LG"
+    match: contains
+  - token: "Nexus"
+    type: "mobile"
+    vendor: "Google"
+    match: contains
+  - token: "GT-"
+    type: "mobile"
+    vendor: "Samsung"
+    match: contains
+  - token: "Infinix"
+    type: "mobile"
+    vendor: "Infinix"
+    match: contains
+  - token: "Tecno"
+    type: "mobile"
+    vendor: "Tecno"
+    match: contains
+
+  # Smart TVs
+  - token: "Hisense"
+    type: "smarttv"
+    vendor: "Hisense"
+    match: contains
+  - token: "Panasonic"
+    type: "smarttv"
+    vendor: "Panasonic"
+    match: contains
+  - token: "Philips"
+    type: "smarttv"
+    vendor: "Philips"
+    match: contains
+  - token: "Sharp"
+    type: "smarttv"
+    vendor: "Sharp"
+    match: contains
+  - token: "TCL"
+    type: "smarttv"
+    vendor: "TCL"
+    match: contains
+
+  # Wearables
+  - token: "Watch"
+    type: "wearable"
+    match: contains
+  - token: "Glass"
+    type: "wearable"
+    vendor: "Google"
+    match: contains
+  - token: "Quest"
+    type: "wearable"
+    vendor: "Meta"
+    model: "Quest"
+    match: contains
+  - token: "Oculus"
+    type: "wearable"
+    vendor: "Meta"
+    model: "Oculus"
+    match: contains
+  - token: "PICO"
+    type: "wearable"
+    vendor: "ByteDance"
+    match: contains
+
+  # E-readers
+  - token: "Nook"
+    type: "tablet"
+    vendor: "Barnes & Noble"
+    model: "Nook"
+    match: contains
+  - token: "Kobo"
+    type: "tablet"
+    vendor: "Rakuten"
+    model: "Kobo"
+    match: contains
+
+  # Set-top boxes
+  - token: "Sonos"
+    type: "smarttv"
+    vendor: "Sonos"
+    match: contains
+  - token: "SHIELD"
+    type: "smarttv"
+    vendor: "NVIDIA"
+    model: "Shield"
+    match: contains
+  - token: "Mi Box"
+    type: "smarttv"
+    vendor: "Xiaomi"
+    model: "Mi Box"
+    match: contains
+
+  # Car
+  - token: "Tesla"
+    type: "car"
+    vendor: "Tesla"
+    match: contains
+  - token: "CarPlay"
+    type: "car"
+    vendor: "Apple"
+    match: contains
+  - token: "Android Auto"
+    type: "car"
+    vendor: "Google"
+    match: contains

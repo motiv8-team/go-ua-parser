@@ -1,0 +1,237 @@
+rules:
+  - token: "FBAN"
+    name: "Facebook"
+    kind: "social"
+    match: exact
+  - token: "FBAV"
+    name: "Facebook"
+    kind: "social"
+    match: exact
+  - token: "Instagram"
+    name: "Instagram"
+    kind: "social"
+    match: exact
+  - token: "Twitter"
+    name: "Twitter"
+    kind: "social"
+    match: exact
+  - token: "Line"
+    name: "LINE"
+    kind: "messaging"
+    match: exact
+  - token: "MicroMessenger"
+    name: "WeChat"
+    kind: "messaging"
+    match: exact
+  - token: "Snapchat"
+    name: "Snapchat"
+    kind: "social"
+    match: exact
+  - token: "TikTok"
+    name: "TikTok"
+    kind: "social"
+    match: exact
+  - token: "Pinterest"
+    name: "Pinterest"
+    kind: "social"
+    match: exact
+  - token: "Electron"
+    name: "Electron"
+    kind: "hybrid-app"
+    match: exact
+  - token: "LinkedInApp"
+    name: "LinkedIn"
+    kind: "social"
+    match: exact
+  - token: "Reddit"
+    name: "Reddit"
+    kind: "social"
+    match: exact
+  - token: "Telegram"
+    name: "Telegram"
+    kind: "messaging"
+    match: exact
+  - token: "Discord"
+    name: "Discord"
+    kind: "social"
+    match: exact
+  - token: "Slack"
+    name: "Slack"
+    kind: "productivity"
+    match: exact
+  - token: "Teams"
+    name: "Microsoft Teams"
+    kind: "productivity"
+    match: exact
+  - token: "Zoom"
+    name: "Zoom"
+    kind: "productivity"
+    match: exact
+  - token: "Signal"
+    name: "Signal"
+    kind: "messaging"
+    match: exact
+  - token: "Viber"
+    name: "Viber"
+    kind: "messaging"
+    match: exact
+  - token: "KakaoTalk"
+    name: "KakaoTalk"
+    kind: "messaging"
+    match: exact
+  - token: "Spotify"
+    name: "Spotify"
+    kind: "media"
+    match: exact
+  - token: "GSA"
+    name: "Google Search App"
+    kind: "search"
+    match: exact
+  - token: "WhatsApp"
+    name: "WhatsApp"
+    kind: "messaging"
+    match: exact
+  - token: "Messenger"
+    name: "Facebook Messenger"
+    kind: "messaging"
+    match: exact
+  - token: "Weibo"
+    name: "Weibo"
+    kind: "social"
+    match: exact
+  - token: "QQ"
+    name: "QQ"
+    kind: "social"
+    match: exact
+  - token: "Alipay"
+    name: "Alipay"
+    kind: "finance"
+    match: exact
+  - token: "DingTalk"
+    name: "DingTalk"
+    kind: "productivity"
+    match: exact
+  - token: "BytedanceWebview"
+    name: "ByteDance"
+    kind: "social"
+    match: exact
+  - token: "Douyin"
+    name: "Douyin"
+    kind: "social"
+    match: exact
+  - token: "Kuaishou"
+    name: "Kuaishou"
+    kind: "social"
+    match: exact
+  - token: "Outlook"
+    name: "Outlook"
+    kind: "productivity"
+    match: exact
+  - token: "YahooMobile"
+    name: "Yahoo"
+    kind: "news"
+    match: exact
+  - token: "Baidu"
+    name: "Baidu App"
+    kind: "search"
+    match: exact
+  - token: "Shopee"
+    name: "Shopee"
+    kind: "shopping"
+    match: exact
+  - token: "Lazada"
+    name: "Lazada"
+    kind: "shopping"
+    match: exact
+  - token: "Grab"
+    name: "Grab"
+    kind: "transport"
+    match: exact
+  - token: "Gojek"
+    name: "Gojek"
+    kind: "transport"
+    match: exact
+  - token: "Flipkart"
+    name: "Flipkart"
+    kind: "shopping"
+    match: exact
+  - token: "Tokopedia"
+    name: "Tokopedia"
+    kind: "shopping"
+    match: exact
+  - token: "Naver"
+    name: "Naver App"
+    kind: "search"
+    match: exact
+  - token: "Daum"
+    name: "Daum"
+    kind: "search"
+    match: exact
+  - token: "Kakao"
+    name: "Kakao"
+    kind: "social"
+    match: exact
+  - token: "Zalo"
+    name: "Zalo"
+    kind: "messaging"
+    match: exact
+  - token: "Paytm"
+    name: "Paytm"
+    kind: "finance"
+    match: exact
+  - token: "PhonePe"
+    name: "PhonePe"
+    kind: "finance"
+    match: exact
+  - token: "GooglePay"
+    name: "Google Pay"
+    kind: "finance"
+    match: exact
+  - token: "Venmo"
+    name: "Venmo"
+    kind: "finance"
+    match: exact
+  - token: "CashApp"
+    name: "Cash App"
+    kind: "finance"
+    match: exact
+  - token: "Notion"
+    name: "Notion"
+    kind: "productivity"
+    match: exact
+  - token: "Todoist"
+    name: "Todoist"
+    kind: "productivity"
+    match: exact
+  - token: "Asana"
+    name: "Asana"
+    kind: "productivity"
+    match: exact
+  - token: "Trello"
+    name: "Trello"
+    kind: "productivity"
+    match: exact
+  - token: "Evernote"
+    name: "Evernote"
+    kind: "productivity"
+    match: exact
+  - token: "OneNote"
+    name: "OneNote"
+    kind: "productivity"
+    match: exact
+  - token: "Uber"
+    name: "Uber"
+    kind: "transport"
+    match: exact
+  - token: "Lyft"
+    name: "Lyft"
+    kind: "transport"
+    match: exact
+  - token: "Amazon"
+    name: "Amazon App"
+    kind: "shopping"
+    match: exact
+  - token: "eBay"
+    name: "eBay"
+    kind: "shopping"
+    match: exact
