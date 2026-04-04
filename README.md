@@ -6,6 +6,9 @@ A high-performance, production-grade HTTP User-Agent parser for Go with first-cl
 [![Go Report Card](https://goreportcard.com/badge/github.com/motiv8-team/go-ua-parser)](https://goreportcard.com/report/github.com/motiv8-team/go-ua-parser)
 [![CI](https://github.com/motiv8-team/go-ua-parser/actions/workflows/ci.yaml/badge.svg)](https://github.com/motiv8-team/go-ua-parser/actions/workflows/ci.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/motiv8-team/go-ua-parser.svg)](https://github.com/motiv8-team/go-ua-parser/issues)
+[![Share on X](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=High-performance%20User-Agent%20parser%20for%20Go%20with%20bot%20%26%20AI%20crawler%20detection&url=https://github.com/motiv8-team/go-ua-parser&hashtags=golang,useragent,botdetection)
+[![Share on Reddit](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?url=https://github.com/motiv8-team/go-ua-parser&title=go-ua-parser%20%E2%80%94%20High-performance%20User-Agent%20parser%20for%20Go)
 
 ## Features
 
