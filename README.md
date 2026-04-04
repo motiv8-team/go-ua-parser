@@ -17,7 +17,8 @@ A high-performance, production-grade HTTP User-Agent parser for Go with first-cl
 - **Browser channel detection**: nightly, beta, dev, canary from version patterns
 - **High performance**: ~500K+ parses/sec per core, zero-alloc cache hits at 32ns
 - **Concurrency-safe**: Immutable Parser, sharded LRU cache (16 shards, 82ns contended)
-- **Framework-ready**: Middleware examples for Gin, Echo, Chi, Fiber + `ParseRequest(*http.Request)`
+- **Framework-ready**: Middleware examples for Gin, Echo, Chi, Fiber, Prometheus + `ParseRequest(*http.Request)`
+- **Observability**: OpenTelemetry attribute helper (`contrib/otel`), Prometheus example, pre/post-parse hooks
 - **Extensible**: Custom rules, pre/post-parse hooks
 - **Pure Go**: Zero external runtime dependencies
 
@@ -73,8 +74,9 @@ r := parser.Parse(uax.Input{UAString: ua, ClientHints: ch})
 // From *http.Request (auto-extracts UA + all Client Hints headers)
 r := parser.ParseRequest(httpReq)
 
-// Zero-alloc variant (reuse caller-owned Result)
+// Zero-alloc variants (reuse caller-owned Result)
 parser.ParseInto(input, &result)
+parser.ParseRequestInto(httpReq, &result)
 
 // Bot-only fast path
 bot := parser.DetectBot(ua)
@@ -400,23 +402,20 @@ To add a new rule, edit the appropriate YAML file and regenerate:
 
 ## Contributing
 
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feat/my-feature`)
-3. Make changes, add tests
-4. Run `go test ./... -race -count=1`
-5. If you changed YAML rules: `cd cmd/uagen && go run .`
-6. Commit and push
-7. Open a Pull Request
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-### Adding Rules
+## OpenTelemetry
 
-- **Browser**: Edit `rules/browsers.yaml` — token, browser name, family, engine, match type
-- **Bot**: Edit `rules/bots.yaml` — token, name, class (search/social/ai/seo-tool/monitor/scraper/other), vendor, match type
-- **Device**: Edit `rules/devices.yaml` — token, type (mobile/tablet/console/smarttv/car/wearable), vendor, model, match type
-- **In-App**: Edit `rules/apps.yaml` — token, app name, kind, match type
-- **Engine**: Edit `rules/engines.yaml` — token, engine name, match type
+The `contrib/otel` module provides span attribute helpers:
 
-Then run the generator and commit both the YAML and generated Go files.
+```go
+import uaxotel "github.com/motiv8-team/go-ua-parser/contrib/otel"
+
+attrs := uaxotel.Attributes(result) // []attribute.KeyValue
+span.SetAttributes(attrs...)
+```
+
+Only non-empty fields are emitted, using the `http.user_agent.*` attribute namespace.
 
 ## License
 

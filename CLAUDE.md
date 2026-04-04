@@ -28,7 +28,7 @@ Or from the repo root: `go generate ./...` (uses the `//go:generate` directive i
 
 `cmd/uagen` is a separate Go module with its own `go.mod` (to keep `gopkg.in/yaml.v3` out of the main module). It reads all YAML files in `rules/` and generates `rules_gen_*.go` files. Generated files are committed to the repo — library consumers never run the generator.
 
-Current rule counts: ~40 browsers, ~80 bots, ~26 devices, ~22 apps, 5 engines.
+Current rule counts: ~124 browsers, ~313 bots, ~76 devices, ~59 apps, ~13 engines.
 
 ## Architecture
 
@@ -46,6 +46,7 @@ Key types:
 
 Additional entry points:
 - `ParseRequest(*http.Request)` — extracts UA + Client Hints headers automatically
+- `ParseRequestInto(*http.Request, *Result)` — zero-alloc variant of ParseRequest
 - `DetectBot(ua string)` — bot-only fast path
 
 ## Extensibility
@@ -64,13 +65,17 @@ Additional entry points:
 - Client Hints override UA-derived fields (browser name/version, platform, arch, model)
 - Generated rule files (`rules_gen_*.go`) come from YAML via `cmd/uagen` — edit YAML, not generated Go
 
-## Framework Examples
+## Integrations
 
-Separate Go modules in `examples/` (don't pull framework deps into main lib):
+### contrib/ (separate modules, keep deps out of main lib)
+- `contrib/otel/` — OpenTelemetry attribute helper (`uaxotel.Attributes(result)`)
+
+### examples/ (separate modules)
 - `examples/gin/` — Gin middleware
 - `examples/echo/` — Echo middleware
 - `examples/chi/` — Chi middleware
 - `examples/fiber/` — Fiber middleware
+- `examples/prometheus/` — Prometheus metrics via post-parse hooks
 - `examples/basic/` — stdlib one-liner
 - `examples/middleware/` — stdlib net/http middleware
 - `examples/logging/` — structured logging with slog
