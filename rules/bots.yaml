@@ -1652,3 +1652,10 @@ rules:
     class: scraper
     vendor: "Overcast"
     match: exact
+
+  # Sentry
+  - token: "SentryUptimeBot"
+    name: "SentryUptimeBot"
+    class: monitor
+    vendor: "Sentry"
+    match: exact
