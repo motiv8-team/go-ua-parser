@@ -316,4 +316,5 @@ var builtinBotRules = []rule{
 	{pattern: "Liferea", matchType: matchExact, botName: "Liferea", botClass: BotScraper, botVendor: "Liferea", botIsVerified: false},
 	{pattern: "PodcastAddict", matchType: matchExact, botName: "Podcast Addict", botClass: BotScraper, botVendor: "Podcast Addict", botIsVerified: false},
 	{pattern: "Overcast", matchType: matchExact, botName: "Overcast", botClass: BotScraper, botVendor: "Overcast", botIsVerified: false},
+	{pattern: "SentryUptimeBot", matchType: matchExact, botName: "SentryUptimeBot", botClass: BotMonitor, botVendor: "Sentry", botIsVerified: false},
 }
