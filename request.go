@@ -36,3 +36,27 @@ func (p *Parser) ParseRequest(r *http.Request) Result {
 
 	return p.Parse(input)
 }
+
+// ParseRequestInto is the zero-allocation variant of ParseRequest.
+// It writes the result into the caller-provided *Result, avoiding a copy.
+// Does nothing if r is nil.
+func (p *Parser) ParseRequestInto(r *http.Request, out *Result) {
+	if r == nil {
+		*out = Result{}
+		return
+	}
+
+	input := Input{
+		UAString: r.Header.Get("User-Agent"),
+	}
+
+	for _, h := range clientHintsHeaders {
+		if v := r.Header.Get(h); v != "" {
+			if setter, ok := headerMap[h]; ok {
+				setter(&input.ClientHints, v)
+			}
+		}
+	}
+
+	p.ParseInto(input, out)
+}

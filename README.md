@@ -8,12 +8,13 @@ A high-performance, production-grade HTTP User-Agent parser for Go with first-cl
 ## Features
 
 - **Rich parsing**: Browser, Engine, OS, CPU, Device, In-App Browser, and Bot detection
-- **170+ rules**: 39 browsers, 78 bots (search, social, AI, SEO, monitor), 26 devices, 22 in-app browsers
-- **First-class bot detection**: Googlebot, GPTBot, ClaudeBot, PerplexityBot, AhrefsBot, social bots, monitoring tools, and 70+ more
+- **580+ rules**: 124 browsers, 313 bots (search, social, AI, SEO, monitor), 76 devices, 59 in-app browsers, 13 engines
+- **First-class bot detection**: Googlebot, GPTBot, ClaudeBot, PerplexityBot, AhrefsBot, social bots, monitoring tools, and 300+ more
 - **Client Hints support**: Sec-CH-UA headers for accurate modern browser detection
 - **High performance**: ~500K+ parses/sec per core, zero-alloc cache hits
 - **Concurrency-safe**: Parser is immutable after construction, caches are sharded
-- **Framework-ready**: Examples for Gin, Echo, Chi, Fiber + `ParseRequest(*http.Request)`
+- **Framework-ready**: Examples for Gin, Echo, Chi, Fiber, Prometheus + `ParseRequest(*http.Request)`
+- **Observability**: OpenTelemetry attribute helper (`contrib/otel`), Prometheus example, pre/post-parse hooks
 - **Extensible**: Custom rules, pre/post-parse hooks, browser channel detection
 - **Pure Go**: Zero external runtime dependencies
 
@@ -63,6 +64,11 @@ parser, _ := uax.NewParser()
 r := parser.ParseString(ua)
 r := parser.Parse(uax.Input{UAString: ua, ClientHints: ch})
 r := parser.ParseRequest(httpReq) // extracts UA + Client Hints from *http.Request
+
+// Zero-allocation variants (reuse Result)
+var out uax.Result
+parser.ParseInto(uax.Input{UAString: ua}, &out)
+parser.ParseRequestInto(httpReq, &out)
 ```
 
 ### Bot detection
@@ -127,7 +133,7 @@ func UAMiddleware(parser *uax.Parser) func(http.Handler) http.Handler {
 }
 ```
 
-See `examples/` for Gin, Echo, Chi, and Fiber middleware.
+See `examples/` for Gin, Echo, Chi, Fiber middleware, and Prometheus metrics.
 
 ## Result Structure
 
@@ -184,7 +190,7 @@ go test -bench Benchmark -benchmem
 Rules are maintained in `rules/*.yaml` and compiled to Go source files:
 
 ```bash
-go run cmd/uagen/*.go
+cd cmd/uagen && go run .
 ```
 
 Generated `rules_gen_*.go` files are committed to the repo. Library consumers never need to run the generator.
@@ -218,6 +224,23 @@ r := parser.Parse(uax.Input{
 // Or use ParseRequest which does this automatically:
 r := parser.ParseRequest(req)
 ```
+
+## OpenTelemetry
+
+The `contrib/otel` module provides span attribute helpers:
+
+```go
+import uaxotel "github.com/motiv8-team/go-ua-parser/contrib/otel"
+
+attrs := uaxotel.Attributes(result) // []attribute.KeyValue
+span.SetAttributes(attrs...)
+```
+
+Only non-empty fields are emitted, using the `http.user_agent.*` attribute namespace.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
