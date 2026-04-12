@@ -5,3 +5,4 @@ examples/gin/gin
 examples/echo/echo
 examples/chi/chi
 examples/fiber/fiber
+examples/prometheus/prometheus
