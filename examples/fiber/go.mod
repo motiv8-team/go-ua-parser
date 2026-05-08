@@ -3,7 +3,7 @@ module github.com/motiv8-team/go-ua-parser/examples/fiber
 go 1.26.1
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.12
+	github.com/gofiber/fiber/v2 v2.52.13
 	github.com/motiv8-team/go-ua-parser v0.2.1
 )
 
