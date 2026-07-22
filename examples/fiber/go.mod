@@ -3,7 +3,7 @@ module github.com/motiv8-team/go-ua-parser/examples/fiber
 go 1.26.1
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.13
+	github.com/gofiber/fiber/v2 v2.52.14
 	github.com/motiv8-team/go-ua-parser v0.2.1
 )
 
@@ -17,7 +17,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.23 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.70.0 // indirect
-	golang.org/x/sys v0.43.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
 )
 
 replace github.com/motiv8-team/go-ua-parser => ../..
