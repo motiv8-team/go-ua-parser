@@ -68,7 +68,9 @@ func NewParser(opts ...Option) (*Parser, error) {
 			return nil, fmt.Errorf("device rule %q: %w", r.Token, err)
 		}
 	}
-	loadBuiltinRules(p)
+	if err := loadBuiltinRules(p); err != nil {
+		return nil, err
+	}
 	return p, nil
 }
 
@@ -138,11 +140,15 @@ func (p *Parser) DetectBot(ua string) Bot {
 // Builtin rules (Task 11)
 // ---------------------------------------------------------------------------
 
-func loadBuiltinRules(p *Parser) {
+func loadBuiltinRules(p *Parser) error {
 	// Browsers: custom first, then builtins
 	var browserRules []rule
 	for _, cr := range p.cfg.customBrowserRules {
-		browserRules = append(browserRules, browserRuleToInternal(cr))
+		r, err := browserRuleToInternal(cr)
+		if err != nil {
+			return fmt.Errorf("browser rule %q: %w", cr.Token, err)
+		}
+		browserRules = append(browserRules, r)
 	}
 	browserRules = append(browserRules, builtinBrowserRules...)
 	p.browsers.rules = browserRules
@@ -156,7 +162,11 @@ func loadBuiltinRules(p *Parser) {
 	// Devices: custom first, then builtins
 	var deviceRules []rule
 	for _, cr := range p.cfg.customDeviceRules {
-		deviceRules = append(deviceRules, deviceRuleToInternal(cr))
+		r, err := deviceRuleToInternal(cr)
+		if err != nil {
+			return fmt.Errorf("device rule %q: %w", cr.Token, err)
+		}
+		deviceRules = append(deviceRules, r)
 	}
 	deviceRules = append(deviceRules, builtinDeviceRules...)
 	p.devices.rules = deviceRules
@@ -167,7 +177,11 @@ func loadBuiltinRules(p *Parser) {
 	// Bots: custom first, then builtins
 	var botRules []rule
 	for _, cr := range p.cfg.customBotRules {
-		botRules = append(botRules, botRuleToInternal(cr))
+		r, err := botRuleToInternal(cr)
+		if err != nil {
+			return fmt.Errorf("bot rule %q: %w", cr.Token, err)
+		}
+		botRules = append(botRules, r)
 	}
 	botRules = append(botRules, builtinBotRules...)
 	p.bots.rules = botRules
@@ -175,4 +189,5 @@ func loadBuiltinRules(p *Parser) {
 
 	p.apps.rules = builtinAppRules
 	p.apps.buildTrie()
+	return nil
 }

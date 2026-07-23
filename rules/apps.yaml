@@ -235,3 +235,1240 @@ rules:
     name: "eBay"
     kind: "shopping"
     match: exact
+
+  - token: "CSDNApp"
+    name: "CSDN"
+    kind: "mobile-app"
+    match: exact
+  - token: "appletv.client"
+    name: "Apple TV"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.google.android.apps.searchlite"
+    name: "Google Go"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.google.android.apps.photos"
+    name: "Google Photos"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.google.android.apps.magazines"
+    name: "Google Play Newsstand"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.google.GooglePlus"
+    name: "Google Plus"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.google.Maps"
+    name: "Google Maps"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.google.android.googlequicksearchbox"
+    name: "Google"
+    kind: "mobile-app"
+    match: exact
+  - token: "wxwork"
+    name: "WeCom"
+    kind: "mobile-app"
+    match: exact
+  - token: "WeChat"
+    name: "WeChat"
+    kind: "mobile-app"
+    match: exact
+  - token: "WeChatShareExtensionNew"
+    name: "WeChat Share Extension"
+    kind: "mobile-app"
+    match: exact
+  - token: "Flipp-iOS"
+    name: "Flipp"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podcat"
+    name: "Podcat"
+    kind: "mobile-app"
+    match: exact
+  - token: "BeyondPod"
+    name: "BeyondPod"
+    kind: "mobile-app"
+    match: exact
+  - token: "PodcastRepublic"
+    name: "Podcast Republic"
+    kind: "mobile-app"
+    match: exact
+  - token: "Castro"
+    name: "Castro"
+    kind: "mobile-app"
+    match: exact
+  - token: "DoggCatcher"
+    name: "DoggCatcher"
+    kind: "mobile-app"
+    match: exact
+  - token: "iCatcher"
+    name: "iCatcher"
+    kind: "mobile-app"
+    match: exact
+  - token: "YelpApp"
+    name: "Yelp Mobile"
+    kind: "mobile-app"
+    match: exact
+  - token: "RSSRadio"
+    name: "RSSRadio"
+    kind: "mobile-app"
+    match: exact
+  - token: "NewsArticle"
+    name: "NewsArticle App"
+    kind: "mobile-app"
+    match: exact
+  - token: "tieba"
+    name: "tieba"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.douban.group"
+    name: "douban App"
+    kind: "mobile-app"
+    match: exact
+  - token: "Flipboard"
+    name: "Flipboard App"
+    kind: "mobile-app"
+    match: exact
+  - token: "baiduboxapp"
+    name: "Baidu Box App"
+    kind: "mobile-app"
+    match: exact
+  - token: "baiduinput"
+    name: "Baidu Input"
+    kind: "mobile-app"
+    match: exact
+  - token: "PetalSearch"
+    name: "Petal Search"
+    kind: "mobile-app"
+    match: exact
+  - token: "TopBuzz"
+    name: "TopBuzz"
+    kind: "mobile-app"
+    match: exact
+  - token: "CronetSnapDevSheldon"
+    name: "Snapchat"
+    kind: "mobile-app"
+    match: exact
+  - token: "AhaRadio2"
+    name: "Aha Radio 2"
+    kind: "mobile-app"
+    match: exact
+  - token: "Unibox"
+    name: "Unibox"
+    kind: "mobile-app"
+    match: exact
+  - token: "UnityPlayer"
+    name: "UnityPlayer"
+    kind: "mobile-app"
+    match: exact
+  - token: "UCURSOS"
+    name: "U-Cursos"
+    kind: "mobile-app"
+    match: exact
+  - token: "RobloxApp"
+    name: "Roblox"
+    kind: "mobile-app"
+    match: exact
+  - token: "Siri"
+    name: "Siri"
+    kind: "mobile-app"
+    match: exact
+  - token: "Instapaper"
+    name: "Instapaper"
+    kind: "mobile-app"
+    match: exact
+  - token: "Keeper"
+    name: "Keeper Password Manager"
+    kind: "mobile-app"
+    match: exact
+  - token: "Procast"
+    name: "Procast"
+    kind: "mobile-app"
+    match: exact
+  - token: "DeviantArt"
+    name: "DeviantArt"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bitsboard"
+    name: "Bitsboard"
+    kind: "mobile-app"
+    match: exact
+  - token: "Betbull"
+    name: "BetBull"
+    kind: "mobile-app"
+    match: exact
+  - token: "1PasswordThumbs"
+    name: "1Password"
+    kind: "mobile-app"
+    match: exact
+  - token: "Microsoft.Data.Mashup"
+    name: "Microsoft Power Query"
+    kind: "mobile-app"
+    match: exact
+  - token: "OneDriveiOSApp"
+    name: "Microsoft OneDrive"
+    kind: "mobile-app"
+    match: exact
+  - token: "Skype"
+    name: "Skype"
+    kind: "mobile-app"
+    match: exact
+  - token: "iPhoneLync"
+    name: "Skype for Business"
+    kind: "mobile-app"
+    match: exact
+  - token: "WebexTeams"
+    name: "Webex Teams"
+    kind: "mobile-app"
+    match: exact
+  - token: "GroupMe"
+    name: "GroupMe"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.tinyspeck.chatlyio"
+    name: "Slack"
+    kind: "mobile-app"
+    match: exact
+  - token: "ShopeeVN"
+    name: "Shopee"
+    kind: "mobile-app"
+    match: exact
+  - token: "SPORT1"
+    name: "SPORT1"
+    kind: "mobile-app"
+    match: exact
+  - token: "Clovia"
+    name: "Clovia"
+    kind: "mobile-app"
+    match: exact
+  - token: "ShowMe"
+    name: "ShowMe"
+    kind: "mobile-app"
+    match: exact
+  - token: "Wattpad"
+    name: "Wattpad"
+    kind: "mobile-app"
+    match: exact
+  - token: "whisper"
+    name: "Whisper"
+    kind: "mobile-app"
+    match: exact
+  - token: "Opal"
+    name: "Opal Travel"
+    kind: "mobile-app"
+    match: exact
+  - token: "Yandex"
+    name: "Yandex"
+    kind: "mobile-app"
+    match: exact
+  - token: "ZenKit"
+    name: "Zen"
+    kind: "mobile-app"
+    match: exact
+  - token: "Thunder"
+    name: "Thunder"
+    kind: "mobile-app"
+    match: exact
+  - token: "CGNBrowser"
+    name: "CGN"
+    kind: "mobile-app"
+    match: exact
+  - token: "devcasts"
+    name: "DevCasts"
+    kind: "mobile-app"
+    match: exact
+  - token: "Swoot"
+    name: "Swoot"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podimo"
+    name: "Podimo"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.evolve.podcast"
+    name: "Evolve Podcast"
+    kind: "mobile-app"
+    match: exact
+  - token: "WirtschaftsWoche-iOS-"
+    name: "Wirtschafts Woche"
+    kind: "mobile-app"
+    match: exact
+  - token: "TVirl"
+    name: "TVirl"
+    kind: "mobile-app"
+    match: exact
+  - token: "2tch"
+    name: "2tch"
+    kind: "mobile-app"
+    match: exact
+  - token: "Ciisaa"
+    name: "Ciisaa"
+    kind: "mobile-app"
+    match: exact
+  - token: "twinkle"
+    name: "twinkle"
+    kind: "mobile-app"
+    match: exact
+  - token: "JaneStyle_iOS"
+    name: "JaneStyle"
+    kind: "mobile-app"
+    match: exact
+  - token: "Binance"
+    name: "Binance"
+    kind: "mobile-app"
+    match: exact
+  - token: "ru.mail.my"
+    name: "My World"
+    kind: "mobile-app"
+    match: exact
+  - token: "yakyak"
+    name: "YakYak"
+    kind: "mobile-app"
+    match: exact
+  - token: "SohuNews"
+    name: "SohuNews"
+    kind: "mobile-app"
+    match: exact
+  - token: "StreamlabsOBS"
+    name: "Streamlabs OBS"
+    kind: "mobile-app"
+    match: exact
+  - token: "Blitz"
+    name: "Blitz"
+    kind: "mobile-app"
+    match: exact
+  - token: "OfferUp"
+    name: "OfferUp"
+    kind: "mobile-app"
+    match: exact
+  - token: "Vuhuv"
+    name: "Vuhuv"
+    kind: "mobile-app"
+    match: exact
+  - token: "QuickCast"
+    name: "QuickCast"
+    kind: "mobile-app"
+    match: exact
+  - token: "ntvmobil"
+    name: "NTV Mobil"
+    kind: "mobile-app"
+    match: exact
+  - token: "logioptionsplus"
+    name: "Logi Options+"
+    kind: "mobile-app"
+    match: exact
+  - token: "EmbyTheater"
+    name: "Emby Theater"
+    kind: "mobile-app"
+    match: exact
+  - token: "y8-browser"
+    name: "Y8 Browser"
+    kind: "mobile-app"
+    match: exact
+  - token: "NuMuKiBrowser"
+    name: "NuMuKi Browser"
+    kind: "mobile-app"
+    match: exact
+  - token: "LandisGyrAIMbrowser"
+    name: "Landis+Gyr AIM Browser"
+    kind: "mobile-app"
+    match: exact
+  - token: "Wireshark"
+    name: "Wireshark"
+    kind: "mobile-app"
+    match: exact
+  - token: "Magician"
+    name: "Samsung Magician"
+    kind: "mobile-app"
+    match: exact
+  - token: "GooglePodcasts"
+    name: "Google Podcasts"
+    kind: "mobile-app"
+    match: exact
+  - token: "Microsoft-CryptoAPI"
+    name: "Windows CryptoAPI"
+    kind: "mobile-app"
+    match: exact
+  - token: "Microsoft-Delivery-Optimization"
+    name: "Windows Delivery Optimization"
+    kind: "mobile-app"
+    match: exact
+  - token: "Windows-Update-Agent"
+    name: "Windows Update Agent"
+    kind: "mobile-app"
+    match: exact
+  - token: "MSDW"
+    name: "Dr. Watson"
+    kind: "mobile-app"
+    match: exact
+  - token: "qBittorrent"
+    name: "qBittorrent"
+    kind: "mobile-app"
+    match: exact
+  - token: "CPUID"
+    name: "CPU-Z"
+    kind: "mobile-app"
+    match: exact
+  - token: "AIDA64"
+    name: "AIDA64"
+    kind: "mobile-app"
+    match: exact
+  - token: "HikConnect"
+    name: "Hik-Connect"
+    kind: "mobile-app"
+    match: exact
+  - token: "CreativeCloud"
+    name: "Adobe Creative Cloud"
+    kind: "mobile-app"
+    match: exact
+  - token: "rekordbox"
+    name: "rekordbox"
+    kind: "mobile-app"
+    match: exact
+  - token: "Microsoft-WNS"
+    name: "Windows Push Notification Services"
+    kind: "mobile-app"
+    match: exact
+  - token: "EpicGamesLauncher"
+    name: "Epic Games Launcher"
+    kind: "mobile-app"
+    match: exact
+  - token: "Microsoft-WebDAV-MiniRedir"
+    name: "WebDAV"
+    kind: "mobile-app"
+    match: exact
+  - token: "Battle.net"
+    name: "Battle.net"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bookshelf-Android"
+    name: "Bookshelf"
+    kind: "mobile-app"
+    match: exact
+  - token: "RaveSocial"
+    name: "Rave Social"
+    kind: "mobile-app"
+    match: exact
+  - token: "wordcookies"
+    name: "Word Cookies!"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.meevii.bibleKJV"
+    name: "Bible KJV"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.paint.bynumber"
+    name: "Paint by Number"
+    kind: "mobile-app"
+    match: exact
+  - token: "zepeto_global"
+    name: "ZEPETO"
+    kind: "mobile-app"
+    match: exact
+  - token: "GoNativeIOS"
+    name: "GoNative"
+    kind: "mobile-app"
+    match: exact
+  - token: "Pandora"
+    name: "Pandora"
+    kind: "mobile-app"
+    match: exact
+  - token: "Blackboard"
+    name: "Blackboard"
+    kind: "mobile-app"
+    match: exact
+  - token: "TencentDocs"
+    name: "Tencent Docs"
+    kind: "mobile-app"
+    match: exact
+  - token: "QQMusic"
+    name: "QQMusic"
+    kind: "mobile-app"
+    match: exact
+  - token: "etoro-cordova-app"
+    name: "eToro"
+    kind: "mobile-app"
+    match: exact
+  - token: "Netflix"
+    name: "Netflix"
+    kind: "mobile-app"
+    match: exact
+  - token: "GoogleTagManager"
+    name: "Google Tag Manager"
+    kind: "mobile-app"
+    match: exact
+  - token: "WindowsPowerShell"
+    name: "PowerShell"
+    kind: "mobile-app"
+    match: exact
+  - token: "BBCNewsUKWatchApp"
+    name: "BBC News"
+    kind: "mobile-app"
+    match: exact
+  - token: "TradingView"
+    name: "TradingView"
+    kind: "mobile-app"
+    match: exact
+  - token: "Focuskeeper"
+    name: "Focus Keeper"
+    kind: "mobile-app"
+    match: exact
+  - token: "WindowsStoreSDK"
+    name: "Microsoft Store"
+    kind: "mobile-app"
+    match: exact
+  - token: "NewsSapphire"
+    name: "MSN"
+    kind: "mobile-app"
+    match: exact
+  - token: "CopilotSapphire"
+    name: "Microsoft Copilot"
+    kind: "mobile-app"
+    match: exact
+  - token: "RDDocuments"
+    name: "RDDocuments"
+    kind: "mobile-app"
+    match: exact
+  - token: "Twitterrific"
+    name: "Twitterrific"
+    kind: "mobile-app"
+    match: exact
+  - token: "UconnectLive"
+    name: "Uconnect LIVE"
+    kind: "mobile-app"
+    match: exact
+  - token: "NET.mede"
+    name: "NET.mede"
+    kind: "mobile-app"
+    match: exact
+  - token: "MBolsa"
+    name: "MBolsa"
+    kind: "mobile-app"
+    match: exact
+  - token: "OrangeRadio"
+    name: "Orange Radio"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.apple.Safari.SearchHelper"
+    name: "Safari Search Helper"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.mercbank.s1mobileipad"
+    name: "Mercantile Bank of Michigan"
+    kind: "mobile-app"
+    match: exact
+  - token: "ExpediaBookings"
+    name: "Expedia"
+    kind: "mobile-app"
+    match: exact
+  - token: "Reflect"
+    name: "Macrium Reflect"
+    kind: "mobile-app"
+    match: exact
+  - token: "Ballz"
+    name: "Ballz"
+    kind: "mobile-app"
+    match: exact
+  - token: "rnps-action-cards"
+    name: "RNPS Action Cards"
+    kind: "mobile-app"
+    match: exact
+  - token: "PlexMediaServer"
+    name: "Plex Media Server"
+    kind: "mobile-app"
+    match: exact
+  - token: "FreeSafeIP"
+    name: "SafeIP"
+    kind: "mobile-app"
+    match: exact
+  - token: "Amazon.com"
+    name: "Amazon Shopping"
+    kind: "mobile-app"
+    match: exact
+  - token: "de.mobile.android.app"
+    name: "mobile.de"
+    kind: "mobile-app"
+    match: exact
+  - token: "jitsi-meet"
+    name: "Jitsi Meet"
+    kind: "mobile-app"
+    match: exact
+  - token: "1Password"
+    name: "1Password"
+    kind: "mobile-app"
+    match: exact
+  - token: "iOSStartsidenApp"
+    name: "Startsiden"
+    kind: "mobile-app"
+    match: exact
+  - token: "HisThumbnail"
+    name: "HisThumbnail"
+    kind: "mobile-app"
+    match: exact
+  - token: "OneSearch"
+    name: "Yahoo OneSearch"
+    kind: "mobile-app"
+    match: exact
+  - token: "DaumApps"
+    name: "Daum"
+    kind: "mobile-app"
+    match: exact
+  - token: "TuyaSmart"
+    name: "Tuya Smart Life"
+    kind: "mobile-app"
+    match: exact
+  - token: "Klarna"
+    name: "Klarna"
+    kind: "mobile-app"
+    match: exact
+  - token: "RadioAppFree"
+    name: "RadioApp"
+    kind: "mobile-app"
+    match: exact
+  - token: "HTTPrequestmaker"
+    name: "HTTP request maker"
+    kind: "mobile-app"
+    match: exact
+  - token: "MyWatchParty"
+    name: "My Watch Party"
+    kind: "mobile-app"
+    match: exact
+  - token: "ActionExtension"
+    name: "ActionExtension"
+    kind: "mobile-app"
+    match: exact
+  - token: "Agora"
+    name: "Agora"
+    kind: "mobile-app"
+    match: exact
+  - token: "Airsonic"
+    name: "Airsonic"
+    kind: "mobile-app"
+    match: exact
+  - token: "AllHitMusicRadio"
+    name: "AllHitMusicRadio"
+    kind: "mobile-app"
+    match: exact
+  - token: "Anchor"
+    name: "Anchor"
+    kind: "mobile-app"
+    match: exact
+  - token: "AnchorFM"
+    name: "AnchorFM"
+    kind: "mobile-app"
+    match: exact
+  - token: "Anybox"
+    name: "Anybox"
+    kind: "mobile-app"
+    match: exact
+  - token: "APKXDL"
+    name: "APK Downloader"
+    kind: "mobile-app"
+    match: exact
+  - token: "Apollo"
+    name: "Apollo"
+    kind: "mobile-app"
+    match: exact
+  - token: "Recordatorios"
+    name: "Apple Reminders"
+    kind: "mobile-app"
+    match: exact
+  - token: "Arvocast"
+    name: "Arvocast"
+    kind: "mobile-app"
+    match: exact
+  - token: "Radio.com"
+    name: "Audacy"
+    kind: "mobile-app"
+    match: exact
+  - token: "Audio"
+    name: "Audio"
+    kind: "mobile-app"
+    match: exact
+  - token: "Android_AudioNow"
+    name: "Audio Now"
+    kind: "mobile-app"
+    match: exact
+  - token: "Awasu"
+    name: "Awasu"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bear"
+    name: "Bear"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bible"
+    name: "Bible"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bolt"
+    name: "Bolt"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bookmobile"
+    name: "Bookmobile"
+    kind: "mobile-app"
+    match: exact
+  - token: "Boom"
+    name: "Boom"
+    kind: "mobile-app"
+    match: exact
+  - token: "Boomplay"
+    name: "Boomplay"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bose"
+    name: "Bose SoundTouch"
+    kind: "mobile-app"
+    match: exact
+  - token: "bPod"
+    name: "bPod"
+    kind: "mobile-app"
+    match: exact
+  - token: "breez"
+    name: "Breez"
+    kind: "mobile-app"
+    match: exact
+  - token: "Broadcast"
+    name: "Broadcast"
+    kind: "mobile-app"
+    match: exact
+  - token: "BrowserPlus"
+    name: "BrowserPlus"
+    kind: "mobile-app"
+    match: exact
+  - token: "Capital"
+    name: "Capital"
+    kind: "mobile-app"
+    match: exact
+  - token: "Castamatic"
+    name: "Castamatic"
+    kind: "mobile-app"
+    match: exact
+  - token: "Castaway"
+    name: "Castaway"
+    kind: "mobile-app"
+    match: exact
+  - token: "CastBox"
+    name: "CastBox"
+    kind: "mobile-app"
+    match: exact
+  - token: "Client"
+    name: "Client"
+    kind: "mobile-app"
+    match: exact
+  - token: "Cosmicast"
+    name: "Cosmicast"
+    kind: "mobile-app"
+    match: exact
+  - token: "CPod"
+    name: "CPod"
+    kind: "mobile-app"
+    match: exact
+  - token: "damus"
+    name: "Damus"
+    kind: "mobile-app"
+    match: exact
+  - token: "DManager"
+    name: "DManager"
+    kind: "mobile-app"
+    match: exact
+  - token: "Doughnut"
+    name: "Doughnut"
+    kind: "mobile-app"
+    match: exact
+  - token: "Downie"
+    name: "Downie"
+    kind: "mobile-app"
+    match: exact
+  - token: "Downloader"
+    name: "Downloader"
+    kind: "mobile-app"
+    match: exact
+  - token: "Expo"
+    name: "Expo"
+    kind: "mobile-app"
+    match: exact
+  - token: "Fathom"
+    name: "Fathom"
+    kind: "mobile-app"
+    match: exact
+  - token: "FeedStation"
+    name: "FeedStation"
+    kind: "mobile-app"
+    match: exact
+  - token: "Files"
+    name: "Files"
+    kind: "mobile-app"
+    match: exact
+  - token: "Gold"
+    name: "Gold"
+    kind: "mobile-app"
+    match: exact
+  - token: "GoldenPod"
+    name: "GoldenPod"
+    kind: "mobile-app"
+    match: exact
+  - token: "GoLoud"
+    name: "GoLoud"
+    kind: "mobile-app"
+    match: exact
+  - token: "Guacamole"
+    name: "Guacamole"
+    kind: "mobile-app"
+    match: exact
+  - token: "Hammel"
+    name: "Hammel"
+    kind: "mobile-app"
+    match: exact
+  - token: "HardCast"
+    name: "HardCast"
+    kind: "mobile-app"
+    match: exact
+  - token: "Hark"
+    name: "Hark Audio"
+    kind: "mobile-app"
+    match: exact
+  - token: "Heart"
+    name: "Heart"
+    kind: "mobile-app"
+    match: exact
+  - token: "hermespod.com"
+    name: "HermesPod"
+    kind: "mobile-app"
+    match: exact
+  - token: "HiCast"
+    name: "HiCast"
+    kind: "mobile-app"
+    match: exact
+  - token: "HyperCatcher"
+    name: "HyperCatcher"
+    kind: "mobile-app"
+    match: exact
+  - token: "IOSAudiobooks"
+    name: "Audiobooks"
+    kind: "mobile-app"
+    match: exact
+  - token: "KidspodMobileClient"
+    name: "KidsPod"
+    kind: "mobile-app"
+    match: exact
+  - token: "KKBOX"
+    name: "KKBOX"
+    kind: "mobile-app"
+    match: exact
+  - token: "Liulo"
+    name: "Liulo"
+    kind: "mobile-app"
+    match: exact
+  - token: "Megaphone.fm"
+    name: "Megaphone"
+    kind: "mobile-app"
+    match: exact
+  - token: "Menucast"
+    name: "Menucast"
+    kind: "mobile-app"
+    match: exact
+  - token: "MobileSMS"
+    name: "MobileSMS"
+    kind: "mobile-app"
+    match: exact
+  - token: "Newsly"
+    name: "Newsly"
+    kind: "mobile-app"
+    match: exact
+  - token: "PeaCast"
+    name: "PeaCast"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podbay"
+    name: "Podbay"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podclipper"
+    name: "Podclipper"
+    kind: "mobile-app"
+    match: exact
+  - token: "PodCruncher"
+    name: "PodCruncher"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podeo"
+    name: "Podeo"
+    kind: "mobile-app"
+    match: exact
+  - token: "PodKast"
+    name: "PodKast"
+    kind: "mobile-app"
+    match: exact
+  - token: "PodLP"
+    name: "PodLP"
+    kind: "mobile-app"
+    match: exact
+  - token: "PodNL"
+    name: "PodNL"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podplay"
+    name: "Podplay"
+    kind: "mobile-app"
+    match: exact
+  - token: "Pods"
+    name: "Pods"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podurama"
+    name: "Podurama"
+    kind: "mobile-app"
+    match: exact
+  - token: "PodTrapper"
+    name: "PodTrapper"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podvine"
+    name: "Podvine"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podverse"
+    name: "Podverse"
+    kind: "mobile-app"
+    match: exact
+  - token: "Repod"
+    name: "Repod"
+    kind: "mobile-app"
+    match: exact
+  - token: "rhythmbox"
+    name: "Rhythmbox"
+    kind: "mobile-app"
+    match: exact
+  - token: "sp-agent"
+    name: "Samsung Podcasts"
+    kind: "mobile-app"
+    match: exact
+  - token: "Shadow"
+    name: "Shadow"
+    kind: "mobile-app"
+    match: exact
+  - token: "Shadowrocket"
+    name: "Shadowrocket"
+    kind: "mobile-app"
+    match: exact
+  - token: "Snipd"
+    name: "Snipd"
+    kind: "mobile-app"
+    match: exact
+  - token: "Sodes"
+    name: "'sodes"
+    kind: "mobile-app"
+    match: exact
+  - token: "SoundOn"
+    name: "SoundOn"
+    kind: "mobile-app"
+    match: exact
+  - token: "SoundWaves-"
+    name: "SoundWaves"
+    kind: "mobile-app"
+    match: exact
+  - token: "Spreaker"
+    name: "Spreaker"
+    kind: "mobile-app"
+    match: exact
+  - token: "StoryShots"
+    name: "StoryShots"
+    kind: "mobile-app"
+    match: exact
+  - token: "Swinsian"
+    name: "Swinsian"
+    kind: "mobile-app"
+    match: exact
+  - token: "ThePodcastApp"
+    name: "Podcast App"
+    kind: "mobile-app"
+    match: exact
+  - token: "TREBLE"
+    name: "Treble.fm"
+    kind: "mobile-app"
+    match: exact
+  - token: "Turtlecast"
+    name: "Turtlecast"
+    kind: "mobile-app"
+    match: exact
+  - token: "Vodacast"
+    name: "Vodacast"
+    kind: "mobile-app"
+    match: exact
+  - token: "WynkMusic"
+    name: "Wynk Music"
+    kind: "mobile-app"
+    match: exact
+  - token: "Xiaoyuzhou"
+    name: "Xiao Yu Zhou"
+    kind: "mobile-app"
+    match: exact
+  - token: "yapa"
+    name: "Yapa"
+    kind: "mobile-app"
+    match: exact
+  - token: "Zune"
+    name: "Zune"
+    kind: "mobile-app"
+    match: exact
+  - token: "UCast"
+    name: "UCast"
+    kind: "mobile-app"
+    match: exact
+  - token: "Uforia"
+    name: "Uforia"
+    kind: "mobile-app"
+    match: exact
+  - token: "LAT-Native-App"
+    name: "L.A. Times"
+    kind: "mobile-app"
+    match: exact
+  - token: "Podu_player"
+    name: "podU"
+    kind: "mobile-app"
+    match: exact
+  - token: "TiviMate"
+    name: "TiviMate"
+    kind: "mobile-app"
+    match: exact
+  - token: "IPTV"
+    name: "IPTV"
+    kind: "mobile-app"
+    match: exact
+  - token: "CoolerFM"
+    name: "Cooler"
+    kind: "mobile-app"
+    match: exact
+  - token: "Metacast"
+    name: "Metacast"
+    kind: "mobile-app"
+    match: exact
+  - token: "mowPod"
+    name: "mowPod"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.meecel.feedreader.RssDemonAd"
+    name: "RSSDemon"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bitwarden_Mobile"
+    name: "Bitwarden"
+    kind: "mobile-app"
+    match: exact
+  - token: "MXPlayer"
+    name: "MX Player"
+    kind: "mobile-app"
+    match: exact
+  - token: "HistoryHound"
+    name: "HistoryHound"
+    kind: "mobile-app"
+    match: exact
+  - token: "Quicksilver"
+    name: "Quicksilver"
+    kind: "mobile-app"
+    match: exact
+  - token: "CamScanner"
+    name: "CamScanner"
+    kind: "mobile-app"
+    match: exact
+  - token: "XSplitBroadcaster"
+    name: "XSplit Broadcaster"
+    kind: "mobile-app"
+    match: exact
+  - token: "Freespoke"
+    name: "Freespoke"
+    kind: "mobile-app"
+    match: exact
+  - token: "Whatplay"
+    name: "Whatplay"
+    kind: "mobile-app"
+    match: exact
+  - token: "Lark"
+    name: "Lark"
+    kind: "mobile-app"
+    match: exact
+  - token: "SearchCraft"
+    name: "SearchCraft"
+    kind: "mobile-app"
+    match: exact
+  - token: "DeFiWallet"
+    name: "Crypto.com DeFi Wallet"
+    kind: "mobile-app"
+    match: exact
+  - token: "Clipbox+"
+    name: "Clipbox+"
+    kind: "mobile-app"
+    match: exact
+  - token: "waipu"
+    name: "waipu.tv"
+    kind: "mobile-app"
+    match: exact
+  - token: "Redditor"
+    name: "Redditor"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.topbuzz.videoen"
+    name: "BuzzVideo"
+    kind: "mobile-app"
+    match: exact
+  - token: "GlobalProtect"
+    name: "GlobalProtect"
+    kind: "mobile-app"
+    match: exact
+  - token: "Bridge"
+    name: "Bridge"
+    kind: "mobile-app"
+    match: exact
+  - token: "iPlayTV"
+    name: "iPlayTV"
+    kind: "mobile-app"
+    match: exact
+  - token: "momoWebView"
+    name: "MOMO"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.theepochtimes.mobile"
+    name: "The Epoch Times"
+    kind: "mobile-app"
+    match: exact
+  - token: "WatchFree"
+    name: "WatchFree+"
+    kind: "mobile-app"
+    match: exact
+  - token: "obsidian"
+    name: "Obsidian"
+    kind: "mobile-app"
+    match: exact
+  - token: "Perplexity"
+    name: "Perplexity"
+    kind: "mobile-app"
+    match: exact
+  - token: "XShare"
+    name: "XShare"
+    kind: "mobile-app"
+    match: exact
+  - token: "nyt_android"
+    name: "The Crossword"
+    kind: "mobile-app"
+    match: exact
+  - token: "mojeek-app"
+    name: "Mojeek"
+    kind: "mobile-app"
+    match: exact
+  - token: "Fiddler"
+    name: "Fiddler Classic"
+    kind: "mobile-app"
+    match: exact
+  - token: "topsecret.chat"
+    name: "TopSecret Chat"
+    kind: "mobile-app"
+    match: exact
+  - token: "Kwai"
+    name: "Kwai"
+    kind: "mobile-app"
+    match: exact
+  - token: "Kwai_Pro"
+    name: "Kwai Pro"
+    kind: "mobile-app"
+    match: exact
+  - token: "WallaNews"
+    name: "Walla News"
+    kind: "mobile-app"
+    match: exact
+  - token: "TRP_iPhone_App"
+    name: "TRP Retail Locator"
+    kind: "mobile-app"
+    match: exact
+  - token: "Townnews-Now"
+    name: "TownNews Now"
+    kind: "mobile-app"
+    match: exact
+  - token: "Klara"
+    name: "Klara"
+    kind: "mobile-app"
+    match: exact
+  - token: "EdmodoAndroid"
+    name: "Edmodo"
+    kind: "mobile-app"
+    match: exact
+  - token: "HFEducationIOS"
+    name: "HeartFocus Education"
+    kind: "mobile-app"
+    match: exact
+  - token: "HFIOS"
+    name: "HeartFocus"
+    kind: "mobile-app"
+    match: exact
+  - token: "appdb"
+    name: "appdb"
+    kind: "mobile-app"
+    match: exact
+  - token: "Zite"
+    name: "Zite"
+    kind: "mobile-app"
+    match: exact
+  - token: "DeepL"
+    name: "DeepL"
+    kind: "mobile-app"
+    match: exact
+  - token: "anythingllm-desktop"
+    name: "Anything LLM"
+    kind: "mobile-app"
+    match: exact
+  - token: "opgg-electron-app"
+    name: "OP.GG"
+    kind: "mobile-app"
+    match: exact
+  - token: "VidJuiceUniTube"
+    name: "VidJuice UniTube"
+    kind: "mobile-app"
+    match: exact
+  - token: "Superbalist"
+    name: "Superbalist"
+    kind: "mobile-app"
+    match: exact
+  - token: "KeplrWalletMobile"
+    name: "Keplr"
+    kind: "mobile-app"
+    match: exact
+  - token: "lookr"
+    name: "Lookr"
+    kind: "mobile-app"
+    match: exact
+  - token: "Kimi"
+    name: "Kimi"
+    kind: "mobile-app"
+    match: exact
+  - token: "genspark"
+    name: "Genspark"
+    kind: "mobile-app"
+    match: exact
+  - token: "Hulu"
+    name: "Hulu"
+    kind: "mobile-app"
+    match: exact
+  - token: "TeraBox"
+    name: "TeraBox"
+    kind: "mobile-app"
+    match: exact
+  - token: "ChatGPT"
+    name: "ChatGPT"
+    kind: "mobile-app"
+    match: exact
+  - token: "GM-Android"
+    name: "General Motors"
+    kind: "mobile-app"
+    match: exact
+  - token: "espn"
+    name: "ESPN"
+    kind: "mobile-app"
+    match: exact
+  - token: "PrimeVideo"
+    name: "Amazon Prime Video"
+    kind: "mobile-app"
+    match: exact

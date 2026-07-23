@@ -8,7 +8,7 @@ import (
 type matchType int
 
 const (
-	matchExact    matchType = iota
+	matchExact matchType = iota
 	matchContains
 	matchPrefix
 	matchRegex
@@ -57,8 +57,8 @@ func (r *rule) matches(candidate string) bool {
 }
 
 type ruleTable struct {
-	rules    []rule
-	fastTrie *trie
+	rules       []rule
+	fastTrie    *trie
 	nonExactIdx []int
 }
 

@@ -38,3 +38,13 @@ rules:
   - token: "LibWeb"
     engine: "LibWeb"
     match: exact
+
+  - token: "xChaos_Arachne"
+    engine: "Arachne"
+    match: exact
+  - token: "LibWeb+LibJs"
+    engine: "LibWeb"
+    match: exact
+  - token: "ArkWeb"
+    engine: "ArkWeb"
+    match: exact
