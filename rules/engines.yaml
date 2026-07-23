@@ -38,3 +38,14 @@ rules:
   - token: "LibWeb"
     engine: "LibWeb"
     match: exact
+
+  # === synced from upstream by tools/ua-sync (2026-07-23); review before commit ===
+  - token: "xChaos_Arachne"
+    engine: "Arachne"
+    match: exact
+  - token: "LibWeb+LibJs"
+    engine: "LibWeb"
+    match: exact
+  - token: "ArkWeb"
+    engine: "ArkWeb"
+    match: exact

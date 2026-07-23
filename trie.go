@@ -1,8 +1,8 @@
 package uax
 
 // trieNode uses a [256]*trieNode array for O(1) byte-indexed child lookup.
-// Each node is 2KB on 64-bit systems. With ~3000 nodes across all rule tables,
-// total trie memory is ~6MB per Parser instance. This is the right tradeoff
+// Each node is 2KB on 64-bit systems. With ~12,000 nodes across all rule tables,
+// total trie memory is ~24MB per Parser instance. This is the right tradeoff
 // for a performance library — lookup is 4ns vs 11ns (compact slice) or 100ns (map).
 // If memory is a concern, reuse a single Parser instance (it's concurrency-safe).
 type trieNode struct {

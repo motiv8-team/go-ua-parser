@@ -16,4 +16,7 @@ var builtinEngineRules = []rule{
 	{pattern: "Servo", matchType: matchExact, engineName: "Servo"},
 	{pattern: "Flow", matchType: matchExact, engineName: "Flow"},
 	{pattern: "LibWeb", matchType: matchExact, engineName: "LibWeb"},
+	{pattern: "xChaos_Arachne", matchType: matchExact, engineName: "Arachne"},
+	{pattern: "LibWeb+LibJs", matchType: matchExact, engineName: "LibWeb"},
+	{pattern: "ArkWeb", matchType: matchExact, engineName: "ArkWeb"},
 }
