@@ -6,37 +6,47 @@ package uax
 
 `
 
-const browserTmpl = fileHeader + `var builtinBrowserRules = []rule{
+const browserTmpl = fileHeader + `{{if .HasRegex}}import "regexp"
+
+{{end}}var builtinBrowserRules = []rule{
 {{- range .Rules}}
-	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, browserName: {{printf "%q" .Browser}}, browserFamily: {{printf "%q" .Family}}, engineName: {{printf "%q" .Engine}}},
+	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, browserName: {{printf "%q" .Browser}}, browserFamily: {{printf "%q" .Family}}, engineName: {{printf "%q" .Engine}}{{if eq .Match "regex"}}, re: regexp.MustCompile({{printf "%q" .Token}}){{end}}},
 {{- end}}
 }
 `
 
-const engineTmpl = fileHeader + `var builtinEngineRules = []rule{
+const engineTmpl = fileHeader + `{{if .HasRegex}}import "regexp"
+
+{{end}}var builtinEngineRules = []rule{
 {{- range .Rules}}
-	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, engineName: {{printf "%q" .Engine}}},
+	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, engineName: {{printf "%q" .Engine}}{{if eq .Match "regex"}}, re: regexp.MustCompile({{printf "%q" .Token}}){{end}}},
 {{- end}}
 }
 `
 
-const botTmpl = fileHeader + `var builtinBotRules = []rule{
+const botTmpl = fileHeader + `{{if .HasRegex}}import "regexp"
+
+{{end}}var builtinBotRules = []rule{
 {{- range .Rules}}
-	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, botName: {{printf "%q" .Name}}, botClass: {{botClass .Class}}, botVendor: {{printf "%q" .Vendor}}, botIsVerified: {{.Verified}}},
+	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, botName: {{printf "%q" .Name}}, botClass: {{botClass .Class}}, botVendor: {{printf "%q" .Vendor}}, botIsVerified: {{.Verified}}{{if eq .Match "regex"}}, re: regexp.MustCompile({{printf "%q" .Token}}){{end}}},
 {{- end}}
 }
 `
 
-const deviceTmpl = fileHeader + `var builtinDeviceRules = []rule{
+const deviceTmpl = fileHeader + `{{if .HasRegex}}import "regexp"
+
+{{end}}var builtinDeviceRules = []rule{
 {{- range .Rules}}
-	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, deviceType: {{printf "%q" .Type}}, deviceVendor: {{printf "%q" .Vendor}}, deviceModel: {{printf "%q" .Model}}},
+	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, deviceType: {{printf "%q" .Type}}, deviceVendor: {{printf "%q" .Vendor}}, deviceModel: {{printf "%q" .Model}}{{if eq .Match "regex"}}, re: regexp.MustCompile({{printf "%q" .Token}}){{end}}},
 {{- end}}
 }
 `
 
-const appTmpl = fileHeader + `var builtinAppRules = []rule{
+const appTmpl = fileHeader + `{{if .HasRegex}}import "regexp"
+
+{{end}}var builtinAppRules = []rule{
 {{- range .Rules}}
-	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, appName: {{printf "%q" .Name}}, appKind: {{printf "%q" .Kind}}},
+	{pattern: {{printf "%q" .Token}}, matchType: {{matchType .Match}}, appName: {{printf "%q" .Name}}, appKind: {{printf "%q" .Kind}}{{if eq .Match "regex"}}, re: regexp.MustCompile({{printf "%q" .Token}}){{end}}},
 {{- end}}
 }
 `

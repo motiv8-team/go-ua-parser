@@ -46,6 +46,8 @@ This produces `rules_gen_*.go` files in the repo root. Commit both the YAML chan
 
 ## Adding Rules
 
+All rule files (`browsers.yaml`, `bots.yaml`, `devices.yaml`, `apps.yaml`, `engines.yaml`) share the same `match` field. Rules are matched against individual UA product tokens (name only), not the whole UA string; bot and device rules are additionally checked against the parenthesized-comment content of a token. An invalid `match: regex` pattern fails loudly rather than silently doing nothing: for builtin rules, `cmd/uagen` fatals at generation time naming the file and the offending token; for custom rules passed via `WithCustomBrowserRules`/`WithCustomBotRules`/`WithCustomDeviceRules`, `NewParser` returns a non-nil error naming the rule.
+
 ### Browsers
 
 Edit `rules/browsers.yaml`:
@@ -55,7 +57,7 @@ Edit `rules/browsers.yaml`:
   browser: "My Browser"     # display name
   family: "Chromium"        # browser family
   engine: "Blink"           # rendering engine
-  match: exact              # exact | contains | prefix
+  match: exact              # exact | contains | prefix | regex (RE2)
 ```
 
 Place specific rules (e.g., `EdgA`) **before** generic ones (e.g., `Chrome`). Order matters — first match wins.
