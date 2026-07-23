@@ -32,10 +32,10 @@ type DeviceRule struct {
 
 func validateMatchString(s string) error {
 	switch s {
-	case "exact", "contains", "prefix", "":
+	case "exact", "contains", "prefix", "regex", "":
 		return nil
 	default:
-		return fmt.Errorf("invalid match type %q: must be exact, contains, or prefix", s)
+		return fmt.Errorf("invalid match type %q: must be exact, contains, prefix, or regex", s)
 	}
 }
 
@@ -45,6 +45,8 @@ func parseMatchType(s string) matchType {
 		return matchContains
 	case "prefix":
 		return matchPrefix
+	case "regex":
+		return matchRegex
 	default:
 		return matchExact
 	}

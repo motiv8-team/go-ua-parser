@@ -6,3 +6,6 @@ examples/echo/echo
 examples/chi/chi
 examples/fiber/fiber
 examples/prometheus/prometheus
+
+# Local upstream rule-sync tool (not committed)
+tools/ua-sync/

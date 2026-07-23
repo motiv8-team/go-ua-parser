@@ -71,6 +71,15 @@ func (rt *ruleTable) buildTrie() {
 		case matchExact:
 			rt.fastTrie.insert(r.pattern, i+1)
 		default:
+			// Compile regex rules produced from `match: regex` YAML (they
+			// arrive with a pattern but no compiled re). A pattern RE2 can't
+			// compile is disabled (re stays nil → never matches) rather than
+			// panicking, so one bad rule can't take down NewParser.
+			if r.matchType == matchRegex && r.re == nil {
+				if re, err := regexp.Compile(r.pattern); err == nil {
+					r.re = re
+				}
+			}
 			rt.nonExactIdx = append(rt.nonExactIdx, i)
 		}
 	}

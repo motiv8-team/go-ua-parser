@@ -45,6 +45,49 @@ func TestRuleMatchContains(t *testing.T) {
 	}
 }
 
+func TestBuildTrieCompilesRegex(t *testing.T) {
+	// A matchRegex rule declared with only a pattern (no pre-compiled re) —
+	// as produced by the code generator from `match: regex` YAML — must be
+	// compiled by buildTrie and become functional.
+	rt := ruleTable{
+		rules: []rule{
+			{pattern: `(?i)PetalBot`, matchType: matchRegex, botName: "PetalBot"},
+		},
+	}
+	rt.buildTrie()
+
+	if rt.rules[0].re == nil {
+		t.Fatal("buildTrie should compile the regex pattern into re")
+	}
+	r, ok := rt.lookup("petalbot")
+	if !ok {
+		t.Fatal("regex rule should match via lookup")
+	}
+	if r.botName != "PetalBot" {
+		t.Errorf("botName = %q, want PetalBot", r.botName)
+	}
+	if _, ok := rt.lookup("Chrome"); ok {
+		t.Error("regex rule should not match unrelated candidate")
+	}
+}
+
+func TestBuildTrieSkipsInvalidRegex(t *testing.T) {
+	// An un-compilable pattern (e.g. a backreference, unsupported by RE2)
+	// must be disabled rather than panic, so a bad rule never matches.
+	rt := ruleTable{
+		rules: []rule{
+			{pattern: `(a)\1`, matchType: matchRegex, botName: "Bad"},
+		},
+	}
+	rt.buildTrie() // must not panic
+	if rt.rules[0].re != nil {
+		t.Error("invalid regex should leave re nil (disabled)")
+	}
+	if _, ok := rt.lookup("aa"); ok {
+		t.Error("disabled regex rule must never match")
+	}
+}
+
 func TestRuleTableLookup(t *testing.T) {
 	rt := ruleTable{
 		rules: []rule{

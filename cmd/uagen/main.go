@@ -60,6 +60,8 @@ var funcMap = template.FuncMap{
 			return "matchContains"
 		case "prefix":
 			return "matchPrefix"
+		case "regex":
+			return "matchRegex"
 		default:
 			return "matchExact"
 		}
@@ -108,31 +110,31 @@ func main() {
 	fmt.Println("uagen: generating Go rule files from rules/*.yaml ...")
 
 	var browsers browserFile
-	if err := generateFile("rules/browsers.yaml", browserTmpl, "rules_gen_browser.go", &browsers); err != nil {
+	if err := generateFile("../../rules/browsers.yaml", browserTmpl, "../../rules_gen_browser.go", &browsers); err != nil {
 		fatal(err)
 	}
 	fmt.Printf("  browsers: %d rules -> rules_gen_browser.go\n", len(browsers.Rules))
 
 	var engines engineFile
-	if err := generateFile("rules/engines.yaml", engineTmpl, "rules_gen_engine.go", &engines); err != nil {
+	if err := generateFile("../../rules/engines.yaml", engineTmpl, "../../rules_gen_engine.go", &engines); err != nil {
 		fatal(err)
 	}
 	fmt.Printf("  engines:  %d rules -> rules_gen_engine.go\n", len(engines.Rules))
 
 	var bots botFile
-	if err := generateFile("rules/bots.yaml", botTmpl, "rules_gen_bot.go", &bots); err != nil {
+	if err := generateFile("../../rules/bots.yaml", botTmpl, "../../rules_gen_bot.go", &bots); err != nil {
 		fatal(err)
 	}
 	fmt.Printf("  bots:     %d rules -> rules_gen_bot.go\n", len(bots.Rules))
 
 	var devices deviceFile
-	if err := generateFile("rules/devices.yaml", deviceTmpl, "rules_gen_device.go", &devices); err != nil {
+	if err := generateFile("../../rules/devices.yaml", deviceTmpl, "../../rules_gen_device.go", &devices); err != nil {
 		fatal(err)
 	}
 	fmt.Printf("  devices:  %d rules -> rules_gen_device.go\n", len(devices.Rules))
 
 	var apps appFile
-	if err := generateFile("rules/apps.yaml", appTmpl, "rules_gen_app.go", &apps); err != nil {
+	if err := generateFile("../../rules/apps.yaml", appTmpl, "../../rules_gen_app.go", &apps); err != nil {
 		fatal(err)
 	}
 	fmt.Printf("  apps:     %d rules -> rules_gen_app.go\n", len(apps.Rules))
