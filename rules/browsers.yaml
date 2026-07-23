@@ -650,7 +650,6 @@ rules:
     engine: "Trident"
     match: exact
 
-  # === synced from upstream by tools/ua-sync (2026-07-23); review before commit ===
   - token: "FireSendBrowser"
     browser: "FireSend Browser"
     family: ""

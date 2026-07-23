@@ -1660,7 +1660,6 @@ rules:
     vendor: "Sentry"
     match: exact
 
-  # === synced from upstream by tools/ua-sync (2026-07-23); review before commit ===
   - token: "WireReaderBot"
     name: "WireReaderBot"
     class: other
