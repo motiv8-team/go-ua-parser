@@ -28,7 +28,7 @@ Or from the repo root: `go generate ./...` (uses the `//go:generate` directive i
 
 `cmd/uagen` is a separate Go module with its own `go.mod` (to keep `gopkg.in/yaml.v3` out of the main module). It reads all YAML files in `rules/` and generates `rules_gen_*.go` files. Generated files are committed to the repo — library consumers never run the generator.
 
-Current rule counts: ~124 browsers, ~313 bots, ~76 devices, ~59 apps, ~13 engines.
+Current rule counts: ~385 browsers, ~821 bots, ~76 devices, ~368 apps, ~16 engines.
 
 ## Architecture
 

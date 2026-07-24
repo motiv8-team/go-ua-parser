@@ -12,9 +12,9 @@ A high-performance, production-grade HTTP User-Agent parser for Go with first-cl
 
 ## Features
 
-- **585 detection rules**: 124 browsers, 313 bots, 76 devices, 59 in-app browsers, 13 engines
+- **1,666 detection rules**: 385 browsers, 821 bots, 76 devices, 368 in-app browsers, 16 engines
 - **35 OS types**: Windows (incl. Windows 11 via Client Hints), macOS, iOS, iPadOS, Android, ChromeOS, Linux distros (Ubuntu, Fedora, Debian, Arch, etc.), HarmonyOS, Tizen, KaiOS, FreeBSD, watchOS, tvOS, and more
-- **First-class bot detection**: 313 bots across 7 classes — search engines, social bots, AI crawlers (GPTBot, ClaudeBot, DeepSeekBot, Bytespider), SEO tools, monitoring, scrapers, security scanners
+- **First-class bot detection**: 821 bots across 7 classes — search engines, social bots, AI crawlers (GPTBot, ClaudeBot, DeepSeekBot, Bytespider), SEO tools, monitoring, scrapers, security scanners
 - **14 heuristic patterns**: Catches unnamed bots via keywords (bot, crawler, spider, scraper, fetcher, archiver, validator, monitoring, etc.)
 - **Client Hints support**: `Sec-CH-UA-*` headers for accurate modern browser detection, Windows 11 detection
 - **Browser channel detection**: nightly, beta, dev, canary from version patterns
@@ -126,7 +126,7 @@ if bot.IsBot {
 
 **Bot classes:** `search` | `social` | `ai` | `seo-tool` | `monitor` | `scraper` | `other`
 
-**313 named bots** including:
+**821 named bots** including:
 
 | Class | Examples |
 |-------|---------|
@@ -365,7 +365,7 @@ UA String ──→ [Tokenizer] ──→ [Matcher] ──→ [Assembler] ──
 ```
 
 1. **Tokenize** (`tokenizer.go`): Zero-alloc scanner extracts product tokens (name/version) and comment blocks using a fixed `[24]token` buffer.
-2. **Match** (`match_*.go`, `matcher.go`, `trie.go`): Hybrid trie + linear-scan matcher. Trie handles exact-match rules in O(key-length); contains/prefix rules fall back to indexed scan.
+2. **Match** (`match_*.go`, `matcher.go`, `trie.go`): Hybrid trie + linear-scan matcher. Trie handles exact-match rules in O(key-length); contains/prefix rules — plus regex rules — fall back to the indexed scan (builtin regexes are pre-compiled at codegen time; custom regexes are validated in `NewParser`).
 3. **Assemble** (`merge.go`): Merges Client Hints (CH takes precedence), computes convenience booleans.
 
 Rules are defined in `rules/*.yaml` and compiled to Go source via `cmd/uagen`. Generated `rules_gen_*.go` files are committed — consumers never run the generator.
@@ -374,11 +374,11 @@ Rules are defined in `rules/*.yaml` and compiled to Go source via `cmd/uagen`. G
 
 | Category | Count | Description |
 |----------|------:|-------------|
-| Browsers | 124 | Chrome, Firefox, Safari, Edge, Opera, Brave, Vivaldi, Samsung Internet, Arc, Whale, DuckDuckGo, 100+ more |
-| Engines | 13 | Blink, WebKit, Gecko, Trident, Presto, EdgeHTML, Goanna, KHTML, Servo, NetSurf, and more |
-| Bots | 313 | Search, social, AI, SEO, monitor, scraper, security scanners, HTTP libraries |
+| Browsers | 385 | Chrome, Firefox, Safari, Edge, Opera, Brave, Vivaldi, Samsung Internet, Arc, Whale, DuckDuckGo, 100+ more |
+| Engines | 16 | Blink, WebKit, Gecko, Trident, Presto, EdgeHTML, Goanna, KHTML, Servo, NetSurf, and more |
+| Bots | 821 | Search, social, AI, SEO, monitor, scraper, security scanners, HTTP libraries |
 | Devices | 76 | iPhones, iPads, Samsung Galaxy, Pixel, Xiaomi, consoles (PS5, Xbox, Switch), TVs, Kindle, Tesla, Apple Watch |
-| In-App | 59 | Facebook, Instagram, TikTok, WeChat, Telegram, Slack, Teams, Spotify, and 50+ more |
+| In-App | 368 | Facebook, Instagram, TikTok, WeChat, Telegram, Slack, Teams, Spotify, and 50+ more |
 | OS | 35 | Windows (10/11), macOS, iOS, iPadOS, Android, ChromeOS, 15+ Linux distros, HarmonyOS, Tizen, KaiOS, BSD variants |
 | Heuristics | 14 | bot, crawler, spider, scraper, fetcher, archiver, validator, monitoring, analyzer, and more |
 

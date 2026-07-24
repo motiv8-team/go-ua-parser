@@ -649,3 +649,1309 @@ rules:
     family: "IE"
     engine: "Trident"
     match: exact
+
+  - token: "FireSendBrowser"
+    browser: "FireSend Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "buscari"
+    browser: "Seekee"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "ArtisReader"
+    browser: "ArtisBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SamanthaDoubao"
+    browser: "Doubao"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "AltiBrowser"
+    browser: "AltiBrowser"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "Singlebox"
+    browser: "Singlebox"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "RCATorExplorer"
+    browser: "RCA Tor Explorer"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "TQBrowser"
+    browser: "TQ Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "XXXAndroidApp"
+    browser: "XnBrowse"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "ProxyFox"
+    browser: "ProxyFox"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "PrivacyBrowser"
+    browser: "Privacy Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "TUSK"
+    browser: "TUSK"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Dezor"
+    browser: "Dezor"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SecureBrowser"
+    browser: "AppTec Secure Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Veera"
+    browser: "Veera"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Perk"
+    browser: "Perk"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "UPhoneWebBrowser"
+    browser: "UPhone Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Prism"
+    browser: "Prism"
+    family: ""
+    engine: "Gecko"
+    match: exact
+  - token: "Awesomium"
+    browser: "Awesomium"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "xChaos_Arachne"
+    browser: "Arachne"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "WeltweitimnetzBrowser"
+    browser: "Weltweitimnetz Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Kitt"
+    browser: "Kitt"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "sppm_bizbrowser"
+    browser: "BizBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SkyLeap"
+    browser: "SkyLeap"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "MaxBrowser"
+    browser: "MaxBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "YouBrowser"
+    browser: "YouBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "MixerBox-Browser"
+    browser: "MixerBox AI"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Eolie"
+    browser: "Eolie"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Classilla"
+    browser: "Classilla"
+    family: ""
+    engine: "Clecko"
+    match: exact
+  - token: "WebianShell"
+    browser: "Webian Shell"
+    family: ""
+    engine: "Gecko"
+    match: exact
+  - token: "Wyzo"
+    browser: "Wyzo"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Liri"
+    browser: "Liri Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Columbus"
+    browser: "Columbus Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "GreenBrowser"
+    browser: "GreenBrowser"
+    family: ""
+    engine: "Trident"
+    match: exact
+  - token: "K-Ninja"
+    browser: "K-Ninja"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "EastBrowser"
+    browser: "East Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Qiyu"
+    browser: "Qiyu"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "WebDiscover"
+    browser: "WebDiscover"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "LeganBrowser"
+    browser: "Legan Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Mogok"
+    browser: "Mogok Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "DiigoBrowser"
+    browser: "Diigo Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Bluefy"
+    browser: "Bluefy"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SurfyBrowser"
+    browser: "Surfy Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "GoKu-iOS"
+    browser: "GoKu"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "Bang"
+    browser: "Bang"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Lotus"
+    browser: "Lotus"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "JuziBrowser"
+    browser: "JUZI Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "tararia"
+    browser: "tararia"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Skye"
+    browser: "Skye"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "fGet"
+    browser: "fGet"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Nuviu"
+    browser: "Nuviu"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "DoCoMo"
+    browser: "DoCoMo"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "com.airfind.browser"
+    browser: "Airfind Secure Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "RokuBrowser"
+    browser: "Roku Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "PicoBrowser"
+    browser: "PICO Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Alva"
+    browser: "ALVA"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "YAGI"
+    browser: "YAGI"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "InspectBrowser"
+    browser: "Inspect Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "bloket"
+    browser: "Bloket"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Lilo"
+    browser: "Lilo"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "lexi"
+    browser: "Lexi Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "SurfBrowser"
+    browser: "Surf Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "youcare-android-app"
+    browser: "YouCare"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "youcare-ios-app"
+    browser: "YouCare"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "HiBrowser"
+    browser: "Hi Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "CYBrowser"
+    browser: "CyBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "ReqwirelessWeb"
+    browser: "Reqwireless WebViewer"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "ChanjetCloud"
+    browser: "ChanjetCloud"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "SushiBrowser"
+    browser: "Sushi Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "LTBrowser"
+    browser: "LT Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "lagatos-browser"
+    browser: "Lagatos Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "psi-secure-browser"
+    browser: "PSI Secure Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Harman_Browser"
+    browser: "Harman Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "bonsai-browser"
+    browser: "Bonsai"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "spectre-browser"
+    browser: "Spectre Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "FlashBrowser"
+    browser: "Flash Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Secure"
+    browser: "Secure Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Arvin"
+    browser: "Arvin"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Torrent"
+    browser: "Maelstrom"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Helio"
+    browser: "Helio"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "7654Browser"
+    browser: "7654 Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Qazweb"
+    browser: "Qazweb"
+    family: ""
+    engine: "Gecko"
+    match: exact
+  - token: "Degdegan"
+    browser: "deg-degan"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "JavaFX"
+    browser: "JavaFX"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "HasBrowser"
+    browser: "HasBrowser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Byffox"
+    browser: "Byffox"
+    family: ""
+    engine: "Gecko"
+    match: exact
+  - token: "DotBrowser"
+    browser: "Dot Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "DeskBrowse"
+    browser: "DeskBrowse"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Lolifox"
+    browser: "Lolifox"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "PiBrowser"
+    browser: "Pi Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "flast"
+    browser: "Flast"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "PolyBrowser"
+    browser: "PolyBrowser"
+    family: ""
+    engine: "Gecko"
+    match: exact
+  - token: "VenusBrowser"
+    browser: "Venus Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Smooz"
+    browser: "Smooz"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "BanglaBrowser"
+    browser: "Bangla Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Cornowser"
+    browser: "Cornowser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Orca"
+    browser: "Orca"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Ekioh"
+    browser: "Flow"
+    family: ""
+    engine: "EkiohFlow"
+    match: exact
+  - token: "xStand"
+    browser: "xStand"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "Biyubi"
+    browser: "Biyubi"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Zetakey"
+    browser: "Zetakey"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "PlayFreeBrowser"
+    browser: "PlayFree Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Odin"
+    browser: "Odin"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "com.tcl.browser"
+    browser: "BrowseHere"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "WhaleBrowser"
+    browser: "Whale TV Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "SFive_IOS"
+    browser: "SFive"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SeewoBrowser"
+    browser: "Seewo Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "OceanHero"
+    browser: "OceanHero"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "SLBrowser"
+    browser: "Smart Lenovo Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Browzar"
+    browser: "Browzar"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Stargon"
+    browser: "Stargon"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "NFSBrowser"
+    browser: "NFS Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Borealis"
+    browser: "Borealis Navigator"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "YoloBrowser"
+    browser: "Yolo Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "PrivacyWall"
+    browser: "PrivacyWall"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Cliqz"
+    browser: "Cliqz"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Xvast"
+    browser: "Xvast"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "TungstenBrowser"
+    browser: "Tungsten"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Lulumi-browser"
+    browser: "Lulumi"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "ybrowser"
+    browser: "Yahoo! Japan Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "iLunascapeLite"
+    browser: "Lunascape Lite"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "OhHaiBrowser"
+    browser: "OhHai Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Sizzy"
+    browser: "Sizzy"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "GlassBrowser"
+    browser: "Glass Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "ToGate"
+    browser: "ToGate"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "Light"
+    browser: "Light"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "115Browser"
+    browser: "115 Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Start"
+    browser: "START Internet Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Atlas"
+    browser: "ChatGPT Atlas"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SlimBoat"
+    browser: "SlimBoat"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Slimjet"
+    browser: "Slimjet"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "MxNitro"
+    browser: "MxNitro"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "HBPC"
+    browser: "Huawei Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "com.huawei.hmos.browser"
+    browser: "Huawei Browser"
+    family: ""
+    engine: "ArkWeb"
+    match: exact
+  - token: "QwantiOS"
+    browser: "Qwant Mobile"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "Qwant"
+    browser: "Qwant Mobile"
+    family: ""
+    engine: "Gecko"
+    match: exact
+  - token: "Mobicip"
+    browser: "Mobicip"
+    family: ""
+    engine: "Gecko"
+    match: exact
+  - token: "VertexSurf"
+    browser: "Vertex Surf"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "Tenta"
+    browser: "Tenta Browser"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "WebPositive"
+    browser: "WebPositive"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "JigBrowserPlus"
+    browser: "Jig Browser Plus"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Origin"
+    browser: "Origin In-Game Overlay"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "UCBrowserHD"
+    browser: "UC Browser HD"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "VivaiOS"
+    browser: "Vivaldi Mobile iOS"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "Mercury"
+    browser: "Mercury"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "QQBrowserLite"
+    browser: "QQ Browser Lite"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "isivioo"
+    browser: "Isivioo"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Rocket"
+    browser: "Firefox Rocket"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "webexplorer"
+    browser: "Web Explorer"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SogouMobileBrowser"
+    browser: "Sogou Mobile Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "ACHEETAHI"
+    browser: "CM Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Mb2345Browser"
+    browser: "2345 Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "iBrowser"
+    browser: "iBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "OpenFin"
+    browser: "OpenFin"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "iTop"
+    browser: "iTop Private Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SafeBrowser"
+    browser: "SafeBrowser"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "PocketBook"
+    browser: "PocketBook Browser"
+    family: ""
+    engine: "WebKit"
+    match: exact
+  - token: "OffByOne"
+    browser: "Off By One"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "WeTab-Browser"
+    browser: "WeTab Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Browlser"
+    browser: "Browlser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SimpleBrowser"
+    browser: "SimpleBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "GOGGalaxyClient"
+    browser: "GOG Galaxy"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "arcgisearth"
+    browser: "ArcGIS Earth"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "arcgis-explorer"
+    browser: "Explorer for ArcGIS"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "arcgis-workforce"
+    browser: "Workforce for ArcGIS"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Luminary"
+    browser: "Luminary"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "PingdomTMS"
+    browser: "PingdomBot"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "PingdomPageSpeed"
+    browser: "PingdomBot"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Tableau"
+    browser: "Tableau"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Salesforce"
+    browser: "Salesforce"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "DAVdroid"
+    browser: "DAVdroid"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "QGIS"
+    browser: "QGIS"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "JOSM"
+    browser: "JOSM"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "RecipeRadar"
+    browser: "RecipeRadar"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SailfishBrowser"
+    browser: "Sailfish Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "musical_ly_"
+    browser: "TikTok"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Telegram-Android"
+    browser: "Telegram"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "RockMelt"
+    browser: "RockMelt"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Navigator"
+    browser: "Netscape"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "MyIBrow"
+    browser: "My Internet Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Coast"
+    browser: "Opera Coast"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Snowshoe"
+    browser: "Snowshoe"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Instabridge"
+    browser: "Instabridge"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "OculusBrowser"
+    browser: "Oculus Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "coc_coc_browser"
+    browser: "Coc Coc"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "MxBrowser"
+    browser: "Maxthon"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Crosswalk"
+    browser: "Crosswalk"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "TopBuzz"
+    browser: "TopBuzz"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "VivoBrowser"
+    browser: "VivoBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "HonorBrowser"
+    browser: "Honor Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "CrMo"
+    browser: "Chrome Mobile"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "chromeframe"
+    browser: "Chrome Frame"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "PyAMF"
+    browser: "PyAMF"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "YaSearchBrowser"
+    browser: "Yandex Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "1Password"
+    browser: "1Password"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Ghost"
+    browser: "Ghost"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "surveyon"
+    browser: "Surveyon"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Avira"
+    browser: "Avira"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "CCleaner"
+    browser: "CCleaner"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Quark"
+    browser: "Quark"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Sparrow"
+    browser: "Sparrow Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "AOLShield"
+    browser: "AOL Shield Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Hola"
+    browser: "Hola Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Talon"
+    browser: "Talon Cyber Security Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Qaxbrowser"
+    browser: "QAX Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "JiSu"
+    browser: "JiSu Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Thano"
+    browser: "SmartTV WebBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Colt"
+    browser: "NetCast Smart TV"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Mypal"
+    browser: "Mypal Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Chesscom-Android"
+    browser: "Chesscom-Android"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "RobloxApp"
+    browser: "Roblox App"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "AncestryAndroid"
+    browser: "AncestryAndroid"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Slack_SSB"
+    browser: "Slack Desktop Client"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "HipChat"
+    browser: "HipChat Desktop Client"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Outlook-Express"
+    browser: "Windows Live Mail"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Postbox"
+    browser: "Postbox"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Lotus-Notes"
+    browser: "Lotus Notes"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Superhuman"
+    browser: "Superhuman"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Evolution"
+    browser: "Evolution"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "OpenWave"
+    browser: "Open Wave"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "AtContent"
+    browser: "AtContent"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Trailer"
+    browser: "Trailer"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Agency"
+    browser: "Agency"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Herring"
+    browser: "Herring"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Config"
+    browser: "Config"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Viewer"
+    browser: "Viewer"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "LikeWise"
+    browser: "LikeWise"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Unique"
+    browser: "Unique"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "CitizenFX"
+    browser: "CitizenFX"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "R2Client"
+    browser: "R2Client"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "AdobeCEP"
+    browser: "Adobe CEP"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "QuickTime"
+    browser: "QuickTime"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Kinoma"
+    browser: "Kinoma"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "EspnDownloadManager"
+    browser: "ESPN"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "WMPlayer"
+    browser: "WMPlayer"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Lavf"
+    browser: "WMPlayer"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "amarok"
+    browser: "Amarok"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Nextcloud"
+    browser: "Nextcloud"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "mirall"
+    browser: "mirall"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "ownCloud-android"
+    browser: "Owncloud"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "AnyConnect"
+    browser: "AnyConnect"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "NCSA_Mosaic"
+    browser: "NCSA Mosaic"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "POLARIS"
+    browser: "Polaris"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Embider"
+    browser: "Polaris"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "OneBrowser"
+    browser: "ONE Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "QtCarBrowser"
+    browser: "QtCarBrowser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "NokiaBrowser"
+    browser: "Nokia Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "BrowserNG"
+    browser: "Nokia Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "OmniWeb"
+    browser: "OmniWeb"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Blazer"
+    browser: "Palm Blazer"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "SEMC-Browser"
+    browser: "SEMC-Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Teleca"
+    browser: "Teleca Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Espial"
+    browser: "Espial"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "minio-go"
+    browser: "minio-go"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Cyberduck"
+    browser: "Cyberduck"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "S3Gof3r"
+    browser: "S3Gof3r"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "rusoto"
+    browser: "rusoto"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "rclone"
+    browser: "rclone"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Kurio"
+    browser: "Kurio App"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Transmit"
+    browser: "Transmit"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "MullvadBrowser"
+    browser: "MullvadBrowser"
+    family: ""
+    engine: ""
+    match: exact

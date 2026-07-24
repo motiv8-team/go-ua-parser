@@ -1659,3 +1659,3046 @@ rules:
     class: monitor
     vendor: "Sentry"
     match: exact
+
+  - token: "WireReaderBot"
+    name: "WireReaderBot"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "monitoring360bot"
+    name: "360 Monitoring"
+    class: monitor
+    vendor: "Plesk International GmbH"
+    verified: false
+    match: exact
+  - token: "Aboundex"
+    name: "Aboundexbot"
+    class: search
+    vendor: "Aboundex.com"
+    verified: false
+    match: exact
+  - token: "AcoonBot"
+    name: "Acoon"
+    class: search
+    vendor: "Acoon GmbH"
+    verified: false
+    match: exact
+  - token: "AddThis.com"
+    name: "AddThis.com"
+    class: social
+    vendor: "Clearspring Technologies, Inc."
+    verified: false
+    match: exact
+  - token: "AhrefsSiteAudit"
+    name: "AhrefsSiteAudit"
+    class: monitor
+    vendor: "Ahrefs Pte Ltd"
+    verified: false
+    match: exact
+  - token: "Amazonbot-Video"
+    name: "Amazonbot-Video"
+    class: ai
+    vendor: "Amazon.com, Inc."
+    verified: false
+    match: exact
+  - token: "Amzn-SearchBot"
+    name: "Amzn-SearchBot"
+    class: search
+    vendor: "Amazon.com, Inc."
+    verified: false
+    match: exact
+  - token: "Amzn-User"
+    name: "Amzn-User"
+    class: other
+    vendor: "Amazon.com, Inc."
+    verified: false
+    match: exact
+  - token: "AmazonAdBot"
+    name: "Amazon AdBot"
+    class: scraper
+    vendor: "Amazon.com, Inc."
+    verified: false
+    match: exact
+  - token: "NovaAct"
+    name: "NovaAct"
+    class: ai
+    vendor: "Amazon.com, Inc."
+    verified: false
+    match: exact
+  - token: "AmazonBuyForMe"
+    name: "AmazonBuyForMe"
+    class: other
+    vendor: "Amazon.com, Inc."
+    verified: false
+    match: exact
+  - token: "amazon-kendra"
+    name: "Amazon Kendra"
+    class: scraper
+    vendor: "Amazon.com, Inc."
+    verified: false
+    match: exact
+  - token: "AmorankSpider"
+    name: "Amorank Spider"
+    class: scraper
+    vendor: "Amorank"
+    verified: false
+    match: exact
+  - token: "ApacheBench"
+    name: "ApacheBench"
+    class: other
+    vendor: "The Apache Software Foundation"
+    verified: false
+    match: exact
+  - token: "Apache"
+    name: "Apache"
+    class: other
+    vendor: "The Apache Software Foundation"
+    verified: false
+    match: exact
+  - token: "iTMS"
+    name: "iTMS"
+    class: scraper
+    vendor: "Apple Inc"
+    verified: false
+    match: exact
+  - token: "AppSignalBot"
+    name: "AppSignalBot"
+    class: monitor
+    vendor: "AppSignal"
+    verified: false
+    match: exact
+  - token: "Arachni"
+    name: "Arachni"
+    class: other
+    vendor: "Sarosys LLC"
+    verified: false
+    match: exact
+  - token: "Backlink-Check.de"
+    name: "Backlink-Check.de"
+    class: scraper
+    vendor: "Mediagreen Medienservice"
+    verified: false
+    match: exact
+  - token: "BazQux"
+    name: "BazQux Reader"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Blekkobot"
+    name: "Blekkobot"
+    class: search
+    vendor: "Blekko"
+    verified: false
+    match: exact
+  - token: "Blogtrottr"
+    name: "Blogtrottr"
+    class: other
+    vendor: "Blogtrottr Ltd"
+    verified: false
+    match: exact
+  - token: "BountiiBot"
+    name: "Bountii Bot"
+    class: search
+    vendor: "Bountii Inc."
+    verified: false
+    match: exact
+  - token: "Browsershots"
+    name: "Browsershots"
+    class: other
+    vendor: "Browsershots.org"
+    verified: false
+    match: exact
+  - token: "CareerBot"
+    name: "CareerBot"
+    class: scraper
+    vendor: "career-x GmbH"
+    verified: false
+    match: exact
+  - token: "CloudFlare-AlwaysOnline"
+    name: "CloudFlare Always Online"
+    class: monitor
+    vendor: "CloudFlare"
+    verified: false
+    match: exact
+  - token: "coccoc.com"
+    name: "Cốc Cốc Bot"
+    class: search
+    vendor: "Cốc Cốc"
+    verified: false
+    match: exact
+  - token: "collectd"
+    name: "Collectd"
+    class: monitor
+    vendor: "Collectd"
+    verified: false
+    match: exact
+  - token: "Datanyze"
+    name: "Datanyze"
+    class: scraper
+    vendor: "Datanyze"
+    verified: false
+    match: exact
+  - token: "Dataprovider"
+    name: "Dataprovider"
+    class: scraper
+    vendor: "Dataprovider B.V."
+    verified: false
+    match: exact
+  - token: "Dazoobot"
+    name: "Dazoobot"
+    class: search
+    vendor: "DAZOO.FR"
+    verified: false
+    match: exact
+  - token: "discobot"
+    name: "Discobot"
+    class: search
+    vendor: "Discovery Engine"
+    verified: false
+    match: exact
+  - token: "DuckAssistBot"
+    name: "DuckAssistBot"
+    class: ai
+    vendor: "DuckDuckGo"
+    verified: false
+    match: exact
+  - token: "EasouSpider"
+    name: "Easou Spider"
+    class: search
+    vendor: "easou ICP"
+    verified: false
+    match: exact
+  - token: "eCairn-Grabber"
+    name: "eCairn-Grabber"
+    class: scraper
+    vendor: "eCairn"
+    verified: false
+    match: exact
+  - token: "evc-batch"
+    name: "evc-batch"
+    class: scraper
+    vendor: "eVenture Capital Partners II, LLC"
+    verified: false
+    match: exact
+  - token: "Ezooms"
+    name: "Ezooms"
+    class: scraper
+    vendor: "SEOmoz, Inc."
+    verified: false
+    match: exact
+  - token: "meta-externalfetcher"
+    name: "Meta-ExternalFetcher"
+    class: ai
+    vendor: "Meta Platforms, Inc."
+    verified: false
+    match: exact
+  - token: "meta-externalads"
+    name: "Meta-ExternalAds"
+    class: social
+    vendor: "Meta Platforms, Inc."
+    verified: false
+    match: exact
+  - token: "FeedBurner"
+    name: "FeedBurner"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Fever"
+    name: "Fever"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Findxbot"
+    name: "Findxbot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Genieo"
+    name: "Genieo Web filter"
+    class: other
+    vendor: "Genieo"
+    verified: false
+    match: exact
+  - token: "GigablastOpenSource"
+    name: "Gigablast"
+    class: search
+    vendor: "Matt Wells"
+    verified: false
+    match: exact
+  - token: "ichiro"
+    name: "Goo"
+    class: search
+    vendor: "NTT Resonant"
+    verified: false
+    match: exact
+  - token: "google_partner_monitoring"
+    name: "Google Partner Monitoring"
+    class: monitor
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Cloud-Scheduler"
+    name: "Google Cloud Scheduler"
+    class: scraper
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Structured-Data-Testing-Tool"
+    name: "Google Structured Data Testing Tool"
+    class: other
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "GoogleStackdriverMonitoring"
+    name: "Google Stackdriver Monitoring"
+    class: monitor
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Transparency-Report"
+    name: "Google Transparency Report"
+    class: monitor
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-CloudVertexBot"
+    name: "Google-CloudVertexBot"
+    class: scraper
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Firebase"
+    name: "Google-Firebase"
+    class: other
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-ilp"
+    name: "Google-ilp"
+    class: scraper
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Document-Conversion"
+    name: "Google-Document-Conversion"
+    class: other
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "SeznamEmailProxy"
+    name: "Seznam Email Proxy"
+    class: scraper
+    vendor: "Seznam.cz, a.s."
+    verified: false
+    match: exact
+  - token: "Seznam-Zbozi-robot"
+    name: "Seznam Zbozi.cz"
+    class: scraper
+    vendor: "Seznam.cz, a.s."
+    verified: false
+    match: exact
+  - token: "Heurekabot-Feed"
+    name: "Heureka Feed"
+    class: scraper
+    vendor: "Heureka.cz, a.s."
+    verified: false
+    match: exact
+  - token: "ShopAlike"
+    name: "ShopAlike"
+    class: scraper
+    vendor: "Visual Meta"
+    verified: false
+    match: exact
+  - token: "deepcrawl.com"
+    name: "Lumar"
+    class: scraper
+    vendor: "Lumar"
+    verified: false
+    match: exact
+  - token: "SentiBot"
+    name: "SentiBot"
+    class: scraper
+    vendor: "SentiOne S.A."
+    verified: false
+    match: exact
+  - token: "Google-Site-Verification"
+    name: "Google-Site-Verification"
+    class: other
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Read-Aloud"
+    name: "Google-Read-Aloud"
+    class: scraper
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "PlayStore-Google"
+    name: "PlayStore-Google"
+    class: scraper
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Gemini-Deep-Research"
+    name: "Gemini-Deep-Research"
+    class: ai
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Gemini-AI"
+    name: "Gemini-AI"
+    class: ai
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Pinpoint"
+    name: "Google-Pinpoint"
+    class: other
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Safety"
+    name: "Google-Safety"
+    class: scraper
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "DuplexWeb-Google"
+    name: "DuplexWeb-Google"
+    class: scraper
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "Google-Area120-PrivacyPolicyFetcher"
+    name: "Google Area 120 Privacy Policy Fetcher"
+    class: scraper
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "HTTPMon"
+    name: "HTTPMon"
+    class: monitor
+    vendor: "towards GmbH"
+    verified: false
+    match: exact
+  - token: "inoreader.com"
+    name: "inoreader"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "iisbot"
+    name: "IIS Site Analysis"
+    class: scraper
+    vendor: "Microsoft Corporation"
+    verified: false
+    match: exact
+  - token: "ips-agent"
+    name: "IPS Agent"
+    class: scraper
+    vendor: "VeriSign, Inc"
+    verified: false
+    match: exact
+  - token: "IP-Guide.com"
+    name: "IP-Guide Crawler"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "kouio"
+    name: "Kouio"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "larbin"
+    name: "Larbin web crawler"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "last-modified.com"
+    name: "LastMod Bot"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Mail.RU"
+    name: "Mail.Ru Bot"
+    class: search
+    vendor: "Mail.Ru Group"
+    verified: false
+    match: exact
+  - token: "magpie-crawler"
+    name: "Magpie-Crawler"
+    class: social
+    vendor: "Brandwatch"
+    verified: false
+    match: exact
+  - token: "MagpieRSS"
+    name: "MagpieRSS"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "masscan-ng"
+    name: "masscan-ng"
+    class: scraper
+    vendor: "BIZON, OOO"
+    verified: false
+    match: exact
+  - token: "meanpathbot"
+    name: "Meanpath Bot"
+    class: search
+    vendor: "Meanpath"
+    verified: false
+    match: exact
+  - token: "MetaJobBot"
+    name: "MetaJobBot"
+    class: scraper
+    vendor: "MetaJob"
+    verified: false
+    match: exact
+  - token: "MetaInspector"
+    name: "MetaInspector"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "MixrankBot"
+    name: "MixRank Bot"
+    class: scraper
+    vendor: "Online Media Group, Inc."
+    verified: false
+    match: exact
+  - token: "Mnogosearch"
+    name: "Mnogosearch"
+    class: search
+    vendor: "Lavtech.Com Corp."
+    verified: false
+    match: exact
+  - token: "munin"
+    name: "Munin"
+    class: monitor
+    vendor: "Munin"
+    verified: false
+    match: exact
+  - token: "NalezenCzBot"
+    name: "NalezenCzBot"
+    class: scraper
+    vendor: "Jaroslav Kuboš"
+    verified: false
+    match: exact
+  - token: "check_http"
+    name: "Nagios check_http"
+    class: monitor
+    vendor: "Nagios Plugins Development Team"
+    verified: false
+    match: exact
+  - token: "NewsGatorOnline"
+    name: "NewsGator"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "nlcrawler"
+    name: "NLCrawler"
+    class: scraper
+    vendor: "Northern Light"
+    verified: false
+    match: exact
+  - token: "Nuzzel"
+    name: "Nuzzel"
+    class: scraper
+    vendor: "Nuzzel"
+    verified: false
+    match: exact
+  - token: "NodePing"
+    name: "NodePing"
+    class: monitor
+    vendor: "NodePing"
+    verified: false
+    match: exact
+  - token: "OnlineOrNot.com_bot"
+    name: "OnlineOrNot Bot"
+    class: monitor
+    vendor: "OnlineOrNot"
+    verified: false
+    match: exact
+  - token: "webzio"
+    name: "webzio"
+    class: ai
+    vendor: "Webz.io Ltd"
+    verified: false
+    match: exact
+  - token: "OpenindexSpider"
+    name: "Openindex Spider"
+    class: search
+    vendor: "Openindex B.V."
+    verified: false
+    match: exact
+  - token: "spbot"
+    name: "OpenLinkProfiler"
+    class: scraper
+    vendor: "Axandra GmbH"
+    verified: false
+    match: exact
+  - token: "OpenWebSpider"
+    name: "OpenWebSpider"
+    class: scraper
+    vendor: "OpenWebSpider Lab"
+    verified: false
+    match: exact
+  - token: "PaperLiBot"
+    name: "PaperLiBot"
+    class: search
+    vendor: "Smallrivers SA"
+    verified: false
+    match: exact
+  - token: "phantomas"
+    name: "Phantomas"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "phpservermon"
+    name: "PHP Server Monitor"
+    class: monitor
+    vendor: "PHP Server Monitor"
+    verified: false
+    match: exact
+  - token: "PritTorrent"
+    name: "PritTorrent"
+    class: scraper
+    vendor: "Bitlove"
+    verified: false
+    match: exact
+  - token: "psbot"
+    name: "Picsearch bot"
+    class: search
+    vendor: "Picsearch"
+    verified: false
+    match: exact
+  - token: "RamblerMail"
+    name: "RamblerMail Image Proxy"
+    class: scraper
+    vendor: "Rambler&Co"
+    verified: false
+    match: exact
+  - token: "QuerySeekerSpider"
+    name: "QuerySeekerSpider"
+    class: scraper
+    vendor: "QueryEye Inc."
+    verified: false
+    match: exact
+  - token: "Rainmeter"
+    name: "Rainmeter"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Riddler"
+    name: "Riddler"
+    class: search
+    vendor: "F-Secure"
+    verified: false
+    match: exact
+  - token: "SafeDNSBot"
+    name: "SafeDNSBot"
+    class: scraper
+    vendor: "SafeDNS, Inc."
+    verified: false
+    match: exact
+  - token: "ScreenerBot"
+    name: "ScreenerBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "BacklinksExtendedBot"
+    name: "BacklinksExtendedBot"
+    class: scraper
+    vendor: "Semrush Inc."
+    verified: false
+    match: exact
+  - token: "SerpReputationManagementAgent"
+    name: "Semrush Reputation Management"
+    class: other
+    vendor: "Semrush Inc."
+    verified: false
+    match: exact
+  - token: "SplitSignalBot"
+    name: "SplitSignalBot"
+    class: scraper
+    vendor: "Semrush Inc."
+    verified: false
+    match: exact
+  - token: "SiteAuditBot"
+    name: "SiteAuditBot"
+    class: scraper
+    vendor: "Semrush Inc."
+    verified: false
+    match: exact
+  - token: "SensikaBot"
+    name: "Sensika Bot"
+    class: other
+    vendor: "Sensika"
+    verified: false
+    match: exact
+  - token: "seoscanners.net"
+    name: "Seoscanners.net"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "shopify-partner-homepage-scraper"
+    name: "Shopify Partner"
+    class: scraper
+    vendor: "Shopify"
+    verified: false
+    match: exact
+  - token: "SilverReader"
+    name: "SilverReader"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SiteSucker"
+    name: "SiteSucker"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "sixy.ch"
+    name: "Sixy.ch"
+    class: monitor
+    vendor: "Manuel Kasper"
+    verified: false
+    match: exact
+  - token: "Sprinklr"
+    name: "Sprinklr"
+    class: scraper
+    vendor: "Sprinklr, Inc."
+    verified: false
+    match: exact
+  - token: "Sparkler"
+    name: "Sparkler"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Spinn3r"
+    name: "Spinn3r"
+    class: scraper
+    vendor: "Tailrank Inc"
+    verified: false
+    match: exact
+  - token: "SputnikBot"
+    name: "Sputnik Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SputnikFaviconBot"
+    name: "Sputnik Favicon Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SputnikImageBot"
+    name: "Sputnik Image Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SurveyBot"
+    name: "Survey Bot"
+    class: search
+    vendor: "Domain Tools"
+    verified: false
+    match: exact
+  - token: "TarmotGezgin"
+    name: "Tarmot Gezgin"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "TLSProbe"
+    name: "TLSProbe"
+    class: search
+    vendor: "Venafi TrustNet"
+    verified: false
+    match: exact
+  - token: "TinEye-bot"
+    name: "TinEye Crawler"
+    class: search
+    vendor: "Idée Inc."
+    verified: false
+    match: exact
+  - token: "theoldreader.com"
+    name: "theoldreader"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Trackable"
+    name: "Chartable"
+    class: monitor
+    vendor: "Chartable"
+    verified: false
+    match: exact
+  - token: "trendictionbot"
+    name: "Trendiction Bot"
+    class: scraper
+    vendor: "Talkwalker Inc."
+    verified: false
+    match: exact
+  - token: "TweetedTimes"
+    name: "TweetedTimes Bot"
+    class: scraper
+    vendor: "TweetedTimes"
+    verified: false
+    match: exact
+  - token: "TweetmemeBot"
+    name: "Tweetmeme Bot"
+    class: scraper
+    vendor: "Mediasift"
+    verified: false
+    match: exact
+  - token: "URLAppendBot"
+    name: "URLAppendBot"
+    class: scraper
+    vendor: "Profound Networks"
+    verified: false
+    match: exact
+  - token: "Vagabondo"
+    name: "Vagabondo"
+    class: scraper
+    vendor: "WiseGuys"
+    verified: false
+    match: exact
+  - token: "VKRobot"
+    name: "VK Robot"
+    class: scraper
+    vendor: "VK"
+    verified: false
+    match: exact
+  - token: "VSMCrawler"
+    name: "Visual Site Mapper Crawler"
+    class: scraper
+    vendor: "Alentum Software Ltd."
+    verified: false
+    match: exact
+  - token: "Jigsaw"
+    name: "W3C CSS Validator"
+    class: other
+    vendor: "W3C"
+    verified: false
+    match: exact
+  - token: "W3C_I18n-Checker"
+    name: "W3C I18N Checker"
+    class: other
+    vendor: "W3C"
+    verified: false
+    match: exact
+  - token: "W3C-mobileOK"
+    name: "W3C MobileOK Checker"
+    class: other
+    vendor: "W3C"
+    verified: false
+    match: exact
+  - token: "W3C_Unicorn"
+    name: "W3C Unified Validator"
+    class: other
+    vendor: "W3C"
+    verified: false
+    match: exact
+  - token: "Wappalyzer"
+    name: "Wappalyzer"
+    class: other
+    vendor: "AliasIO"
+    verified: false
+    match: exact
+  - token: "PTST"
+    name: "WebPageTest"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "WeSEE"
+    name: "WeSEE:Search"
+    class: search
+    vendor: "WeSEE Ltd"
+    verified: false
+    match: exact
+  - token: "WebbCrawler"
+    name: "WebbCrawler"
+    class: scraper
+    vendor: "Steve Webb"
+    verified: false
+    match: exact
+  - token: "XenForo"
+    name: "XenForo"
+    class: other
+    vendor: "XenForo Ltd."
+    verified: false
+    match: exact
+  - token: "yacybot"
+    name: "YaCy"
+    class: search
+    vendor: "YaCy"
+    verified: false
+    match: exact
+  - token: "YahooMailProxy"
+    name: "Yahoo! Mail Proxy"
+    class: other
+    vendor: "Yahoo! Inc."
+    verified: false
+    match: exact
+  - token: "YahooCacheSystem"
+    name: "Yahoo! Cache System"
+    class: scraper
+    vendor: "Yahoo! Inc."
+    verified: false
+    match: exact
+  - token: "YandexAdditional"
+    name: "YandexAdditionalBot"
+    class: search
+    vendor: "Yandex LLC"
+    verified: false
+    match: exact
+  - token: "YoudaoBot"
+    name: "Youdao Bot"
+    class: search
+    vendor: "NetEase, Inc."
+    verified: false
+    match: exact
+  - token: "YOURLS"
+    name: "Yourls"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Zookabot"
+    name: "Zookabot"
+    class: scraper
+    vendor: "Hwacha ApS"
+    verified: false
+    match: exact
+  - token: "ZumBot"
+    name: "ZumBot"
+    class: search
+    vendor: "ZUM internet"
+    verified: false
+    match: exact
+  - token: "SnapchatAds"
+    name: "Snapchat Ads"
+    class: scraper
+    vendor: "Snapchat Inc."
+    verified: false
+    match: exact
+  - token: "www.monitor.us"
+    name: "Monitor.Us"
+    class: monitor
+    vendor: "Monitor.Us"
+    verified: false
+    match: exact
+  - token: "bitlybot"
+    name: "BitlyBot"
+    class: scraper
+    vendor: "Bitly, Inc."
+    verified: false
+    match: exact
+  - token: "lycos"
+    name: "Lycos"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Slurp"
+    name: "Inktomi Slurp"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "scooter"
+    name: "Scooter"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "charlotte"
+    name: "Charlotte"
+    class: scraper
+    vendor: "Searchme, Inc."
+    verified: false
+    match: exact
+  - token: "Pompos"
+    name: "Pompos"
+    class: scraper
+    vendor: "ILIAD SA"
+    verified: false
+    match: exact
+  - token: "PagePeeker"
+    name: "PagePeeker"
+    class: scraper
+    vendor: "PAGEPEEKER SRL"
+    verified: false
+    match: exact
+  - token: "WebThumbnail"
+    name: "WebThumbnail"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "EmailWolf"
+    name: "EmailWolf"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "sentry"
+    name: "Sentry Bot"
+    class: other
+    vendor: "Sentry"
+    verified: false
+    match: exact
+  - token: "BrandVerity"
+    name: "BrandVerity"
+    class: scraper
+    vendor: "BrandVerity, Inc."
+    verified: false
+    match: exact
+  - token: "woorankreview"
+    name: "WooRank"
+    class: search
+    vendor: "WooRank sprl"
+    verified: false
+    match: exact
+  - token: "CATExplorador"
+    name: "CATExplorador"
+    class: search
+    vendor: "Fundació puntCAT"
+    verified: false
+    match: exact
+  - token: "Buck"
+    name: "Buck"
+    class: search
+    vendor: "Hypefactors A/S"
+    verified: false
+    match: exact
+  - token: "tracemyfile"
+    name: "TraceMyFile"
+    class: search
+    vendor: "Idee Inc."
+    verified: false
+    match: exact
+  - token: "weborama-fetcher"
+    name: "Weborama"
+    class: search
+    vendor: "Weborama SA"
+    verified: false
+    match: exact
+  - token: "TikTokSpider"
+    name: "TikTokSpider"
+    class: search
+    vendor: "TikTok Inc."
+    verified: false
+    match: exact
+  - token: "WikiDo"
+    name: "WikiDo"
+    class: search
+    vendor: "Fotolitografie Fiorentine di Becchi Antonio s.n.c."
+    verified: false
+    match: exact
+  - token: "AwarioRssBot"
+    name: "Awario"
+    class: other
+    vendor: "TechFusion Ltd."
+    verified: false
+    match: exact
+  - token: "oBot"
+    name: "oBot"
+    class: search
+    vendor: "IBM Germany Research & Development GmbH"
+    verified: false
+    match: exact
+  - token: "SMTBot"
+    name: "SMTBot"
+    class: search
+    vendor: "SimilarTech Ltd."
+    verified: false
+    match: exact
+  - token: "Startpagina-Linkchecker"
+    name: "Startpagina Linkchecker"
+    class: search
+    vendor: "Startpagina B.V."
+    verified: false
+    match: exact
+  - token: "MoodleBot-Linkchecker"
+    name: "MoodleBot Linkchecker"
+    class: search
+    vendor: "Moodle Pty Ltd"
+    verified: false
+    match: exact
+  - token: "OI-Crawler"
+    name: "OI-Crawler"
+    class: scraper
+    vendor: "OpenINTEL"
+    verified: false
+    match: exact
+  - token: "Vercelbot"
+    name: "Vercel Bot"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Grammarly"
+    name: "Grammarly"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SerendeputyBot"
+    name: "Serendeputy Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SemanticScholarBot"
+    name: "Semantic Scholar Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Barkrowler"
+    name: "Barkrowler"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "BDCbot"
+    name: "BDCbot"
+    class: scraper
+    vendor: "BIG Data Solucoes Em Tecnologia de Informatica LTDA"
+    verified: false
+    match: exact
+  - token: "adbeat"
+    name: "Adbeat"
+    class: scraper
+    vendor: "PPC Labs LLC"
+    verified: false
+    match: exact
+  - token: "MicroAdBot"
+    name: "MicroAdBot"
+    class: scraper
+    vendor: "MicroAd, Inc."
+    verified: false
+    match: exact
+  - token: "PingAdmin.Ru"
+    name: "PingAdmin.Ru"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Nimbostratus-Bot"
+    name: "Nimbostratus Bot"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "HeartRails_Capture"
+    name: "HeartRails Capture"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Project-Resonance"
+    name: "Project Resonance"
+    class: scraper
+    vendor: "RedHunt Labs Limited"
+    verified: false
+    match: exact
+  - token: "DataXu"
+    name: "DataXu"
+    class: other
+    vendor: "Roku, Inc."
+    verified: false
+    match: exact
+  - token: "Cocolyzebot"
+    name: "Cocolyzebot"
+    class: scraper
+    vendor: "VSI INNOVATION SAS"
+    verified: false
+    match: exact
+  - token: "veryhip"
+    name: "VeryHip"
+    class: scraper
+    vendor: "VeryHip"
+    verified: false
+    match: exact
+  - token: "MuscatFerret"
+    name: "MuscatFerret"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "PageThing.com"
+    name: "PageThing"
+    class: scraper
+    vendor: "SPECIALNOISE LTD"
+    verified: false
+    match: exact
+  - token: "ArchiveBox"
+    name: "ArchiveBox"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Choosito"
+    name: "Choosito"
+    class: scraper
+    vendor: "Choosito! Inc."
+    verified: false
+    match: exact
+  - token: "datagnionbot"
+    name: "datagnionbot"
+    class: scraper
+    vendor: "DATAGNION GMBH"
+    verified: false
+    match: exact
+  - token: "WhatCMS"
+    name: "WhatCMS"
+    class: scraper
+    vendor: "Nineteen Ten LLC"
+    verified: false
+    match: exact
+  - token: "HuaweiWebCatBot"
+    name: "HuaweiWebCatBot"
+    class: scraper
+    vendor: "Huawei Technologies Co., Ltd."
+    verified: false
+    match: exact
+  - token: "Hatena-Favicon"
+    name: "Hatena Favicon"
+    class: scraper
+    vendor: "Hatena Co., Ltd."
+    verified: false
+    match: exact
+  - token: "RyowlEngine"
+    name: "Ryowl"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "OdklBot"
+    name: "Odnoklassniki Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Mediatoolkitbot"
+    name: "Mediatoolkit Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "WeViKaBot"
+    name: "WeViKaBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Plukkie"
+    name: "Plukkie"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Gowikibot"
+    name: "Gowikibot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SabsimBot"
+    name: "SabsimBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "LumtelBot"
+    name: "LumtelBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "PiplBot"
+    name: "PiplBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "woobot"
+    name: "WooRank"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Cookiebot"
+    name: "Cookiebot"
+    class: scraper
+    vendor: "Cybot A/S"
+    verified: false
+    match: exact
+  - token: "NetSystemsResearch"
+    name: "NetSystemsResearch"
+    class: other
+    vendor: "NET SYSTEMS RESEARCH LLC"
+    verified: false
+    match: exact
+  - token: "gdnplus.com"
+    name: "GDNP"
+    class: scraper
+    vendor: "Global Digital Network Plus, LLC"
+    verified: false
+    match: exact
+  - token: "WellKnownBot"
+    name: "WellKnownBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Adsbot"
+    name: "Adsbot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "MTRobot"
+    name: "MTRobot"
+    class: scraper
+    vendor: "Metrics Tools"
+    verified: false
+    match: exact
+  - token: "serpstatbot"
+    name: "serpstatbot"
+    class: scraper
+    vendor: "Netpeak Ltd"
+    verified: false
+    match: exact
+  - token: "l9tcpid"
+    name: "l9tcpid"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "l9explore"
+    name: "l9explore"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "MegaIndex.ru"
+    name: "MegaIndex"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "KomodiaBot"
+    name: "KomodiaBot"
+    class: scraper
+    vendor: "Komodia Inc."
+    verified: false
+    match: exact
+  - token: "KStandBot"
+    name: "KStandBot"
+    class: scraper
+    vendor: "Komodia Inc."
+    verified: false
+    match: exact
+  - token: "LinkPreview"
+    name: "LinkPreview"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "JungleKeyThumbnail"
+    name: "JungleKeyThumbnail"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SitemapParser-VIPnytt"
+    name: "SitemapParser-VIPnytt"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Linespider"
+    name: "Linespider"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Cincraw"
+    name: "Cincraw"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "IonCrawl"
+    name: "IONOS Crawler"
+    class: scraper
+    vendor: "IONOS SE"
+    verified: false
+    match: exact
+  - token: "Crawldad"
+    name: "Crawldad"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "TigerBot"
+    name: "TigerBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "TestCrawler"
+    name: "TestCrawler"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "CrowdTanglebot"
+    name: "CrowdTangle"
+    class: scraper
+    vendor: "CrowdTangle, Inc."
+    verified: false
+    match: exact
+  - token: "OnalyticaBot"
+    name: "Onalytica"
+    class: scraper
+    vendor: "airSlate, Inc."
+    verified: false
+    match: exact
+  - token: "deepnoc"
+    name: "deepnoc"
+    class: scraper
+    vendor: "deepnoc, GmbH"
+    verified: false
+    match: exact
+  - token: "Newslitbot"
+    name: "Newslitbot"
+    class: scraper
+    vendor: "Newslit, LLC."
+    verified: false
+    match: exact
+  - token: "Abonti"
+    name: "Abonti"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "ev-crawler"
+    name: "Headline"
+    class: scraper
+    vendor: "e.ventures Managementgesellschaft mbH"
+    verified: false
+    match: exact
+  - token: "webprosbot"
+    name: "WebPros"
+    class: scraper
+    vendor: "WebPros Holdco B.V."
+    verified: false
+    match: exact
+  - token: "ELB-HealthChecker"
+    name: "Amazon ELB"
+    class: monitor
+    vendor: "Amazon.com, Inc."
+    verified: false
+    match: exact
+  - token: "project_patchwatch"
+    name: "Project Patchwatch"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "InternetMeasurement"
+    name: "InternetMeasurement"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "DomainAppender"
+    name: "DomainAppender"
+    class: scraper
+    vendor: "Profound Networks, LLC"
+    verified: false
+    match: exact
+  - token: "adstxtlab.com"
+    name: "adstxtlab.com"
+    class: scraper
+    vendor: "Jaohawi AB"
+    verified: false
+    match: exact
+  - token: "DomainStatsBot"
+    name: "DomainStatsBot"
+    class: scraper
+    vendor: "Domainstats Ltd"
+    verified: false
+    match: exact
+  - token: "aiHitBot"
+    name: "aiHitBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "DomainCrawler"
+    name: "DomainCrawler"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "AdAuth"
+    name: "AdAuth"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "faveeo.com"
+    name: "Faveeo"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "kozmonavt."
+    name: "Kozmonavt"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "CriteoBot"
+    name: "CriteoBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "MaCoCu"
+    name: "MaCoCu"
+    class: scraper
+    vendor: "Jožef Stefan Institute"
+    verified: false
+    match: exact
+  - token: "CLASSLA"
+    name: "CLASSLA-web"
+    class: scraper
+    vendor: "Jožef Stefan Institute"
+    verified: false
+    match: exact
+  - token: "InfoTigerBot"
+    name: "InfoTigerBot"
+    class: scraper
+    vendor: "Infotiger UG"
+    verified: false
+    match: exact
+  - token: "ScamadviserExternalHit"
+    name: "Scamadviser External Hit"
+    class: scraper
+    vendor: "Ecommerce Operations B.V."
+    verified: false
+    match: exact
+  - token: "ZaldamoSearchBot"
+    name: "Zaldamo"
+    class: scraper
+    vendor: "Zaldamo, LLC."
+    verified: false
+    match: exact
+  - token: "LinkWalker"
+    name: "LinkWalker"
+    class: scraper
+    vendor: "PhishLabs, Inc."
+    verified: false
+    match: exact
+  - token: "RenovateBot"
+    name: "RenovateBot"
+    class: other
+    vendor: "White Source Ltd."
+    verified: false
+    match: exact
+  - token: "INETDEX-BOT"
+    name: "Inetdex Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "NETZZAPPEN"
+    name: "NETZZAPPEN"
+    class: scraper
+    vendor: "Marc Huemer"
+    verified: false
+    match: exact
+  - token: "panscient.com"
+    name: "Panscient"
+    class: scraper
+    vendor: "Panscient, Inc."
+    verified: false
+    match: exact
+  - token: "Nicecrawler"
+    name: "NiceCrawler"
+    class: scraper
+    vendor: "Intelium Corp."
+    verified: false
+    match: exact
+  - token: "t3versionsBot"
+    name: "t3versions"
+    class: scraper
+    vendor: "Torben Hansen"
+    verified: false
+    match: exact
+  - token: "Crawlson"
+    name: "Crawlson"
+    class: scraper
+    vendor: "Crawlson"
+    verified: false
+    match: exact
+  - token: "tchelebi"
+    name: "tchelebi"
+    class: scraper
+    vendor: "NormShield, Inc."
+    verified: false
+    match: exact
+  - token: "JobboerseBot"
+    name: "JobboerseBot"
+    class: scraper
+    vendor: "New Work SE"
+    verified: false
+    match: exact
+  - token: "RepoLookoutBot"
+    name: "Repo Lookout"
+    class: other
+    vendor: "Crissy Field GmbH"
+    verified: false
+    match: exact
+  - token: "PATHspider"
+    name: "PATHspider"
+    class: other
+    vendor: "MAMI Project"
+    verified: false
+    match: exact
+  - token: "everyfeed-spider"
+    name: "Everyfeed"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Sublinq"
+    name: "Sublinq"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Taboolabot"
+    name: "Taboolabot"
+    class: scraper
+    vendor: "Taboola, Inc."
+    verified: false
+    match: exact
+  - token: "URLinspectorBot"
+    name: "URLinspector"
+    class: monitor
+    vendor: "LinkResearchTools GmbH"
+    verified: false
+    match: exact
+  - token: "EntferBot"
+    name: "Entfer"
+    class: scraper
+    vendor: "Entfer Ltd."
+    verified: false
+    match: exact
+  - token: "TagInspector"
+    name: "Tag Inspector"
+    class: scraper
+    vendor: "InfoTrust, LLC"
+    verified: false
+    match: exact
+  - token: "pageburst"
+    name: "Pageburst"
+    class: scraper
+    vendor: "Elsevier Ltd"
+    verified: false
+    match: exact
+  - token: "Doximity-Diffbot"
+    name: "Doximity-Diffbot"
+    class: ai
+    vendor: "Diffbot Technologies Corp."
+    verified: false
+    match: exact
+  - token: "DisqusAdstxtCrawler"
+    name: "Disqus"
+    class: scraper
+    vendor: "Disqus, Inc."
+    verified: false
+    match: exact
+  - token: "startmebot"
+    name: "start.me"
+    class: scraper
+    vendor: "start.me BV"
+    verified: false
+    match: exact
+  - token: "XoviBot"
+    name: "XoviBot"
+    class: scraper
+    vendor: "Xovi GmbH"
+    verified: false
+    match: exact
+  - token: "Verity"
+    name: "GumGum Verity"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "hackermention"
+    name: "hackermention"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "BitSightBot"
+    name: "BitSight"
+    class: other
+    vendor: "BitSight Technologies, Inc."
+    verified: false
+    match: exact
+  - token: "Ezgif"
+    name: "Ezgif"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "intelx.io_bot"
+    name: "Intelligence X"
+    class: scraper
+    vendor: "Kleissner Investments s.r.o."
+    verified: false
+    match: exact
+  - token: "FemtosearchBot"
+    name: "Femtosearch"
+    class: scraper
+    vendor: "Grier Forensics, LLC"
+    verified: false
+    match: exact
+  - token: "Morningscore"
+    name: "Morningscore Bot"
+    class: scraper
+    vendor: "Morningscore"
+    verified: false
+    match: exact
+  - token: "ChatGPT-Browser"
+    name: "ChatGPT-Browser"
+    class: ai
+    vendor: "OpenAI OpCo, LLC"
+    verified: false
+    match: exact
+  - token: "sfFeedReader"
+    name: "sfFeedReader"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "cyberscan.io"
+    name: "Cyberscan"
+    class: other
+    vendor: "DGC Verwaltungs GmbH"
+    verified: false
+    match: exact
+  - token: "researchscan.comsys.rwth-aachen.de"
+    name: "Research Scan"
+    class: scraper
+    vendor: "RWTH Aachen University"
+    verified: false
+    match: exact
+  - token: "newspaper"
+    name: "Scraping Robot"
+    class: scraper
+    vendor: "Sprious LLC"
+    verified: false
+    match: exact
+  - token: "WebwikiBot"
+    name: "Webwiki"
+    class: scraper
+    vendor: "webwiki GmbH"
+    verified: false
+    match: exact
+  - token: "phpMyAdmin"
+    name: "phpMyAdmin"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Matomo"
+    name: "Matomo"
+    class: other
+    vendor: "InnoCraft Ltd"
+    verified: false
+    match: exact
+  - token: "Prometheus"
+    name: "Prometheus"
+    class: other
+    vendor: "The Linux Foundation"
+    verified: false
+    match: exact
+  - token: "MADBbot"
+    name: "MADBbot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "owler"
+    name: "OWLer"
+    class: scraper
+    vendor: "Open Search Foundation e.V."
+    verified: false
+    match: exact
+  - token: "BBC-Forge-URL-Monitor-Twisted"
+    name: "BBC Forge URL Monitor"
+    class: monitor
+    vendor: "BBC"
+    verified: false
+    match: exact
+  - token: "Claude-User"
+    name: "Claude-User"
+    class: ai
+    vendor: "Anthropic PBC"
+    verified: false
+    match: exact
+  - token: "Imagesift"
+    name: "ImageSift"
+    class: ai
+    vendor: "Castle Global, Inc."
+    verified: false
+    match: exact
+  - token: "TactiScout"
+    name: "TactiScout"
+    class: scraper
+    vendor: "Tactikast"
+    verified: false
+    match: exact
+  - token: "Brightbot"
+    name: "BrightBot"
+    class: scraper
+    vendor: "Bright Interactive Ltd"
+    verified: false
+    match: exact
+  - token: "DaspeedBot"
+    name: "DaspeedBot"
+    class: scraper
+    vendor: "DAWAP SARL"
+    verified: false
+    match: exact
+  - token: "StractBot"
+    name: "Stract"
+    class: scraper
+    vendor: "Stract"
+    verified: false
+    match: exact
+  - token: "GeedoBot"
+    name: "GeedoBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "BackupLand"
+    name: "BackupLand"
+    class: scraper
+    vendor: "ООО «КВАРТА»"
+    verified: false
+    match: exact
+  - token: "Konturbot"
+    name: "Konturbot"
+    class: scraper
+    vendor: "АО «ПФ «СКБ Контур»"
+    verified: false
+    match: exact
+  - token: "keys-so-bot"
+    name: "Keys.so"
+    class: scraper
+    vendor: "ООО «МОДЕСКО»"
+    verified: false
+    match: exact
+  - token: "LetsearchBot"
+    name: "LetSearch"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Example3"
+    name: "Example3"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "StatOnlineRuBot"
+    name: "StatOnline.ru"
+    class: scraper
+    vendor: "ООО «Регистратор доменных имен РЕГ.РУ»"
+    verified: false
+    match: exact
+  - token: "getodin.com"
+    name: "Odin"
+    class: other
+    vendor: "Cyble Inc."
+    verified: false
+    match: exact
+  - token: "SiteScoreBot"
+    name: "SiteScore"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "MBCrawler"
+    name: "Monitor Backlinks"
+    class: scraper
+    vendor: "SEOptimer"
+    verified: false
+    match: exact
+  - token: "mariadb-mysql-kbs-bot"
+    name: "MariaDB/MySQL Knowledge Base"
+    class: scraper
+    vendor: "WDES SAS"
+    verified: false
+    match: exact
+  - token: "GitHubCopilotChat"
+    name: "GitHubCopilotChat"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "pdrl.fm"
+    name: "Podroll Analyzer"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "PodUptime"
+    name: "PodUptime"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "NetpeakCheckerBot"
+    name: "Netpeak Checker"
+    class: scraper
+    vendor: "Netpeak LTD"
+    verified: false
+    match: exact
+  - token: "SandobaCrawler"
+    name: "Sandoba//Crawler"
+    class: scraper
+    vendor: "SANDOBA//EBUSINESS SOLUTIONS"
+    verified: false
+    match: exact
+  - token: "SirdataBot"
+    name: "Sirdata"
+    class: scraper
+    vendor: "Sirdata SAS"
+    verified: false
+    match: exact
+  - token: "CheckMarkNetwork"
+    name: "CheckMark Network"
+    class: scraper
+    vendor: "Exipert, Inc."
+    verified: false
+    match: exact
+  - token: "Cohere-Command"
+    name: "Cohere-Command"
+    class: scraper
+    vendor: "Cohere, Inc."
+    verified: false
+    match: exact
+  - token: "cohere-training"
+    name: "cohere-training-data-crawler"
+    class: scraper
+    vendor: "Cohere, Inc."
+    verified: false
+    match: exact
+  - token: "Perplexity-User"
+    name: "Perplexity-User"
+    class: ai
+    vendor: "Perplexity AI, Inc."
+    verified: false
+    match: exact
+  - token: "TTD-Content"
+    name: "The Trade Desk Content"
+    class: scraper
+    vendor: "The Trade Desk, Inc."
+    verified: false
+    match: exact
+  - token: "montastic-monitor"
+    name: "Montastic Monitor"
+    class: monitor
+    vendor: "Metadot, Corp."
+    verified: false
+    match: exact
+  - token: "CSSCheck"
+    name: "CSSCheck"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "MicrosoftPreview"
+    name: "Microsoft Preview"
+    class: other
+    vendor: "Microsoft Corporation"
+    verified: false
+    match: exact
+  - token: "TinEye"
+    name: "TinEye"
+    class: scraper
+    vendor: "Idée, Inc."
+    verified: false
+    match: exact
+  - token: "adscanner"
+    name: "Adscanner"
+    class: scraper
+    vendor: "AdScanner d.o.o"
+    verified: false
+    match: exact
+  - token: "online-webceo-bot"
+    name: "WebCEO"
+    class: scraper
+    vendor: "WebCEO, LLC"
+    verified: false
+    match: exact
+  - token: "NetTrack"
+    name: "NetTrack"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "htmlyse"
+    name: "htmlyse"
+    class: scraper
+    vendor: "Vistex LTD"
+    verified: false
+    match: exact
+  - token: "TrendsmapResolver"
+    name: "Trendsmap"
+    class: scraper
+    vendor: "Trendsmap Pty Ltd"
+    verified: false
+    match: exact
+  - token: "keycdn-tools"
+    name: "KeyCDN Tools"
+    class: other
+    vendor: "proinity LLC"
+    verified: false
+    match: exact
+  - token: "Arquivo-web-crawler"
+    name: "Arquivo.pt"
+    class: scraper
+    vendor: "FCT|FCCN"
+    verified: false
+    match: exact
+  - token: "WhatsMyIP.org"
+    name: "WhatsMyIP.org"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SenutoBot"
+    name: "Senuto"
+    class: scraper
+    vendor: "Senuto Sp. z o.o."
+    verified: false
+    match: exact
+  - token: "GozleBot"
+    name: "Gozle"
+    class: scraper
+    vendor: "Doly Horjun HJ"
+    verified: false
+    match: exact
+  - token: "Quantcastbot"
+    name: "Quantcast"
+    class: scraper
+    vendor: "Quantcast Corp."
+    verified: false
+    match: exact
+  - token: "FontRadar"
+    name: "FontRadar"
+    class: scraper
+    vendor: "EMDASH SAS"
+    verified: false
+    match: exact
+  - token: "ViberUrlDownloader"
+    name: "Viber Url Downloader"
+    class: other
+    vendor: "Viber Media S.à r.l."
+    verified: false
+    match: exact
+  - token: "Zeno"
+    name: "Zeno"
+    class: scraper
+    vendor: "The Internet Archive"
+    verified: false
+    match: exact
+  - token: "sitebulb"
+    name: "Sitebulb"
+    class: scraper
+    vendor: "Sitebulb Limited"
+    verified: false
+    match: exact
+  - token: "Monsidobot"
+    name: "Monsidobot"
+    class: scraper
+    vendor: "Monsido LLC"
+    verified: false
+    match: exact
+  - token: "AccompanyBot"
+    name: "AccompanyBot"
+    class: scraper
+    vendor: "Accompani, Inc"
+    verified: false
+    match: exact
+  - token: "Google-Apps-Script"
+    name: "Google Apps Script"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SiteOne-Crawler"
+    name: "SiteOne Crawler"
+    class: scraper
+    vendor: "SiteOne s.r.o."
+    verified: false
+    match: exact
+  - token: "Detectify"
+    name: "Detectify"
+    class: other
+    vendor: "Detectify AB"
+    verified: false
+    match: exact
+  - token: "DomCopBot"
+    name: "DomCop Bot"
+    class: scraper
+    vendor: "Axeman Technology Solutions LLP"
+    verified: false
+    match: exact
+  - token: "Paqlebot"
+    name: "Paqlebot"
+    class: scraper
+    vendor: "Paqle A/S"
+    verified: false
+    match: exact
+  - token: "Wibybot"
+    name: "Wibybot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Synapse"
+    name: "Synapse"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "OSZKbot"
+    name: "OSZKbot"
+    class: scraper
+    vendor: "National Szechenyi Library"
+    verified: false
+    match: exact
+  - token: "ZoomBot"
+    name: "ZoomBot"
+    class: scraper
+    vendor: "SEO Cube S.r.l."
+    verified: false
+    match: exact
+  - token: "RavenCrawler"
+    name: "RavenCrawler"
+    class: scraper
+    vendor: "TapClicks, Inc."
+    verified: false
+    match: exact
+  - token: "KadoBot"
+    name: "KadoBot"
+    class: scraper
+    vendor: "Kadolijst"
+    verified: false
+    match: exact
+  - token: "Dubbotbot"
+    name: "Dubbotbot"
+    class: scraper
+    vendor: "DubBot"
+    verified: false
+    match: exact
+  - token: "EyeMonIT"
+    name: "EyeMonit"
+    class: monitor
+    vendor: "EyeMonit"
+    verified: false
+    match: exact
+  - token: "OmtrBot"
+    name: "OmtrBot"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "WebMon"
+    name: "WebMon"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "fragFINN"
+    name: "fragFINN"
+    class: scraper
+    vendor: "fragFINN e.V."
+    verified: false
+    match: exact
+  - token: "kiwitcms-gitops"
+    name: "Kiwi TCMS GitOps"
+    class: other
+    vendor: "Open Technologies Bulgaria, Ltd."
+    verified: false
+    match: exact
+  - token: "webtru_crawler"
+    name: "webtru"
+    class: scraper
+    vendor: "DataSign Inc."
+    verified: false
+    match: exact
+  - token: "URLSuMaBot"
+    name: "URLSuMaBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "UCSBNetworkMeasurement"
+    name: "UCSB Network Measurement"
+    class: scraper
+    vendor: "University of California, Santa Barbara"
+    verified: false
+    match: exact
+  - token: "Who.is"
+    name: "Who.is Bot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Probely"
+    name: "Probely"
+    class: other
+    vendor: "Probely - Soluções de Cibersegurança, S.A."
+    verified: false
+    match: exact
+  - token: "Uptimia"
+    name: "Uptimia"
+    class: monitor
+    vendor: "JJ Online GmbH"
+    verified: false
+    match: exact
+  - token: "2GDPR"
+    name: "2GDPR"
+    class: other
+    vendor: "2GDPR"
+    verified: false
+    match: exact
+  - token: "abuse.xmco.fr"
+    name: "Serenety"
+    class: other
+    vendor: "XMCO, SASU"
+    verified: false
+    match: exact
+  - token: "CheckHost"
+    name: "CheckHost"
+    class: monitor
+    vendor: "CheckHost"
+    verified: false
+    match: exact
+  - token: "LAC_IAHarvester"
+    name: "LAC IA Harvester"
+    class: scraper
+    vendor: "Library and Archives Canada"
+    verified: false
+    match: exact
+  - token: "InsytfulBot"
+    name: "InsytfulBot"
+    class: scraper
+    vendor: "Zengenti Limited"
+    verified: false
+    match: exact
+  - token: "statista.com"
+    name: "Statista"
+    class: scraper
+    vendor: "Statista, Inc."
+    verified: false
+    match: exact
+  - token: "SubstackContentFetch"
+    name: "Substack Content Fetch"
+    class: scraper
+    vendor: "Substack, Inc."
+    verified: false
+    match: exact
+  - token: "LiveJournal.com"
+    name: "LiveJournal"
+    class: other
+    vendor: 'ООО "СИМ"'
+    verified: false
+    match: exact
+  - token: "bitdiscovery"
+    name: "Tenable.asm"
+    class: other
+    vendor: "Tenable, Inc."
+    verified: false
+    match: exact
+  - token: "Castopod"
+    name: "Castopod"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "WDG_Validator"
+    name: "WDG HTML Validator"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "CrawlyProjectCrawler"
+    name: "Crawly Project"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "BDFetch"
+    name: "BDFetch"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "PunkMap"
+    name: "Punk Map"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "GenomeCrawlerd"
+    name: "Deepfield Genome"
+    class: scraper
+    vendor: "Nokia Corporation"
+    verified: false
+    match: exact
+  - token: "Gaisbot"
+    name: "Gaisbot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "FAST-WebCrawler"
+    name: "AlltheWeb"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "ducks.party"
+    name: "ducks.party"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "DepSpid"
+    name: "DepSpid"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Website-info.net"
+    name: "Website-info"
+    class: scraper
+    vendor: "Meins und Vogel GmbH"
+    verified: false
+    match: exact
+  - token: "RedekenBot"
+    name: "RedekenBot"
+    class: scraper
+    vendor: "Redeken"
+    verified: false
+    match: exact
+  - token: "semaltbot"
+    name: "semaltbot"
+    class: scraper
+    vendor: "Semalt LP"
+    verified: false
+    match: exact
+  - token: "MakeMerryBot"
+    name: "MakeMerryBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Validbot"
+    name: "ValidBot"
+    class: scraper
+    vendor: "Jake Olefsky LLC"
+    verified: false
+    match: exact
+  - token: "NPBot"
+    name: "NameProtectBot"
+    class: scraper
+    vendor: "NameProtect, Inc."
+    verified: false
+    match: exact
+  - token: "domaincodex.com"
+    name: "Domain Codex"
+    class: scraper
+    vendor: "Erie Data Systems, LLC"
+    verified: false
+    match: exact
+  - token: "leak.info"
+    name: "leak.info"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "workona"
+    name: "Workona"
+    class: scraper
+    vendor: "Workona, Inc."
+    verified: false
+    match: exact
+  - token: "Bloglines"
+    name: "Bloglines"
+    class: scraper
+    vendor: "Reply!, Inc."
+    verified: false
+    match: exact
+  - token: "search.marginalia.nu"
+    name: "Marginalia"
+    class: scraper
+    vendor: "Marginalia"
+    verified: false
+    match: exact
+  - token: "vu-server-health-scanner"
+    name: "VU Server Health Scanner"
+    class: other
+    vendor: "VU Amsterdam"
+    verified: false
+    match: exact
+  - token: "Functionize"
+    name: "Functionize"
+    class: scraper
+    vendor: "Functionize, Inc."
+    verified: false
+    match: exact
+  - token: "Prerender"
+    name: "Prerender"
+    class: scraper
+    vendor: "saas.group Inc."
+    verified: false
+    match: exact
+  - token: "bl.uk_ldfc_bot"
+    name: "The British Library Legal Deposit Bot"
+    class: scraper
+    vendor: "The British Library"
+    verified: false
+    match: exact
+  - token: "Miniature.io"
+    name: "Miniature.io"
+    class: other
+    vendor: "LCX Ventures Ltd"
+    verified: false
+    match: exact
+  - token: "Convertify"
+    name: "Convertify"
+    class: other
+    vendor: "Convertify"
+    verified: false
+    match: exact
+  - token: "ZoteroTranslationServer"
+    name: "Zotero Translation Server"
+    class: other
+    vendor: "The Wikimedia Foundation, Inc."
+    verified: false
+    match: exact
+  - token: "MuckRack"
+    name: "MuckRack"
+    class: scraper
+    vendor: "Muck Rack, LLC"
+    verified: false
+    match: exact
+  - token: "Golfe"
+    name: "Golfe"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SpiderLing"
+    name: "SpiderLing"
+    class: scraper
+    vendor: "Natural Language Processing Centre"
+    verified: false
+    match: exact
+  - token: "1001FirmsBot"
+    name: "1001FirmsBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SteamChatURLLookup"
+    name: "Steam Chat URL Lookup"
+    class: other
+    vendor: "Valve Corporation"
+    verified: false
+    match: exact
+  - token: "ohdear.app"
+    name: "Oh Dear"
+    class: monitor
+    vendor: "Immutable, SNC"
+    verified: false
+    match: exact
+  - token: "Inspici"
+    name: "Inspici"
+    class: scraper
+    vendor: "Inspici, LLC"
+    verified: false
+    match: exact
+  - token: "peer39_crawler"
+    name: "Peer39"
+    class: scraper
+    vendor: "Peer39 Tech, LLC"
+    verified: false
+    match: exact
+  - token: "CloudServerMarketSpider"
+    name: "CloudServerMarketSpider"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Pigafetta"
+    name: "Pigafetta"
+    class: scraper
+    vendor: "aStonish Studio Srl"
+    verified: false
+    match: exact
+  - token: "Cotoyogi"
+    name: "Cotoyogi"
+    class: scraper
+    vendor: "Joint Support-Center for Data Science Research (ROIS-DS)"
+    verified: false
+    match: exact
+  - token: "SuggestBot"
+    name: "SuggestBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "cms-experiment"
+    name: "CMS Experiment"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SiteCheckerBotCrawler"
+    name: "SiteCheckerBotCrawler"
+    class: scraper
+    vendor: "Cyber Circus Limited"
+    verified: false
+    match: exact
+  - token: "SBIder"
+    name: "SBIder"
+    class: scraper
+    vendor: "SiteSell Inc."
+    verified: false
+    match: exact
+  - token: "LightspeedSystemsCrawler"
+    name: "LightspeedSystemsCrawler"
+    class: scraper
+    vendor: "Lightspeed Systems, Inc."
+    verified: false
+    match: exact
+  - token: "SnoopSecInspect"
+    name: "SnoopSecInspect"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "ModatScanner"
+    name: "ModatScanner"
+    class: other
+    vendor: "Modat B.V."
+    verified: false
+    match: exact
+  - token: "researchcyber.net"
+    name: "researchcyber.net"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "CrystalSemanticsBot"
+    name: "CrystalSemanticsBot"
+    class: scraper
+    vendor: "Crystal Semantics Ltd."
+    verified: false
+    match: exact
+  - token: "najdu.s.holubem.eu"
+    name: "najdu.s.holubem.eu"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "VORTEX"
+    name: "VORTEX"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "xtate"
+    name: "xtate"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Grafana"
+    name: "Grafana"
+    class: monitor
+    vendor: "Grafana Labs"
+    verified: false
+    match: exact
+  - token: "github-camo"
+    name: "Github Camo"
+    class: scraper
+    vendor: "Github"
+    verified: false
+    match: exact
+  - token: "OpenGraph.io"
+    name: "OpenGraph.io"
+    class: scraper
+    vendor: "OpenGraph.io"
+    verified: false
+    match: exact
+  - token: "microsoft-flow"
+    name: "Microsoft Power Automate"
+    class: other
+    vendor: "Microsoft Corporation"
+    verified: false
+    match: exact
+  - token: "IbouBot"
+    name: "IbouBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "AddSearchBot"
+    name: "AddSearchBot"
+    class: scraper
+    vendor: "AddSearch Oy"
+    verified: false
+    match: exact
+  - token: "TerraCotta"
+    name: "TerraCotta"
+    class: scraper
+    vendor: "Ceramic, Inc."
+    verified: false
+    match: exact
+  - token: "KeybaseBot"
+    name: "KeybaseBot"
+    class: social
+    vendor: "Zoom Video Communications, Inc"
+    verified: false
+    match: exact
+  - token: "cypex.ai"
+    name: "Cypex"
+    class: other
+    vendor: "Cypex"
+    verified: false
+    match: exact
+  - token: "fhms-its-research-scanner"
+    name: "FHMS ITS Research Scanner"
+    class: other
+    vendor: "University of Applied Sciences Muenster"
+    verified: false
+    match: exact
+  - token: "Groq-Bot"
+    name: "Groq-Bot"
+    class: scraper
+    vendor: "Groq, Inc."
+    verified: false
+    match: exact
+  - token: "bigsur.ai"
+    name: "Big Sur AI"
+    class: other
+    vendor: "Big Sur AI, Inc."
+    verified: false
+    match: exact
+  - token: "FirecrawlAgent"
+    name: "FirecrawlAgent"
+    class: scraper
+    vendor: "SideGuide Technologies, Inc."
+    verified: false
+    match: exact
+  - token: "SecurityHeaders"
+    name: "SecurityHeaders"
+    class: other
+    vendor: "Snyk Limited"
+    verified: false
+    match: exact
+  - token: "HaloBot"
+    name: "HaloBot"
+    class: scraper
+    vendor: "ARCHI301"
+    verified: false
+    match: exact
+  - token: "RSiteAuditor"
+    name: "RSiteAuditor"
+    class: scraper
+    vendor: "My SEO Tool Inc"
+    verified: false
+    match: exact
+  - token: "ORTc.me"
+    name: "OpenRobotsTXT"
+    class: scraper
+    vendor: "Majestic-12 Limited"
+    verified: false
+    match: exact
+  - token: "obsrvr.net"
+    name: "Observer"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "AliyunSecBot"
+    name: "AliyunSecBot"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Heexybot"
+    name: "Heexybot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "ForwardQR"
+    name: "ForwardQR"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "CybaaBot"
+    name: "CybaaBot"
+    class: other
+    vendor: "Cybaa Ltd"
+    verified: false
+    match: exact
+  - token: "CybaaAgent"
+    name: "CybaaAgent"
+    class: other
+    vendor: "Cybaa Ltd"
+    verified: false
+    match: exact
+  - token: "DVbot"
+    name: "DVbot"
+    class: other
+    vendor: "DoubleVerify Inc."
+    verified: false
+    match: exact
+  - token: "Assetnote"
+    name: "Assetnote"
+    class: other
+    vendor: "Assetnote Pty Ltd"
+    verified: false
+    match: exact
+  - token: "UGAResearchAgent"
+    name: "UGAResearchAgent"
+    class: other
+    vendor: "School of Computing at the University of Georgia (UGA)"
+    verified: false
+    match: exact
+  - token: "SERankingBacklinksBot"
+    name: "SERankingBacklinksBot"
+    class: scraper
+    vendor: "SER Acquisition Inc,"
+    verified: false
+    match: exact
+  - token: "VertexWP"
+    name: "VertexWP"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Friendica"
+    name: "Friendica"
+    class: social
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Webliobot"
+    name: "Webliobot"
+    class: scraper
+    vendor: "GRAS Group, Inc."
+    verified: false
+    match: exact
+  - token: "sqalix"
+    name: "sqalix"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "RecordedFuture"
+    name: "RecordedFuture"
+    class: other
+    vendor: "Recorded Future, Inc."
+    verified: false
+    match: exact
+  - token: "Valimail"
+    name: "Valimail"
+    class: other
+    vendor: "Valimail Inc."
+    verified: false
+    match: exact
+  - token: "FindFiles.net"
+    name: "FindFiles.net"
+    class: scraper
+    vendor: "FindFiles.net UG"
+    verified: false
+    match: exact
+  - token: "WanscannerBot"
+    name: "WanscannerBot"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Ai2Bot-DeepResearchEval"
+    name: "Ai2Bot-DeepResearchEval"
+    class: ai
+    vendor: "The Allen Institute for Artificial Intelligence"
+    verified: false
+    match: exact
+  - token: "WARDBot"
+    name: "WARDBot"
+    class: monitor
+    vendor: "W.A.R.D. LLC"
+    verified: false
+    match: exact
+  - token: "Character-AI"
+    name: "Character-AI"
+    class: other
+    vendor: "Character Technologies, Inc."
+    verified: false
+    match: exact
+  - token: "MistralAI-User"
+    name: "MistralAI-User"
+    class: ai
+    vendor: "Mistral AI"
+    verified: false
+    match: exact
+  - token: "Crawlspace"
+    name: "Crawlspace"
+    class: scraper
+    vendor: "Crawlspace Company"
+    verified: false
+    match: exact
+  - token: "Devin"
+    name: "Devin"
+    class: other
+    vendor: "Cognition AI, Inc."
+    verified: false
+    match: exact
+  - token: "Andibot"
+    name: "Andibot"
+    class: search
+    vendor: "Andi"
+    verified: false
+    match: exact
+  - token: "HypeStat"
+    name: "HypeStat"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "StatusNestBacklinkSpider"
+    name: "StatusNestBacklinkSpider"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "LinkBloom"
+    name: "LinkBloom"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "LinerBot"
+    name: "LinerBot"
+    class: other
+    vendor: "Liner"
+    verified: false
+    match: exact
+  - token: "Poggio-Citations"
+    name: "Poggio-Citations"
+    class: other
+    vendor: "Poggio Labs, Inc."
+    verified: false
+    match: exact
+  - token: "QualifiedBot"
+    name: "QualifiedBot"
+    class: other
+    vendor: "Qualified.com, Inc."
+    verified: false
+    match: exact
+  - token: "ZanistaBot"
+    name: "ZanistaBot"
+    class: search
+    vendor: "Zanista AI LTD."
+    verified: false
+    match: exact
+  - token: "ChatGLM-Spider"
+    name: "ChatGLM-Spider"
+    class: scraper
+    vendor: "Beijing Zhipu Huazhang Technology Co., Ltd."
+    verified: false
+    match: exact
+  - token: "gochitchat.ai"
+    name: "Sider"
+    class: scraper
+    vendor: "Sider AI"
+    verified: false
+    match: exact
+  - token: "ias_crawler"
+    name: "IAS Crawler"
+    class: scraper
+    vendor: "Integral Ad Science, Inc."
+    verified: false
+    match: exact
+  - token: "ias_wombles"
+    name: "IAS Wombles"
+    class: scraper
+    vendor: "Integral Ad Science, Inc."
+    verified: false
+    match: exact
+  - token: "ShapBot"
+    name: "ShapBot"
+    class: scraper
+    vendor: "Parallel Web Systems Inc."
+    verified: false
+    match: exact
+  - token: "LumeWebScan"
+    name: "LumeWebScan"
+    class: scraper
+    vendor: "LumeWeaver Labs"
+    verified: false
+    match: exact
+  - token: "Manus-User"
+    name: "Manus-User"
+    class: other
+    vendor: "Butterfly Effect Pte. Ltd."
+    verified: false
+    match: exact
+  - token: "HubSpotContentSearchBot"
+    name: "HubSpotContentSearchBot"
+    class: scraper
+    vendor: "HubSpot, Inc."
+    verified: false
+    match: exact
+  - token: "ProRata"
+    name: "ProRata"
+    class: search
+    vendor: "ProRataAI, Inc."
+    verified: false
+    match: exact
+  - token: "blackboardally"
+    name: "Blackboard Ally"
+    class: scraper
+    vendor: "Anthology Inc."
+    verified: false
+    match: exact
+  - token: "semantic-visions.com"
+    name: "svEye"
+    class: scraper
+    vendor: "Semantic Visions, s.r.o."
+    verified: false
+    match: exact
+  - token: "CopyvioDetector"
+    name: "CopyvioDetector"
+    class: scraper
+    vendor: "Ben Kurtovic"
+    verified: false
+    match: exact
+  - token: "Eyeotabot"
+    name: "Eyeotabot"
+    class: scraper
+    vendor: "Eyeota Pte Ltd"
+    verified: false
+    match: exact
+  - token: "YioopBot"
+    name: "YioopBot"
+    class: search
+    vendor: "Chris Pollett"
+    verified: false
+    match: exact
+  - token: "yoozBot"
+    name: "yoozBot"
+    class: search
+    vendor: "yooz"
+    verified: false
+    match: exact
+  - token: "ProxyChecker"
+    name: "ProxyChecker"
+    class: other
+    vendor: "IPLark"
+    verified: false
+    match: exact
+  - token: "StackScopeBot"
+    name: "StackScopeBot"
+    class: scraper
+    vendor: "StackScope"
+    verified: false
+    match: exact
+  - token: "AffiliateSpyBot"
+    name: "AffiliateSpyBot"
+    class: scraper
+    vendor: "Wayfinity Ltd"
+    verified: false
+    match: exact
+  - token: "visionheight.com"
+    name: "VisionHeight"
+    class: other
+    vendor: "Vision Height Ltd"
+    verified: false
+    match: exact
+  - token: "AccessibleWebBot"
+    name: "AccessibleWebBot"
+    class: scraper
+    vendor: "Accessible Web Inc."
+    verified: false
+    match: exact
+  - token: "MarketGoo"
+    name: "MarketGoo"
+    class: scraper
+    vendor: "MARKETGOO INTERNET, S.L."
+    verified: false
+    match: exact
+  - token: "RootEvidence"
+    name: "RootEvidence"
+    class: other
+    vendor: "Root Evidence, Inc."
+    verified: false
+    match: exact
+  - token: "UdV-AI-Research"
+    name: "UdV-AI-Research"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "TrustBot"
+    name: "TrustBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
