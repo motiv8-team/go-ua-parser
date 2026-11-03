@@ -425,6 +425,11 @@ rules:
     class: scraper
     vendor: "Google"
     match: exact
+  - token: "Lightpanda"
+    name: "Lightpanda"
+    class: scraper
+    vendor: "Lightpanda"
+    match: exact
 
   # More search engines
   - token: "Sogou"

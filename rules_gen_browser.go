@@ -391,7 +391,6 @@ var builtinBrowserRules = []rule{
 	{pattern: "FulldiveBrowser", matchType: matchExact, browserName: "Fulldive", browserFamily: "", engineName: ""},
 	{pattern: "Teak", matchType: matchExact, browserName: "Teak Browser", browserFamily: "", engineName: ""},
 	{pattern: "Stadium", matchType: matchExact, browserName: "Stadium", browserFamily: "", engineName: ""},
-	{pattern: "Lightpanda", matchType: matchExact, browserName: "Lightpanda", browserFamily: "", engineName: ""},
 	{pattern: "UCPC", matchType: matchExact, browserName: "UC Browser", browserFamily: "", engineName: "Blink"},
 	{pattern: "bdhonorbrowser", matchType: matchExact, browserName: "Honor Browser", browserFamily: "", engineName: ""},
 }

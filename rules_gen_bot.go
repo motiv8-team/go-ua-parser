@@ -81,6 +81,7 @@ var builtinBotRules = []rule{
 	{pattern: "HeadlessChrome", matchType: matchExact, botName: "Headless Chrome", botClass: BotScraper, botVendor: "Google", botIsVerified: false},
 	{pattern: "Playwright", matchType: matchExact, botName: "Playwright", botClass: BotScraper, botVendor: "Microsoft", botIsVerified: false},
 	{pattern: "Puppeteer", matchType: matchExact, botName: "Puppeteer", botClass: BotScraper, botVendor: "Google", botIsVerified: false},
+	{pattern: "Lightpanda", matchType: matchExact, botName: "Lightpanda", botClass: BotScraper, botVendor: "Lightpanda", botIsVerified: false},
 	{pattern: "Sogou", matchType: matchContains, botName: "Sogou Spider", botClass: BotSearch, botVendor: "Sogou", botIsVerified: false},
 	{pattern: "Yeti", matchType: matchExact, botName: "Naver Yeti", botClass: BotSearch, botVendor: "Naver", botIsVerified: false},
 	{pattern: "Daumoa", matchType: matchExact, botName: "Daumoa", botClass: BotSearch, botVendor: "Daum", botIsVerified: false},

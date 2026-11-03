@@ -1971,11 +1971,6 @@ rules:
     family: ""
     engine: ""
     match: exact
-  - token: "Lightpanda"
-    browser: "Lightpanda"
-    family: ""
-    engine: ""
-    match: exact
   - token: "UCPC"
     browser: "UC Browser"
     family: ""

@@ -19,6 +19,8 @@ func TestReclassificationGuards(t *testing.T) {
 	}{
 		{"Mozilla/5.0 (compatible; GoogleAgent-Mariner/1.0; +http://www.google.com/bot.html)", BotAI},
 		{"Cloudflare-Healthchecks/1.0", BotMonitor},
+		{"Mozilla/5.0 (compatible; Kimi-User/1.0; +https://kimi.ai)", BotAI},
+		{"Lightpanda/1.0", BotScraper},
 	}
 	for _, tt := range tests {
 		t.Run(tt.ua, func(t *testing.T) {
