@@ -388,4 +388,9 @@ var builtinBrowserRules = []rule{
 	{pattern: "Kurio", matchType: matchExact, browserName: "Kurio App", browserFamily: "", engineName: ""},
 	{pattern: "Transmit", matchType: matchExact, browserName: "Transmit", browserFamily: "", engineName: ""},
 	{pattern: "MullvadBrowser", matchType: matchExact, browserName: "MullvadBrowser", browserFamily: "", engineName: ""},
+	{pattern: "FulldiveBrowser", matchType: matchExact, browserName: "Fulldive", browserFamily: "", engineName: ""},
+	{pattern: "Teak", matchType: matchExact, browserName: "Teak Browser", browserFamily: "", engineName: ""},
+	{pattern: "Stadium", matchType: matchExact, browserName: "Stadium", browserFamily: "", engineName: ""},
+	{pattern: "UCPC", matchType: matchExact, browserName: "UC Browser", browserFamily: "", engineName: "Blink"},
+	{pattern: "bdhonorbrowser", matchType: matchExact, browserName: "Honor Browser", browserFamily: "", engineName: ""},
 }

@@ -19,6 +19,8 @@ func TestReclassificationGuards(t *testing.T) {
 	}{
 		{"Mozilla/5.0 (compatible; GoogleAgent-Mariner/1.0; +http://www.google.com/bot.html)", BotAI},
 		{"Cloudflare-Healthchecks/1.0", BotMonitor},
+		{"Mozilla/5.0 (compatible; Kimi-User/1.0; +https://kimi.ai)", BotAI},
+		{"Lightpanda/1.0", BotScraper},
 	}
 	for _, tt := range tests {
 		t.Run(tt.ua, func(t *testing.T) {
@@ -114,6 +116,33 @@ func TestSyncedBotAndAppDetections(t *testing.T) {
 			wantName:   "Bytespider",
 			wantClass:  BotAI,
 			wantVendor: "ByteDance",
+		},
+		{
+			name:       "DoubaoBot (ai.robots.txt)",
+			ua:         "Mozilla/5.0 (compatible; DoubaoBot/1.0; +https://www.doubao.com)",
+			wantName:   "DoubaoBot",
+			wantClass:  BotAI,
+			wantVendor: "ByteDance",
+		},
+		{
+			name:       "Googlebot-Mobile (arcjet)",
+			ua:         "DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)",
+			wantName:   "Googlebot-Mobile",
+			wantClass:  BotSearch,
+			wantVendor: "Google",
+		},
+		{
+			name:       "Meta-ExternalHit (arcjet)",
+			ua:         "Mozilla/5.0 (compatible; Meta-ExternalHit/1.1; +http://www.facebook.com/externalhit_uatext.php)",
+			wantName:   "Meta-ExternalHit",
+			wantClass:  BotSocial,
+			wantVendor: "Meta",
+		},
+		{
+			name:      "synthetic-monitoring-agent (arcjet)",
+			ua:        "synthetic-monitoring-agent/v0.41.3 (linux amd64; 1522bdcd162c24088daf19d0aa6667773e69825a; 2025-09-02T13:45:18Z; +https://github.com/grafana/synthetic-monitoring-agent)",
+			wantName:  "synthetic-monitoring-agent",
+			wantClass: BotMonitor,
 		},
 	}
 	for _, tt := range botTests {

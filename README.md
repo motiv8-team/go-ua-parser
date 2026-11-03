@@ -12,9 +12,9 @@ A high-performance, production-grade HTTP User-Agent parser for Go with first-cl
 
 ## Features
 
-- **1,666 detection rules**: 385 browsers, 821 bots, 76 devices, 368 in-app browsers, 16 engines
+- **1,811 detection rules**: 390 browsers, 941 bots, 76 devices, 388 in-app browsers, 16 engines
 - **35 OS types**: Windows (incl. Windows 11 via Client Hints), macOS, iOS, iPadOS, Android, ChromeOS, Linux distros (Ubuntu, Fedora, Debian, Arch, etc.), HarmonyOS, Tizen, KaiOS, FreeBSD, watchOS, tvOS, and more
-- **First-class bot detection**: 821 bots across 7 classes — search engines, social bots, AI crawlers (GPTBot, ClaudeBot, DeepSeekBot, Bytespider), SEO tools, monitoring, scrapers, security scanners
+- **First-class bot detection**: 941 bots across 7 classes — search engines, social bots, AI crawlers (GPTBot, ClaudeBot, DeepSeekBot, Bytespider), SEO tools, monitoring, scrapers, security scanners
 - **14 heuristic patterns**: Catches unnamed bots via keywords (bot, crawler, spider, scraper, fetcher, archiver, validator, monitoring, etc.)
 - **Client Hints support**: `Sec-CH-UA-*` headers for accurate modern browser detection, Windows 11 detection
 - **Browser channel detection**: nightly, beta, dev, canary from version patterns

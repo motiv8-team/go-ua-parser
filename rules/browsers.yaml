@@ -1955,3 +1955,29 @@ rules:
     family: ""
     engine: ""
     match: exact
+
+  - token: "FulldiveBrowser"
+    browser: "Fulldive"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Teak"
+    browser: "Teak Browser"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "Stadium"
+    browser: "Stadium"
+    family: ""
+    engine: ""
+    match: exact
+  - token: "UCPC"
+    browser: "UC Browser"
+    family: ""
+    engine: "Blink"
+    match: exact
+  - token: "bdhonorbrowser"
+    browser: "Honor Browser"
+    family: ""
+    engine: ""
+    match: exact

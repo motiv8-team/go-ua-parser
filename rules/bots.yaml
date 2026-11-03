@@ -425,6 +425,11 @@ rules:
     class: scraper
     vendor: "Google"
     match: exact
+  - token: "Lightpanda"
+    name: "Lightpanda"
+    class: scraper
+    vendor: "Lightpanda"
+    match: exact
 
   # More search engines
   - token: "Sogou"
@@ -4699,6 +4704,722 @@ rules:
   - token: "TrustBot"
     name: "TrustBot"
     class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+
+  - token: "9bot"
+    name: "9bot"
+    class: scraper
+    vendor: "9bot"
+    verified: false
+    match: exact
+  - token: "google-xrawler"
+    name: "google-xrawler"
+    class: search
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "MistralAI-Index"
+    name: "MistralAI-Index"
+    class: ai
+    vendor: "Mistral AI"
+    verified: false
+    match: exact
+  - token: "Centurybot"
+    name: "Centurybot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "KimiBot"
+    name: "KimiBot"
+    class: ai
+    vendor: "Moonshot AI Pte. Ltd."
+    verified: false
+    match: exact
+  - token: "Kimi-SearchBot"
+    name: "Kimi-SearchBot"
+    class: ai
+    vendor: "Moonshot AI Pte. Ltd."
+    verified: false
+    match: exact
+  - token: "Kimi-User"
+    name: "Kimi-User"
+    class: ai
+    vendor: "Moonshot AI Pte. Ltd."
+    verified: false
+    match: exact
+  - token: "AffsignalCrawler"
+    name: "AffsignalCrawler"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "crawlora-research"
+    name: "crawlora-research"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "RankPulseBot"
+    name: "RankPulseBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "PipericBot"
+    name: "PipericBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "OrlightBot"
+    name: "OrlightBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "urlsuma"
+    name: "urlsuma"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SocialPushBot"
+    name: "SocialPushBot"
+    class: scraper
+    vendor: "RP NET MEDIA SRL"
+    verified: false
+    match: exact
+  - token: "PriEcoBot"
+    name: "PriEcoBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "DnesAkceBot"
+    name: "DnesAkceBot"
+    class: scraper
+    vendor: "Easy Call 09, s.r.o."
+    verified: false
+    match: exact
+  - token: "cl0q-crawler"
+    name: "cl0q-crawler"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "InfoGuardDisclosureResearch"
+    name: "InfoGuardDisclosureResearch"
+    class: other
+    vendor: "InfoGuard AG"
+    verified: false
+    match: exact
+  - token: "FindiseBot"
+    name: "FindiseBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "WebatlaBot"
+    name: "WebatlaBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Kaupr"
+    name: "Kaupr"
+    class: scraper
+    vendor: "Kaupr Limited"
+    verified: false
+    match: exact
+  - token: "WRTNBot"
+    name: "WRTNBot"
+    class: scraper
+    vendor: "Rutten Technologies Co., Ltd"
+    verified: false
+    match: exact
+  - token: "DomainDrift"
+    name: "DomainDrift"
+    class: other
+    vendor: "DRM3 Labs Corp."
+    verified: false
+    match: exact
+  - token: "MyCellar"
+    name: "MyCellar"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "IsonSearchBot"
+    name: "IsonSearchBot"
+    class: search
+    vendor: "PT Epithre Teknologi Indonesia"
+    verified: false
+    match: exact
+  - token: "IsonAI-User"
+    name: "IsonAI-User"
+    class: ai
+    vendor: "PT Epithre Teknologi Indonesia"
+    verified: false
+    match: exact
+  - token: "TuneIn-DirMon"
+    name: "TuneIn-DirMon"
+    class: other
+    vendor: "TuneIn, Inc."
+    verified: false
+    match: exact
+
+  - token: "AgentDataBot"
+    name: "AgentDataBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "AIWebIndex"
+    name: "AIWebIndex"
+    class: ai
+    vendor: "Lyrenth"
+    verified: false
+    match: exact
+  - token: "amazon-QBusiness"
+    name: "amazon-QBusiness"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "ApifyBot"
+    name: "ApifyBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "ApifyWebsiteContentCrawler"
+    name: "ApifyWebsiteContentCrawler"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "atlassian-bot"
+    name: "atlassian-bot"
+    class: ai
+    vendor: "Atlassian"
+    verified: false
+    match: exact
+  - token: "Awario"
+    name: "Awario"
+    class: ai
+    vendor: "Awario"
+    verified: false
+    match: exact
+  - token: "AzureAI-SearchBot"
+    name: "AzureAI-SearchBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "bedrockbot"
+    name: "bedrockbot"
+    class: ai
+    vendor: "Amazon"
+    verified: false
+    match: exact
+  - token: "BixelBot"
+    name: "BixelBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "BuddyBot"
+    name: "BuddyBot"
+    class: ai
+    vendor: "BuddyBotLearning"
+    verified: false
+    match: exact
+  - token: "Channel3Bot"
+    name: "Channel3Bot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Claude-Code"
+    name: "Claude-Code"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "CledaraBot"
+    name: "CledaraBot"
+    class: ai
+    vendor: "Cledara"
+    verified: false
+    match: exact
+  - token: "cohere-training-data-crawler"
+    name: "cohere-training-data-crawler"
+    class: ai
+    vendor: "Cohere"
+    verified: false
+    match: exact
+  - token: "CragCrawler"
+    name: "CragCrawler"
+    class: ai
+    vendor: "CragSoftware"
+    verified: false
+    match: exact
+  - token: "Diffbot-User"
+    name: "Diffbot-User"
+    class: ai
+    vendor: "Diffbot"
+    verified: false
+    match: exact
+  - token: "DoubaoBot"
+    name: "DoubaoBot"
+    class: ai
+    vendor: "ByteDance"
+    verified: false
+    match: exact
+  - token: "EchoboxBot"
+    name: "EchoboxBot"
+    class: ai
+    vendor: "Echobox"
+    verified: false
+    match: exact
+  - token: "ElevenlabsBot"
+    name: "ElevenlabsBot"
+    class: ai
+    vendor: "ElevenLabs"
+    verified: false
+    match: exact
+  - token: "ElevenlabsCrawler"
+    name: "ElevenlabsCrawler"
+    class: ai
+    vendor: "ElevenLabs"
+    verified: false
+    match: exact
+  - token: "ERNIEBot"
+    name: "ERNIEBot"
+    class: ai
+    vendor: "Baidu"
+    verified: false
+    match: exact
+  - token: "ExaSearchBot"
+    name: "ExaSearchBot"
+    class: ai
+    vendor: "Exa"
+    verified: false
+    match: exact
+  - token: "ExaUser"
+    name: "ExaUser"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Factset_spyderbot"
+    name: "Factset_spyderbot"
+    class: ai
+    vendor: "Factset"
+    verified: false
+    match: exact
+  - token: "FriendlyCrawler"
+    name: "FriendlyCrawler"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "GeistHaus-PageFetcher"
+    name: "GeistHaus-PageFetcher"
+    class: ai
+    vendor: "GeistHaus"
+    verified: false
+    match: exact
+  - token: "Google-Gemini-CLI"
+    name: "Google-Gemini-CLI"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "GrokAppAndroid"
+    name: "GrokAppAndroid"
+    class: ai
+    vendor: "xAI"
+    verified: false
+    match: exact
+  - token: "GrokBot"
+    name: "GrokBot"
+    class: ai
+    vendor: "xAI"
+    verified: false
+    match: exact
+  - token: "HarkBot"
+    name: "HarkBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "HenkBot"
+    name: "HenkBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Hunyuan"
+    name: "Hunyuan"
+    class: ai
+    vendor: "Tencent"
+    verified: false
+    match: exact
+  - token: "imageSpider"
+    name: "imageSpider"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "kagi-fetcher"
+    name: "kagi-fetcher"
+    class: ai
+    vendor: "Kagi"
+    verified: false
+    match: exact
+  - token: "KeenableBot"
+    name: "KeenableBot"
+    class: ai
+    vendor: "Keenable"
+    verified: false
+    match: exact
+  - token: "Kimi-Agent"
+    name: "Kimi-Agent"
+    class: ai
+    vendor: "Moonshot AI"
+    verified: false
+    match: exact
+  - token: "KlaviyoAIBot"
+    name: "KlaviyoAIBot"
+    class: ai
+    vendor: "Klaviyo"
+    verified: false
+    match: exact
+  - token: "laion-huggingface-processor"
+    name: "laion-huggingface-processor"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "LAIONDownloader"
+    name: "LAIONDownloader"
+    class: ai
+    vendor: "Large-scale Artificial Intelligence Open Network"
+    verified: false
+    match: exact
+  - token: "LinkupBot"
+    name: "LinkupBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "MistralAI-Training"
+    name: "MistralAI-Training"
+    class: ai
+    vendor: "Mistral AI"
+    verified: false
+    match: exact
+  - token: "MoonshotBot"
+    name: "MoonshotBot"
+    class: ai
+    vendor: "Kimi"
+    verified: false
+    match: exact
+  - token: "Mozilla-Tabstack"
+    name: "Mozilla-Tabstack"
+    class: ai
+    vendor: "Mozilla"
+    verified: false
+    match: exact
+  - token: "MyCentralAIScraperBot"
+    name: "MyCentralAIScraperBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "NagetBot"
+    name: "NagetBot"
+    class: ai
+    vendor: "Naget Inc"
+    verified: false
+    match: exact
+  - token: "nbot"
+    name: "nbot"
+    class: ai
+    vendor: "NBot"
+    verified: false
+    match: exact
+  - token: "newsai"
+    name: "newsai"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "NotebookLM"
+    name: "NotebookLM"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "opencode"
+    name: "opencode"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Panscient"
+    name: "Panscient"
+    class: ai
+    vendor: "Panscient"
+    verified: false
+    match: exact
+  - token: "PhindBot"
+    name: "PhindBot"
+    class: ai
+    vendor: "phind"
+    verified: false
+    match: exact
+  - token: "qodercli"
+    name: "qodercli"
+    class: ai
+    vendor: "Qoder"
+    verified: false
+    match: exact
+  - token: "Querit-SearchBot"
+    name: "Querit-SearchBot"
+    class: ai
+    vendor: "Querit"
+    verified: false
+    match: exact
+  - token: "QueritBot"
+    name: "QueritBot"
+    class: ai
+    vendor: "Querit"
+    verified: false
+    match: exact
+  - token: "QuillBot"
+    name: "QuillBot"
+    class: ai
+    vendor: "Quillbot"
+    verified: false
+    match: exact
+  - token: "quillbot.com"
+    name: "quillbot.com"
+    class: ai
+    vendor: "Quillbot"
+    verified: false
+    match: exact
+  - token: "QwenBot"
+    name: "QwenBot"
+    class: ai
+    vendor: "Alibaba"
+    verified: false
+    match: exact
+  - token: "ScryBot"
+    name: "ScryBot"
+    class: ai
+    vendor: "Scry"
+    verified: false
+    match: exact
+  - token: "SemrushBot-OCOB"
+    name: "SemrushBot-OCOB"
+    class: ai
+    vendor: "Semrush"
+    verified: false
+    match: exact
+  - token: "Shap-User"
+    name: "Shap-User"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "TavilyBot"
+    name: "TavilyBot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Thinkbot"
+    name: "Thinkbot"
+    class: ai
+    vendor: "Thinkbot"
+    verified: false
+    match: exact
+  - token: "TongyiBot"
+    name: "TongyiBot"
+    class: ai
+    vendor: "Alibaba"
+    verified: false
+    match: exact
+  - token: "Trae"
+    name: "Trae"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "TwinAgent"
+    name: "TwinAgent"
+    class: ai
+    vendor: "Twin"
+    verified: false
+    match: exact
+  - token: "UseAI"
+    name: "UseAI"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "YandexAdditionalBot"
+    name: "YandexAdditionalBot"
+    class: ai
+    vendor: "Yandex"
+    verified: false
+    match: exact
+  - token: "YiBot"
+    name: "YiBot"
+    class: ai
+    vendor: "01.ai"
+    verified: false
+    match: exact
+  - token: "YiyanBot"
+    name: "YiyanBot"
+    class: ai
+    vendor: "Baidu"
+    verified: false
+    match: exact
+  - token: "Googlebot-Mobile"
+    name: "Googlebot-Mobile"
+    class: search
+    vendor: "Google"
+    verified: false
+    match: exact
+  - token: "Teoma"
+    name: "Teoma"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Slack-ImgProxy"
+    name: "Slack-ImgProxy"
+    class: social
+    vendor: "Slack"
+    verified: false
+    match: exact
+  - token: "AppInsights"
+    name: "AppInsights"
+    class: monitor
+    vendor: "Microsoft"
+    verified: false
+    match: exact
+  - token: "Uptimebot.org"
+    name: "Uptimebot.org"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "www.uptime.com"
+    name: "www.uptime.com"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "YandexRenderResourcesBot"
+    name: "YandexRenderResourcesBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "GeedoProductSearch"
+    name: "GeedoProductSearch"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "GoogleMessages"
+    name: "GoogleMessages"
+    class: social
+    vendor: "Google"
+    verified: false
+    match: exact
+  - token: "Meta-ExternalHit"
+    name: "Meta-ExternalHit"
+    class: social
+    vendor: "Meta"
+    verified: false
+    match: exact
+  - token: "NaverBot"
+    name: "NaverBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "ListGemBot"
+    name: "ListGemBot"
+    class: social
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "BufferLinkPreviewBot"
+    name: "BufferLinkPreviewBot"
+    class: social
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "WepchSearchEngine"
+    name: "WepchSearchEngine"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "crawl4ai"
+    name: "crawl4ai"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "HetrixTools"
+    name: "HetrixTools"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Spectate"
+    name: "Spectate"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "synthetic-monitoring-agent"
+    name: "synthetic-monitoring-agent"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "jetmon"
+    name: "jetmon"
+    class: monitor
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "KernelSearchBot"
+    name: "KernelSearchBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Reflectionbot"
+    name: "Reflectionbot"
+    class: ai
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "ProRataInc"
+    name: "ProRataInc"
+    class: ai
     vendor: ""
     verified: false
     match: exact
