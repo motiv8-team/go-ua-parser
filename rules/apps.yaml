@@ -1472,3 +1472,84 @@ rules:
     name: "Amazon Prime Video"
     kind: "mobile-app"
     match: exact
+
+  - token: "StellaForiOS"
+    name: "Stella"
+    kind: "mobile-app"
+    match: exact
+  - token: "TPA-Wear"
+    name: "The Podcast App (Magnolia)"
+    kind: "mobile-app"
+    match: exact
+  - token: "GrokApp"
+    name: "Grok"
+    kind: "mobile-app"
+    match: exact
+  - token: "QuickBooks"
+    name: "QuickBooks"
+    kind: "mobile-app"
+    match: exact
+  - token: "Latina"
+    name: "Latina"
+    kind: "mobile-app"
+    match: exact
+  - token: "poq.ios"
+    name: "poq"
+    kind: "mobile-app"
+    match: exact
+  - token: "YahooSearch"
+    name: "Yahoo Search"
+    kind: "mobile-app"
+    match: exact
+  - token: "BNK48_101"
+    name: "iAM48"
+    kind: "mobile-app"
+    match: exact
+  - token: "LoiLoNote"
+    name: "LoiLoNote"
+    kind: "mobile-app"
+    match: exact
+  - token: "DelfiEEwww"
+    name: "Delfi EE"
+    kind: "mobile-app"
+    match: exact
+  - token: "JOKERBET"
+    name: "JOKERBET"
+    kind: "mobile-app"
+    match: exact
+  - token: "boohee"
+    name: "boohee"
+    kind: "mobile-app"
+    match: exact
+  - token: "newsbreak"
+    name: "NewsBreak"
+    kind: "mobile-app"
+    match: exact
+  - token: "Grindr"
+    name: "Grindr"
+    kind: "mobile-app"
+    match: exact
+  - token: "Aria2App"
+    name: "Aria2App"
+    kind: "mobile-app"
+    match: exact
+  - token: "com.sidhbalitech.ninexplayer"
+    name: "XP IPTV"
+    kind: "mobile-app"
+    match: exact
+  - token: "ChannelsApp"
+    name: "Channels"
+    kind: "mobile-app"
+    match: exact
+  - token: "dogtorance"
+    name: "Dogtorance"
+    kind: "mobile-app"
+    match: exact
+  - token: "RingCentral"
+    name: "RingCentral"
+    kind: "mobile-app"
+    match: exact
+  - token: "RockstarGames"
+    name: "Rockstar Games Launcher"
+    kind: "mobile-app"
+    match: exact

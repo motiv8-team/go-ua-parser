@@ -4702,3 +4702,166 @@ rules:
     vendor: ""
     verified: false
     match: exact
+
+  - token: "9bot"
+    name: "9bot"
+    class: scraper
+    vendor: "9bot"
+    verified: false
+    match: exact
+  - token: "google-xrawler"
+    name: "google-xrawler"
+    class: search
+    vendor: "Google Inc."
+    verified: false
+    match: exact
+  - token: "MistralAI-Index"
+    name: "MistralAI-Index"
+    class: ai
+    vendor: "Mistral AI"
+    verified: false
+    match: exact
+  - token: "Centurybot"
+    name: "Centurybot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "KimiBot"
+    name: "KimiBot"
+    class: ai
+    vendor: "Moonshot AI Pte. Ltd."
+    verified: false
+    match: exact
+  - token: "Kimi-SearchBot"
+    name: "Kimi-SearchBot"
+    class: ai
+    vendor: "Moonshot AI Pte. Ltd."
+    verified: false
+    match: exact
+  - token: "Kimi-User"
+    name: "Kimi-User"
+    class: ai
+    vendor: "Moonshot AI Pte. Ltd."
+    verified: false
+    match: exact
+  - token: "AffsignalCrawler"
+    name: "AffsignalCrawler"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "crawlora-research"
+    name: "crawlora-research"
+    class: other
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "RankPulseBot"
+    name: "RankPulseBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "PipericBot"
+    name: "PipericBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "OrlightBot"
+    name: "OrlightBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "urlsuma"
+    name: "urlsuma"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "SocialPushBot"
+    name: "SocialPushBot"
+    class: scraper
+    vendor: "RP NET MEDIA SRL"
+    verified: false
+    match: exact
+  - token: "PriEcoBot"
+    name: "PriEcoBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "DnesAkceBot"
+    name: "DnesAkceBot"
+    class: scraper
+    vendor: "Easy Call 09, s.r.o."
+    verified: false
+    match: exact
+  - token: "cl0q-crawler"
+    name: "cl0q-crawler"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "InfoGuardDisclosureResearch"
+    name: "InfoGuardDisclosureResearch"
+    class: other
+    vendor: "InfoGuard AG"
+    verified: false
+    match: exact
+  - token: "FindiseBot"
+    name: "FindiseBot"
+    class: search
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "WebatlaBot"
+    name: "WebatlaBot"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "Kaupr"
+    name: "Kaupr"
+    class: scraper
+    vendor: "Kaupr Limited"
+    verified: false
+    match: exact
+  - token: "WRTNBot"
+    name: "WRTNBot"
+    class: scraper
+    vendor: "Rutten Technologies Co., Ltd"
+    verified: false
+    match: exact
+  - token: "DomainDrift"
+    name: "DomainDrift"
+    class: other
+    vendor: "DRM3 Labs Corp."
+    verified: false
+    match: exact
+  - token: "MyCellar"
+    name: "MyCellar"
+    class: scraper
+    vendor: ""
+    verified: false
+    match: exact
+  - token: "IsonSearchBot"
+    name: "IsonSearchBot"
+    class: search
+    vendor: "PT Epithre Teknologi Indonesia"
+    verified: false
+    match: exact
+  - token: "IsonAI-User"
+    name: "IsonAI-User"
+    class: ai
+    vendor: "PT Epithre Teknologi Indonesia"
+    verified: false
+    match: exact
+  - token: "TuneIn-DirMon"
+    name: "TuneIn-DirMon"
+    class: other
+    vendor: "TuneIn, Inc."
+    verified: false
+    match: exact
